@@ -8,7 +8,8 @@ export default async function Home() {
     <div className="px-4 py-2">
       <Logo />
       <ul className="text-sm space-y-6">
-        {videos.map((video: any) => (
+        ?{/* @ts-ignore */}
+        {videos.map((video) => (
           <div
             key={video.id}
             dangerouslySetInnerHTML={{ __html: video?.content?.rendered }}
