@@ -1,8 +1,8 @@
 import Logo from "@/components/Logo/Logo";
 
 export default async function Home() {
-  let data = await fetch("http://lovers.company/api/wp-json/wp/v2/videos");
-  let videos = await data.json();
+  const data = await fetch("http://lovers.company/api/wp-json/wp/v2/videos");
+  const videos = await data.json();
 
   return (
     <div className="px-4 py-2">
