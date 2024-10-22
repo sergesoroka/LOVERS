@@ -8,7 +8,7 @@ export default async function Home() {
     <div className="px-4 py-2">
       <Logo />
       <ul className="text-sm space-y-6">
-        ?{/* @ts-ignore */}
+        ?{/* @ts-expect-error */}
         {videos.map((video) => (
           <div
             key={video.id}
