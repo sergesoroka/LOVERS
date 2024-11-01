@@ -4,8 +4,8 @@ import PlayIcon from "@/components/Icons/PlayIcon";
 import Header from "@/components/Header";
 
 export default async function Home() {
-  const data = await fetch("http://lovers.company/api/wp-json/wp/v2/videos");
-  const videos = await data.json();
+  // const data = await fetch("http://lovers.company/api/wp-json/wp/v2/videos");
+  // const videos = await data.json();
 
   return (
     <div className="home-page">
