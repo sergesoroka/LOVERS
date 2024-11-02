@@ -1,0 +1,7 @@
+.qnquiries p {
+  margin-bottom: 28px;
+}
+
+.qnquiries p:last-child {
+  margin-bottom: 0;
+}

@@ -2,6 +2,7 @@ import Link from "next/link";
 import MainLogo from "@/components/Logo/MainLogo";
 import PlayIcon from "@/components/Icons/PlayIcon";
 import Header from "@/components/Header";
+import MediaLinks from "@/components/MediaLinks";
 
 export default async function Home() {
   // const data = await fetch("http://lovers.company/api/wp-json/wp/v2/videos");
@@ -19,8 +20,9 @@ export default async function Home() {
           <PlayIcon />
         </div>
       </div>
-      <div className="absolute bottom-[22px] right-[24px]">
-        <ul className="text-right uppercase text-[#1400ff]">
+      <div className="absolute bottom-[22px] right-[24px] text-[#1400ff] text-right">
+        <MediaLinks />
+        {/* <ul className="text-right uppercase text-[#1400ff]">
           <li>
             <Link
               href="https://vimeo.com/loverscompany"
@@ -48,7 +50,7 @@ export default async function Home() {
               linked in
             </Link>
           </li>
-        </ul>
+        </ul> */}
       </div>
     </div>
   );

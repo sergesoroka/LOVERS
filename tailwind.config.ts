@@ -12,6 +12,10 @@ const config: Config = {
         background: "#1400ff",
         foreground: "var(--foreground)",
       },
+      fontFamily: {
+        base: ["Mariupol"],
+        heading: ["LeagueGothic-Regular", "sans-serif"],
+      },
     },
   },
   plugins: [],

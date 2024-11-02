@@ -13,7 +13,9 @@ export default function Header() {
   return (
     <div className="flex justify-between items-center">
       <div className="flex  items-center">
-        <Logo />
+        <Link href="/">
+          <Logo />
+        </Link>
         <div className="uppercase ml-[11px] text-[18px] text-[#1400ff]">
           From passion to action:
         </div>
