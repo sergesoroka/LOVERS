@@ -3,8 +3,8 @@ import GeneralQnquiries from "../GeneralQnquiries";
 import MediaLinks from "../MediaLinks";
 import DownloadPresentation from "../DownloadPresentation";
 import WatchShowreel from "../WatchShowreel";
-
-export default async function ContactComp() {
+// #1400ff
+export default async function ContactComp({ mode }: { mode: string }) {
   const data = await fetch("http://lovers.company/api/wp-json/wp/v2/pages");
   const pages = await data.json();
   return (
@@ -18,7 +18,9 @@ export default async function ContactComp() {
                 className="px-[69px]  text-[22px] leading-[24px]"
               >
                 <div
-                  className="contactsTitle uppercase mt-[350px] text-[#1f1b1b] text-[160px] leading-[140px]  pt-14"
+                  className={`${
+                    mode == "light" ? "text-[#1400ff]" : "text-[#1f1b1b]"
+                  } contactsTitle uppercase mt-[60px]  text-[160px] leading-[140px]  pt-14`}
                   dangerouslySetInnerHTML={{ __html: page.title.rendered }}
                 />
                 <div

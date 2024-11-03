@@ -1,14 +1,15 @@
 import Header from "@/components/Header";
 import ContactComp from "@/components/ContactComp/ContactComp";
 
-export default async function Home() {
-  const data = await fetch("http://lovers.company/api/wp-json/wp/v2/pages");
-  const pages = await data.json();
+export default async function Locations() {
+  // const data = await fetch("http://lovers.company/api/wp-json/wp/v2/pages");
+  // const pages = await data.json();
 
   return (
-    <div className="pt-[22px] px-[24px] bg-[#1400ff]">
+    <div className="pt-[22px] px-[24px] bg-[#1f1f1f]">
       <Header />
-      <div>
+      LOCATIONS
+      {/* <div>
         {pages.map((page) => {
           if (page.id === 2) {
             return (
@@ -20,8 +21,8 @@ export default async function Home() {
             );
           }
         })}
-      </div>
-      <ContactComp mode="dark" />
+      </div> */}
+      <ContactComp mode="light" />
     </div>
   );
 }
