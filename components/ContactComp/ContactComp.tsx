@@ -35,7 +35,7 @@ export default async function ContactComp({ mode }: { mode: string }) {
                   </div>
                 </div>
                 <div className="pt-[26px] pb-[37px] flex justify-start  items-end gap-[188px]">
-                  <DownloadPresentation />
+                  <DownloadPresentation mode="small" />
                   <WatchShowreel />
                 </div>
               </div>
