@@ -3,7 +3,9 @@ import ContactComp from "@/components/ContactComp/ContactComp";
 import Link from "next/link";
 
 export default async function Works() {
-  const data = await fetch("http://lovers.company/api/wp-json/wp/v2/videos");
+  const data = await fetch("http://lovers.company/api/wp-json/wp/v2/videos", {
+    cache: "force-cache",
+  });
   const videos = await data.json();
 
   return (
@@ -14,7 +16,7 @@ export default async function Works() {
         {videos.map((video, idx) => {
           return (
             <Link
-              href={{ pathname: `/works/${video.id}`, query: { id: video.id } }}
+              href={`/works/${idx}`}
               passHref
               key={video.id}
               className="z-10"
