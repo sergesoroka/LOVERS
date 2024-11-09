@@ -9,9 +9,9 @@ import ArrowRight from "../Icons/ArrowRight";
 
 export default function VideoSlider({ videos }) {
   const pathname = usePathname();
-  const pageID = Number(pathname.substring(7));
+  const page = Number(pathname.substring(7));
 
-  const [page, setPage] = useState(pageID);
+  //   const [page, setPage] = useState(pageID);
 
   return (
     <div className="flex justify-between items-center">

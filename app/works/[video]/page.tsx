@@ -1,11 +1,8 @@
 import React from "react";
 import Header from "@/components/Header";
-import CloseIcon from "@/components/Icons/CloseIcon";
-import Link from "next/link";
 import VideoSlider from "@/components/VideoSlider/VideoSlider";
 
-export default async function Video({ searchParams }) {
-  const params = searchParams;
+export default async function Video() {
   const data = await fetch(`http://lovers.company/api/wp-json/wp/v2/videos`);
   const videos = await data.json();
 
