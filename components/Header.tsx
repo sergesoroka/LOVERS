@@ -33,7 +33,12 @@ export default function Header() {
       </Link>
       <ul className="flex justify-end items-center gap-7 uppercase">
         {menuItems.map((item) => (
-          <li key={item.id}>
+          <li
+            key={item.id}
+            className={` ${
+              pathname == "/" + item.link ? "text-[#1400ff]" : "text-white"
+            } `}
+          >
             <Link href={`/${item.link}`}>{item.link}</Link>
           </li>
         ))}

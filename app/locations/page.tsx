@@ -7,8 +7,8 @@ export default async function Locations() {
   const pages = await data.json();
 
   return (
-    <div className="casting-bg">
-      <div className="casting-bg-img pt-[22px] px-[24px]">
+    <div className="location-bg">
+      <div className="location-bg-img pt-[22px] px-[24px]">
         <Header />
 
         {pages.map((page) => {
