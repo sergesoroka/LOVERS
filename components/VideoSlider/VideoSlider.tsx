@@ -3,7 +3,6 @@
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 import CloseIcon from "../Icons/CloseIcon";
-import { useState } from "react";
 import ArrowLeft from "../Icons/ArrowLeft";
 import ArrowRight from "../Icons/ArrowRight";
 
