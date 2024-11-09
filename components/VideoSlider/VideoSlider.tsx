@@ -11,8 +11,6 @@ export default function VideoSlider({ videos }) {
   const pathname = usePathname();
   const page = Number(pathname.substring(7));
 
-  //   const [page, setPage] = useState(pageID);
-
   return (
     <div className="flex justify-between items-center">
       {page == 0 ? (
