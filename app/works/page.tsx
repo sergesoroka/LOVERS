@@ -4,7 +4,7 @@ import Link from "next/link";
 
 export default async function Works() {
   const data = await fetch("http://lovers.company/api/wp-json/wp/v2/videos", {
-    cache: "force-cache",
+    next: { revalidate: 10 },
   });
   const videos = await data.json();
 
@@ -28,10 +28,11 @@ export default async function Works() {
                     : "h-[350px]  mt-[125px]"
                 } overflow-hidden z-0`}
               >
+                {/* ?autoplay=1&loop=1&muted=1&background=1&title=0&byline=0&portrait=0 */}
                 <iframe
                   className="relative z-[-9999]"
                   title="vimeo-player"
-                  src={`${video.youtube.rendered}?autoplay=1&loop=1&muted=1&background=1&title=0&byline=0&portrait=0`}
+                  src={`${video.youtube.rendered}?autoplay=1&background=1&byline=0&portrait=0`}
                   width="600"
                   height="340"
                 />

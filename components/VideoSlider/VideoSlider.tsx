@@ -22,7 +22,7 @@ export default function VideoSlider({ videos }) {
       <div className="flex justify-center gap-4 mt-6">
         <iframe
           title="vimeo-player"
-          src={`${videos[page].youtube.rendered}`}
+          src={`${videos[page].youtube.rendered}?background=1&byline=0&title=0&byline=0&portrait=0&?color=1400FF`}
           width="980"
           height="600"
         />
