@@ -19,13 +19,15 @@ export default function VideoSlider({ videos }) {
           <ArrowLeft />
         </Link>
       )}
-      <div className="flex justify-center gap-4 mt-6">
-        <iframe
-          title="vimeo-player"
-          src={`${videos[page].youtube.rendered}?background=1&byline=0&title=0&byline=0&portrait=0&?color=1400FF`}
-          width="980"
-          height="600"
-        />
+      <div className="flex justify-center gap-4 mt-16">
+        <div className="">
+          <iframe
+            title="vimeo-player"
+            src={`${videos[page]?.youtube.rendered}?background=1&byline=0&title=0&byline=0&portrait=0&?color=1400FF`}
+            width="980"
+            height="600"
+          />
+        </div>
 
         <Link href="/works">
           <div className="mt-5">

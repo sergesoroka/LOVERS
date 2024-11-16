@@ -14,7 +14,7 @@ export default async function Home() {
             return (
               <div
                 key={page.id}
-                className="uppercase text-[40px] leading-[44px] px-[195px] pt-14"
+                className="uppercase text-[32px] leading-[34px] md:text-[40px] md:leading-[44px]  md:px-[195px] pt-14"
                 dangerouslySetInnerHTML={{ __html: page.content.rendered }}
               />
             );

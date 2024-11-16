@@ -11,7 +11,7 @@ export default async function GeneralQnquiries() {
           return (
             <div
               key={page.id}
-              className="qnquiries uppercase text-[22px] leading-[24px]"
+              className="qnquiries uppercase text-[20px] leading-[24px]"
               dangerouslySetInnerHTML={{ __html: page.content.rendered }}
             />
           );
