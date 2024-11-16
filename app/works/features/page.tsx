@@ -1,6 +1,5 @@
 import Header from "@/components/Header";
 import ContactComp from "@/components/ContactComp/ContactComp";
-import Link from "next/link";
 import CategoryMenu from "@/components/CategoryMenu/CategoryMenu";
 import CategoryVideo from "@/components/CategoryVideo/CategoryVideo";
 

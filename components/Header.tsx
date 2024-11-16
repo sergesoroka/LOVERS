@@ -5,9 +5,7 @@ import { usePathname } from "next/navigation";
 
 import Logo from "./Logo/Logo";
 import Link from "next/link";
-import MediaLinks from "./MediaLinks";
 import { useState } from "react";
-import DownloadPresentation from "./DownloadPresentation";
 
 const menuItems = [
   { id: "0", link: "lovers" },
