@@ -8,13 +8,16 @@ import ArrowRight from "../Icons/ArrowRight";
 export default function VideoSliderCategory({ videos, slugs, category }) {
   const pathname = usePathname();
 
-  const slug = pathname.replace(/^([^/]*\/){3}/, "");
+  const slug =
+    category == ""
+      ? pathname.replace(/^([^/]*\/){2}/, "")
+      : pathname.replace(/^([^/]*\/){3}/, "");
 
   const index = slugs.indexOf(slug);
 
   console.log(index);
 
-  console.log(slugs);
+  console.log(slugs[index]);
 
   return (
     <div className="flex justify-between items-center">

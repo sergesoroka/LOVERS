@@ -19,11 +19,11 @@ export default async function Works() {
         <CategoryMenu />
       </div>
       <div className="md:grid grid-cols-2 gap-[75px] mt-28 md:px-[56px]">
-        {videos.map((video, idx) => {
+        {videos.map((video) => {
           return (
             <div key={video.id}>
               <VimeoPlayer
-                link={`/works/${idx}`}
+                link={`/works/${video.slug}`}
                 url={video.youtube.rendered}
               />
               <div className="flex justify-between mb-10 mt-2 uppercase">
