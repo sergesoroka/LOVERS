@@ -9,8 +9,6 @@ export default async function WorksMusic() {
   });
   const videos = await data.json();
 
-  let idx = 0;
-
   return (
     <div className="pt-[22px] px-[24px] bg-black relative">
       <Header />
@@ -20,7 +18,6 @@ export default async function WorksMusic() {
       <div className="md:grid grid-cols-2 gap-[75px] mt-28 mb-[164px] md:px-[56px]">
         {videos.map((video) => {
           if (video.type_of_work.rendered == "music") {
-            idx++;
             return (
               <div key={video.id}>
                 <VimeoPlayer
