@@ -82,8 +82,8 @@ export default function Header() {
               className={` ${
                 pathname == "/" + item.link && pathname !== "/works"
                   ? "text-black line-through"
-                  : pathname == "/works" && item.link == "/works"
-                  ? "text-[#1400ff]"
+                  : pathname == "/works" && item.link == "works"
+                  ? "text-[#1400ff]  line-through"
                   : "text-white"
               } `}
             >

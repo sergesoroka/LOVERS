@@ -2,7 +2,7 @@ import Link from "next/link";
 
 export default function CategoryVideo({ video, type }) {
   return (
-    <div className="md:grid grid-cols-2 gap-[100px] min-h-[1000px]">
+    <div className="md:grid grid-cols-2 gap-[100px] min-h-[1000px]  mt-28">
       {video.map((video, idx) => {
         if (video.type_of_work?.rendered === type) {
           return (

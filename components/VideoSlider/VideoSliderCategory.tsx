@@ -1,22 +1,27 @@
 "use client";
-
-import Link from "next/link";
 import { usePathname } from "next/navigation";
 import CloseIcon from "../Icons/CloseIcon";
+import Link from "next/link";
 import ArrowLeft from "../Icons/ArrowLeft";
 import ArrowRight from "../Icons/ArrowRight";
 
-export default function VideoSlider({ videos }) {
+export default function VideoSliderCategory({ videos, slugs, category }) {
   const pathname = usePathname();
-  const page = Number(pathname.substring(7));
-  // /works/commercials/1
+
+  const slug = pathname.replace(/^([^/]*\/){3}/, "");
+
+  const index = slugs.indexOf(slug);
+
+  console.log(index);
+
+  console.log(slugs);
 
   return (
     <div className="flex justify-between items-center">
-      {page == 0 ? (
+      {index == 0 ? (
         <p />
       ) : (
-        <Link href={`/works/${page - 1}`}>
+        <Link href={`/works/${category}/${slugs[index - 1]}`}>
           <ArrowLeft />
         </Link>
       )}
@@ -24,22 +29,22 @@ export default function VideoSlider({ videos }) {
         <div className="">
           <iframe
             title="vimeo-player"
-            src={`${videos[page]?.youtube.rendered}?background=1&byline=0&title=0&byline=0&portrait=0&?color=1400FF`}
+            src={`${videos[index]?.youtube.rendered}?background=1&byline=0&title=0&byline=0&portrait=0&?color=1400FF`}
             width="980"
             height="600"
           />
         </div>
 
-        <Link href="/works">
+        <Link href={`/works/${category}`}>
           <div className="mt-5">
             <CloseIcon />
           </div>
         </Link>
       </div>
-      {videos.length == page + 1 ? (
+      {videos.length == index + 1 ? (
         <p />
       ) : (
-        <Link href={`/works/${page + 1}`}>
+        <Link href={`/works/${category}/${slugs[index + 1]}`}>
           <ArrowRight />
         </Link>
       )}

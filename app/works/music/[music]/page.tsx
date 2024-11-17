@@ -7,7 +7,7 @@ export default async function Video() {
   const videos = await data.json();
 
   const categoryVideo = () =>
-    videos.filter((video) => video.type_of_work.rendered == "content");
+    videos.filter((video) => video.type_of_work.rendered == "music");
   const renderedVideo = categoryVideo();
 
   const getSlugs = () => renderedVideo.map((video) => video.slug);
@@ -21,7 +21,7 @@ export default async function Video() {
       <VideoSliderCategory
         videos={renderedVideo}
         slugs={slugsArray}
-        category="content"
+        category="music"
       />
     </div>
   );
