@@ -4,9 +4,12 @@ import CategoryMenu from "@/components/CategoryMenu/CategoryMenu";
 import VimeoPlayer from "@/components/VimeoPlayer/VimeoPlayer";
 
 export default async function Works() {
-  const data = await fetch("http://lovers.company/api/wp-json/wp/v2/videos", {
-    next: { revalidate: 10 },
-  });
+  const data = await fetch(
+    "http://lovers.company/api/wp-json/wp/v2/videos?per_page=50",
+    {
+      next: { revalidate: 10 },
+    }
+  );
   const videos = await data.json();
 
   return (
