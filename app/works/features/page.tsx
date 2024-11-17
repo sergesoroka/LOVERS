@@ -9,7 +9,6 @@ export default async function WorksFeatures() {
   });
   const videos = await data.json();
 
-  let idx = 0;
   const category = "features";
 
   return (
@@ -21,7 +20,6 @@ export default async function WorksFeatures() {
       <div className="md:grid grid-cols-2 gap-[75px] mt-28 mb-[164px] md:px-[56px]">
         {videos.map((video) => {
           if (video.type_of_work.rendered == category) {
-            idx++;
             return (
               <div key={video.id}>
                 <VimeoPlayer
