@@ -18,7 +18,7 @@ export default async function Works() {
       <div className="absolute top-30 md:top-[90px] md:left-[69px] text-[160px] z-50">
         <CategoryMenu />
       </div>
-      <div className="md:grid grid-cols-2 place-items-center gap-[75px] mt-28 md:px-[56px]">
+      <div className="md:grid grid-cols-2 place-items-center gap-[75px] mt-28 md:px-[40px]">
         {videos.map((video, idx) => {
           return (
             <div
@@ -29,14 +29,11 @@ export default async function Works() {
                   : "md:w-[579px] w-full"
               } `}
             >
-              <div className="">
-                <div className="">
-                  <VimeoPlayer
-                    link={`/works/${video.slug}`}
-                    url={video.youtube.rendered}
-                  />
-                </div>
-              </div>
+              <VimeoPlayer
+                link={`/works/${video.slug}`}
+                url={video.youtube.rendered}
+              />
+
               <div className="flex justify-between mb-10 mt-2 uppercase">
                 <p className="group-hover:text-yellow-400 w-[50%] text-left">
                   {video.title.rendered}
