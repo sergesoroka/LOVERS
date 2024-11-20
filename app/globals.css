@@ -87,6 +87,24 @@ body {
   cursor: pointer; /* Changes the cursor to indicate it's clickable */
   z-index: 1; /* Ensures the link is above the iframe */
 }
+
+.works {
+  position: relative; /* Parent must have `position` set */
+  overflow: hidden; /* Ensures overflow is hidden */
+  height: 253px; /* Example height */
+  width: 600px; /* Example width */
+}
+
+.works-video:nth-child(even) {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%); /* Centers the element */
+  width: 100px; /* Example size */
+  height: 50px;
+  border: 3px solid #ededed;
+}
+
 @media (max-width: 700px) {
   .embed-container {
     position: relative;
