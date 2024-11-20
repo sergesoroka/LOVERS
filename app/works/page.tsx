@@ -23,7 +23,7 @@ export default async function Works() {
           return (
             <div
               key={video.id}
-              className={` ${
+              className={`group  ${
                 (idx + 1) % 3 == 0
                   ? "md:col-span-2 md:w-[770px] w-full"
                   : "md:w-[579px] w-full"
@@ -38,8 +38,12 @@ export default async function Works() {
                 </div>
               </div>
               <div className="flex justify-between mb-10 mt-2 uppercase">
-                <p className="">{video.title.rendered}</p>
-                <p className="">{video.subtitle.rendered}</p>
+                <p className="group-hover:text-yellow-400 w-[50%] text-left">
+                  {video.title.rendered}
+                </p>
+                <p className="group-hover:text-yellow-400 w-[50%] text-right">
+                  {video.subtitle.rendered}
+                </p>
               </div>
             </div>
           );
