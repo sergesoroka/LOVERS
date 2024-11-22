@@ -9,7 +9,6 @@ import ArrowRight from "../Icons/ArrowRight";
 export default function VideoSlider({ videos }) {
   const pathname = usePathname();
   const page = Number(pathname.substring(7));
-  // /works/commercials/1
 
   return (
     <div className="flex justify-between items-center">
