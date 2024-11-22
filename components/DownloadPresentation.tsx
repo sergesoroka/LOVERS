@@ -1,12 +1,12 @@
 import DownloadIcon from "./Icons/DownloadIcon";
 
 export default async function DownloadPresentation({ mode }: { mode: string }) {
-  const data = await fetch("http://lovers.company/api/wp-json/wp/v2/pages");
-  const pages = await data.json();
+  // const data = await fetch("http://lovers.company/api/wp-json/wp/v2/pages");
+  // const pages = await data.json();
 
   return (
     <div>
-      {pages.map((page) => {
+      {/* {pages.map((page) => {
         if (page.id === 42) {
           if (mode === "small") {
             return (
@@ -33,7 +33,7 @@ export default async function DownloadPresentation({ mode }: { mode: string }) {
             );
           }
         }
-      })}
+      })} */}
     </div>
   );
 }
