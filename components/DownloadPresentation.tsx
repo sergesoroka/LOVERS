@@ -6,6 +6,7 @@ export default async function DownloadPresentation({ mode }: { mode: string }) {
 
   return (
     <div>
+      {mode === "small" && ""}
       {/* {pages.map((page) => {
         if (page.id === 42) {
           if (mode === "small") {
