@@ -1,4 +1,4 @@
-import DownloadIcon from "./Icons/DownloadIcon";
+// import DownloadIcon from "./Icons/DownloadIcon";
 
 export default async function DownloadPresentation({ mode }: { mode: string }) {
   // const data = await fetch("http://lovers.company/api/wp-json/wp/v2/pages");
