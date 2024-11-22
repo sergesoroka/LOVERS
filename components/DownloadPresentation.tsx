@@ -5,7 +5,7 @@ export default async function DownloadPresentation({ mode }: { mode: string }) {
   // const pages = await data.json();
 
   return (
-    <div>
+    <div className="relative">
       {mode === "small" && ""}
       {/* {pages.map((page) => {
         if (page.id === 42) {
