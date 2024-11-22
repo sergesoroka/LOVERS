@@ -2,7 +2,7 @@ import "./contact.css";
 import GeneralQnquiries from "../GeneralQnquiries";
 import MediaLinks from "../MediaLinks";
 import DownloadPresentation from "../DownloadPresentation";
-import WatchShowreel from "../WatchShowreel";
+// import WatchShowreel from "../WatchShowreel";
 
 import ImageComp from "./ImageComp";
 
@@ -44,7 +44,7 @@ export default async function ContactComp({ mode }: { mode: string }) {
                 </div>
                 <div className="pt-[26px] pb-[37px] flex flex-col md:flex-row justify-start gap-8  md:items-end md:gap-[130px]">
                   <DownloadPresentation mode="small" />
-                  <WatchShowreel />
+                  {/* <WatchShowreel /> */}
                 </div>
               </div>
             );
