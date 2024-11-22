@@ -15,10 +15,6 @@ export default function VideoSliderCategory({ videos, slugs, category }) {
 
   const index = slugs.indexOf(slug);
 
-  console.log(index);
-
-  console.log(slugs[index]);
-
   return (
     <div>
       <div className="flex justify-between items-center">

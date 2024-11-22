@@ -4,11 +4,19 @@ import MediaLinks from "../MediaLinks";
 import DownloadPresentation from "../DownloadPresentation";
 import WatchShowreel from "../WatchShowreel";
 
+import ImageComp from "./ImageComp";
+
 export default async function ContactComp({ mode }: { mode: string }) {
   const data = await fetch("http://lovers.company/api/wp-json/wp/v2/pages");
   const pages = await data.json();
   return (
-    <div>
+    <div className="relative">
+      <div className="hidden md:block absolute top-[26.6rem] left-64">
+        <ImageComp name="daniil" />
+      </div>
+      <div className="hidden md:block absolute top-[19.6rem] left-[34rem]">
+        <ImageComp name="mari" />
+      </div>
       <div className="contacts">
         {pages.map((page) => {
           if (page.id === 28) {

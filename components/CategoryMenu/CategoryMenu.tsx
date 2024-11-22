@@ -12,17 +12,23 @@ const menuItems = [
   { id: "5", link: "all-works", name: "all works" },
 ];
 
-export default function CategoryMenu() {
+export default function CategoryMenu({ size }: { size: string }) {
   const pathname = usePathname();
 
   return (
-    <ul className="categoryList text-[90px] ">
+    <ul
+      className={`${
+        size == "l" ? "categoryList" : "categoryListSmall"
+      }  text-[90px] `}
+    >
       {menuItems.map((item) => (
         <li
           key={item.id}
           className={`${
             pathname === "/works/" + item.link && "text-white"
-          } text-[#1400ff] leading-[90px] uppercase`}
+          } text-[#1400ff] ${
+            size == "s" && "leading-[26px]"
+          } leading-[90px] uppercase`}
         >
           <Link
             href={`${
