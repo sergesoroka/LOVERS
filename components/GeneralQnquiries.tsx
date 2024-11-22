@@ -5,7 +5,7 @@ export default async function GeneralQnquiries() {
   const pages = await data.json();
 
   return (
-    <div>
+    <div className="relative">
       {pages.map((page) => {
         if (page.id === 37) {
           return (
