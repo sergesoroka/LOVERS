@@ -1,0 +1,662 @@
+[
+  {
+    "id": 76,
+    "date": "2024-11-17T15:54:08",
+    "date_gmt": "2024-11-17T15:54:08",
+    "guid": {
+      "rendered": "http://lovers.company/api/?post_type=video&#038;p=76"
+    },
+    "modified": "2024-11-17T15:54:09",
+    "modified_gmt": "2024-11-17T15:54:09",
+    "slug": "saint-laurent",
+    "status": "publish",
+    "type": "video",
+    "link": "http://lovers.company/api/video/saint-laurent/",
+    "title": {
+      "rendered": "SAINT LAURENT"
+    },
+    "content": {
+      "rendered": "\n<figure class=\"wp-block-embed is-type-video is-provider-vimeo wp-block-embed-vimeo\"><div class=\"wp-block-embed__wrapper\">\n<iframe loading=\"lazy\" title=\"SAINT LAURENT - MEN S SPRING SUMMER 2021\" src=\"https://player.vimeo.com/video/953555391?dnt=1&amp;app_id=122963\" width=\"750\" height=\"422\" frameborder=\"0\" allow=\"autoplay; fullscreen; picture-in-picture; clipboard-write\"></iframe>\n</div></figure>\n",
+      "protected": false
+    },
+    "template": "",
+    "youtube": {
+      "value": "https://player.vimeo.com/video/953555391?h=aae5187472",
+      "rendered": "https://player.vimeo.com/video/953555391?h=aae5187472"
+    },
+    "type_of_work": {
+      "value": "films",
+      "rendered": "films"
+    },
+    "subtitle": {
+      "value": "MEN S SPRING SUMMER 2021",
+      "rendered": "MEN S SPRING SUMMER 2021"
+    },
+    "_links": {
+      "self": [
+        {
+          "href": "http://lovers.company/api/wp-json/wp/v2/videos/76",
+          "targetHints": {
+            "allow": ["GET"]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "http://lovers.company/api/wp-json/wp/v2/videos"
+        }
+      ],
+      "about": [
+        {
+          "href": "http://lovers.company/api/wp-json/wp/v2/types/video"
+        }
+      ],
+      "wp:attachment": [
+        {
+          "href": "http://lovers.company/api/wp-json/wp/v2/media?parent=76"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  {
+    "id": 75,
+    "date": "2024-11-17T15:51:03",
+    "date_gmt": "2024-11-17T15:51:03",
+    "guid": {
+      "rendered": "http://lovers.company/api/?post_type=video&#038;p=75"
+    },
+    "modified": "2024-11-17T15:51:04",
+    "modified_gmt": "2024-11-17T15:51:04",
+    "slug": "orange",
+    "status": "publish",
+    "type": "video",
+    "link": "http://lovers.company/api/video/orange/",
+    "title": {
+      "rendered": "Orange"
+    },
+    "content": {
+      "rendered": "\n<figure class=\"wp-block-embed is-type-video is-provider-vimeo wp-block-embed-vimeo\"><div class=\"wp-block-embed__wrapper\">\n<iframe loading=\"lazy\" title=\"Orange – De la magie et beaucoup de reconditionné\" src=\"https://player.vimeo.com/video/953555685?dnt=1&amp;app_id=122963\" width=\"750\" height=\"422\" frameborder=\"0\" allow=\"autoplay; fullscreen; picture-in-picture; clipboard-write\"></iframe>\n</div></figure>\n",
+      "protected": false
+    },
+    "template": "",
+    "youtube": {
+      "value": "https://player.vimeo.com/video/953555685?h=c0bd90d041",
+      "rendered": "https://player.vimeo.com/video/953555685?h=c0bd90d041"
+    },
+    "type_of_work": {
+      "value": "films",
+      "rendered": "films"
+    },
+    "subtitle": {
+      "value": "De la magie et beaucoup de reconditionné",
+      "rendered": "De la magie et beaucoup de reconditionné"
+    },
+    "_links": {
+      "self": [
+        {
+          "href": "http://lovers.company/api/wp-json/wp/v2/videos/75",
+          "targetHints": {
+            "allow": ["GET"]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "http://lovers.company/api/wp-json/wp/v2/videos"
+        }
+      ],
+      "about": [
+        {
+          "href": "http://lovers.company/api/wp-json/wp/v2/types/video"
+        }
+      ],
+      "wp:attachment": [
+        {
+          "href": "http://lovers.company/api/wp-json/wp/v2/media?parent=75"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  {
+    "id": 74,
+    "date": "2024-11-17T15:48:35",
+    "date_gmt": "2024-11-17T15:48:35",
+    "guid": {
+      "rendered": "http://lovers.company/api/?post_type=video&#038;p=74"
+    },
+    "modified": "2024-11-17T15:48:36",
+    "modified_gmt": "2024-11-17T15:48:36",
+    "slug": "huawei",
+    "status": "publish",
+    "type": "video",
+    "link": "http://lovers.company/api/video/huawei/",
+    "title": {
+      "rendered": "Huawei"
+    },
+    "content": {
+      "rendered": "\n<figure class=\"wp-block-embed is-type-video is-provider-vimeo wp-block-embed-vimeo\"><div class=\"wp-block-embed__wrapper\">\n<iframe loading=\"lazy\" title=\"Huawei -AppGallery\" src=\"https://player.vimeo.com/video/953556024?dnt=1&amp;app_id=122963\" width=\"750\" height=\"422\" frameborder=\"0\" allow=\"autoplay; fullscreen; picture-in-picture; clipboard-write\"></iframe>\n</div></figure>\n",
+      "protected": false
+    },
+    "template": "",
+    "youtube": {
+      "value": "https://player.vimeo.com/video/953556024?h=6c90d44bdf",
+      "rendered": "https://player.vimeo.com/video/953556024?h=6c90d44bdf"
+    },
+    "type_of_work": {
+      "value": "commercials",
+      "rendered": "commercials"
+    },
+    "subtitle": {
+      "value": "AppGallery",
+      "rendered": "AppGallery"
+    },
+    "_links": {
+      "self": [
+        {
+          "href": "http://lovers.company/api/wp-json/wp/v2/videos/74",
+          "targetHints": {
+            "allow": ["GET"]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "http://lovers.company/api/wp-json/wp/v2/videos"
+        }
+      ],
+      "about": [
+        {
+          "href": "http://lovers.company/api/wp-json/wp/v2/types/video"
+        }
+      ],
+      "wp:attachment": [
+        {
+          "href": "http://lovers.company/api/wp-json/wp/v2/media?parent=74"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  {
+    "id": 73,
+    "date": "2024-11-17T15:46:12",
+    "date_gmt": "2024-11-17T15:46:12",
+    "guid": {
+      "rendered": "http://lovers.company/api/?post_type=video&#038;p=73"
+    },
+    "modified": "2024-11-17T15:46:13",
+    "modified_gmt": "2024-11-17T15:46:13",
+    "slug": "ubisoft",
+    "status": "publish",
+    "type": "video",
+    "link": "http://lovers.company/api/video/ubisoft/",
+    "title": {
+      "rendered": "Ubisoft "
+    },
+    "content": {
+      "rendered": "\n<figure class=\"wp-block-embed is-type-video is-provider-vimeo wp-block-embed-vimeo\"><div class=\"wp-block-embed__wrapper\">\n<iframe loading=\"lazy\" title=\"Ubisoft - Tom Clancy&#039;s Ghost Recon Breakpoint\" src=\"https://player.vimeo.com/video/953556152?dnt=1&amp;app_id=122963\" width=\"750\" height=\"422\" frameborder=\"0\" allow=\"autoplay; fullscreen; picture-in-picture; clipboard-write\"></iframe>\n</div></figure>\n",
+      "protected": false
+    },
+    "template": "",
+    "youtube": {
+      "value": "https://player.vimeo.com/video/953556152?h=425c8ede96",
+      "rendered": "https://player.vimeo.com/video/953556152?h=425c8ede96"
+    },
+    "type_of_work": {
+      "value": "films",
+      "rendered": "films"
+    },
+    "subtitle": {
+      "value": "Tom Clancy's Ghost Recon Breakpoint",
+      "rendered": "Tom Clancy's Ghost Recon Breakpoint"
+    },
+    "_links": {
+      "self": [
+        {
+          "href": "http://lovers.company/api/wp-json/wp/v2/videos/73",
+          "targetHints": {
+            "allow": ["GET"]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "http://lovers.company/api/wp-json/wp/v2/videos"
+        }
+      ],
+      "about": [
+        {
+          "href": "http://lovers.company/api/wp-json/wp/v2/types/video"
+        }
+      ],
+      "wp:attachment": [
+        {
+          "href": "http://lovers.company/api/wp-json/wp/v2/media?parent=73"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  {
+    "id": 72,
+    "date": "2024-11-17T15:35:38",
+    "date_gmt": "2024-11-17T15:35:38",
+    "guid": {
+      "rendered": "http://lovers.company/api/?post_type=video&#038;p=72"
+    },
+    "modified": "2024-11-17T15:35:38",
+    "modified_gmt": "2024-11-17T15:35:38",
+    "slug": "nct",
+    "status": "publish",
+    "type": "video",
+    "link": "http://lovers.company/api/video/nct/",
+    "title": {
+      "rendered": "NCT"
+    },
+    "content": {
+      "rendered": "\n<figure class=\"wp-block-embed is-type-video is-provider-vimeo wp-block-embed-vimeo\"><div class=\"wp-block-embed__wrapper\">\n<iframe loading=\"lazy\" title=\"NCT - Boss\" src=\"https://player.vimeo.com/video/953556657?dnt=1&amp;app_id=122963\" width=\"750\" height=\"422\" frameborder=\"0\" allow=\"autoplay; fullscreen; picture-in-picture; clipboard-write\"></iframe>\n</div></figure>\n",
+      "protected": false
+    },
+    "template": "",
+    "youtube": {
+      "value": "https://player.vimeo.com/video/953556657?h=c9d4cf03f1",
+      "rendered": "https://player.vimeo.com/video/953556657?h=c9d4cf03f1"
+    },
+    "type_of_work": {
+      "value": "music",
+      "rendered": "music"
+    },
+    "subtitle": {
+      "value": "Boss",
+      "rendered": "Boss"
+    },
+    "_links": {
+      "self": [
+        {
+          "href": "http://lovers.company/api/wp-json/wp/v2/videos/72",
+          "targetHints": {
+            "allow": ["GET"]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "http://lovers.company/api/wp-json/wp/v2/videos"
+        }
+      ],
+      "about": [
+        {
+          "href": "http://lovers.company/api/wp-json/wp/v2/types/video"
+        }
+      ],
+      "wp:attachment": [
+        {
+          "href": "http://lovers.company/api/wp-json/wp/v2/media?parent=72"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  {
+    "id": 71,
+    "date": "2024-11-17T14:24:51",
+    "date_gmt": "2024-11-17T14:24:51",
+    "guid": {
+      "rendered": "http://lovers.company/api/?post_type=video&#038;p=71"
+    },
+    "modified": "2024-11-17T14:24:51",
+    "modified_gmt": "2024-11-17T14:24:51",
+    "slug": "diesel-2",
+    "status": "publish",
+    "type": "video",
+    "link": "http://lovers.company/api/video/diesel-2/",
+    "title": {
+      "rendered": "Diesel"
+    },
+    "content": {
+      "rendered": "\n<figure class=\"wp-block-embed is-type-video is-provider-vimeo wp-block-embed-vimeo\"><div class=\"wp-block-embed__wrapper\">\n<iframe loading=\"lazy\" title=\"Diesel - Go With The Flaw\" src=\"https://player.vimeo.com/video/953557198?dnt=1&amp;app_id=122963\" width=\"750\" height=\"422\" frameborder=\"0\" allow=\"autoplay; fullscreen; picture-in-picture; clipboard-write\"></iframe>\n</div></figure>\n\n\n\n<p></p>\n",
+      "protected": false
+    },
+    "template": "",
+    "youtube": {
+      "value": "https://player.vimeo.com/video/953557198?h=e6d2552e43",
+      "rendered": "https://player.vimeo.com/video/953557198?h=e6d2552e43"
+    },
+    "type_of_work": {
+      "value": "features",
+      "rendered": "features"
+    },
+    "subtitle": {
+      "value": "Go With The Flaw",
+      "rendered": "Go With The Flaw"
+    },
+    "_links": {
+      "self": [
+        {
+          "href": "http://lovers.company/api/wp-json/wp/v2/videos/71",
+          "targetHints": {
+            "allow": ["GET"]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "http://lovers.company/api/wp-json/wp/v2/videos"
+        }
+      ],
+      "about": [
+        {
+          "href": "http://lovers.company/api/wp-json/wp/v2/types/video"
+        }
+      ],
+      "wp:attachment": [
+        {
+          "href": "http://lovers.company/api/wp-json/wp/v2/media?parent=71"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  {
+    "id": 70,
+    "date": "2024-11-17T14:20:59",
+    "date_gmt": "2024-11-17T14:20:59",
+    "guid": {
+      "rendered": "http://lovers.company/api/?post_type=video&#038;p=70"
+    },
+    "modified": "2024-11-17T14:20:59",
+    "modified_gmt": "2024-11-17T14:20:59",
+    "slug": "swarovski",
+    "status": "publish",
+    "type": "video",
+    "link": "http://lovers.company/api/video/swarovski/",
+    "title": {
+      "rendered": "Swarovski"
+    },
+    "content": {
+      "rendered": "\n<figure class=\"wp-block-embed is-type-video is-provider-vimeo wp-block-embed-vimeo\"><div class=\"wp-block-embed__wrapper\">\n<iframe loading=\"lazy\" title=\"Swarovski  - Wonderlab\" src=\"https://player.vimeo.com/video/953557472?dnt=1&amp;app_id=122963\" width=\"750\" height=\"422\" frameborder=\"0\" allow=\"autoplay; fullscreen; picture-in-picture; clipboard-write\"></iframe>\n</div></figure>\n",
+      "protected": false
+    },
+    "template": "",
+    "youtube": {
+      "value": "https://player.vimeo.com/video/953557472?h=b9a7b8d26d",
+      "rendered": "https://player.vimeo.com/video/953557472?h=b9a7b8d26d"
+    },
+    "type_of_work": {
+      "value": "commercials",
+      "rendered": "commercials"
+    },
+    "subtitle": {
+      "value": "Wonderlab",
+      "rendered": "Wonderlab"
+    },
+    "_links": {
+      "self": [
+        {
+          "href": "http://lovers.company/api/wp-json/wp/v2/videos/70",
+          "targetHints": {
+            "allow": ["GET"]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "http://lovers.company/api/wp-json/wp/v2/videos"
+        }
+      ],
+      "about": [
+        {
+          "href": "http://lovers.company/api/wp-json/wp/v2/types/video"
+        }
+      ],
+      "wp:attachment": [
+        {
+          "href": "http://lovers.company/api/wp-json/wp/v2/media?parent=70"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  {
+    "id": 16,
+    "date": "2024-11-17T07:29:30",
+    "date_gmt": "2024-11-17T07:29:30",
+    "guid": {
+      "rendered": "http://lovers.company/api/?post_type=video&#038;p=16"
+    },
+    "modified": "2024-11-17T07:16:15",
+    "modified_gmt": "2024-11-17T07:16:15",
+    "slug": "video-2",
+    "status": "publish",
+    "type": "video",
+    "link": "http://lovers.company/api/video/video-2/",
+    "title": {
+      "rendered": "SCHWEOOERS"
+    },
+    "content": {
+      "rendered": "\n<figure class=\"wp-block-embed is-type-video is-provider-vimeo wp-block-embed-vimeo\"><div class=\"wp-block-embed__wrapper\">\n<iframe loading=\"lazy\" title=\"SCHWEPPES - What do you expect?\" src=\"https://player.vimeo.com/video/954064547?dnt=1&amp;app_id=122963\" width=\"750\" height=\"422\" frameborder=\"0\" allow=\"autoplay; fullscreen; picture-in-picture; clipboard-write\"></iframe>\n</div></figure>\n",
+      "protected": false
+    },
+    "template": "",
+    "youtube": {
+      "value": "https://player.vimeo.com/video/953563754?h=6cf073f069",
+      "rendered": "https://player.vimeo.com/video/953563754?h=6cf073f069"
+    },
+    "type_of_work": {
+      "value": "films",
+      "rendered": "films"
+    },
+    "subtitle": {
+      "value": "",
+      "rendered": ""
+    },
+    "_links": {
+      "self": [
+        {
+          "href": "http://lovers.company/api/wp-json/wp/v2/videos/16",
+          "targetHints": {
+            "allow": ["GET"]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "http://lovers.company/api/wp-json/wp/v2/videos"
+        }
+      ],
+      "about": [
+        {
+          "href": "http://lovers.company/api/wp-json/wp/v2/types/video"
+        }
+      ],
+      "wp:attachment": [
+        {
+          "href": "http://lovers.company/api/wp-json/wp/v2/media?parent=16"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  {
+    "id": 68,
+    "date": "2024-11-17T06:57:34",
+    "date_gmt": "2024-11-17T06:57:34",
+    "guid": {
+      "rendered": "http://lovers.company/api/?post_type=video&#038;p=68"
+    },
+    "modified": "2024-11-17T07:08:01",
+    "modified_gmt": "2024-11-17T07:08:01",
+    "slug": "bmw-2-series-gran-coupe",
+    "status": "publish",
+    "type": "video",
+    "link": "http://lovers.company/api/video/bmw-2-series-gran-coupe/",
+    "title": {
+      "rendered": "BMW"
+    },
+    "content": {
+      "rendered": "\n<figure class=\"wp-block-embed is-type-video is-provider-vimeo wp-block-embed-vimeo\"><div class=\"wp-block-embed__wrapper\">\n<iframe loading=\"lazy\" title=\"BMW - 2 Series Gran Coupé\" src=\"https://player.vimeo.com/video/953557338?dnt=1&amp;app_id=122963\" width=\"750\" height=\"422\" frameborder=\"0\" allow=\"autoplay; fullscreen; picture-in-picture; clipboard-write\"></iframe>\n</div></figure>\n\n\n\n<p></p>\n",
+      "protected": false
+    },
+    "template": "",
+    "youtube": {
+      "value": "https://player.vimeo.com/video/953557338?h=fe638be2af",
+      "rendered": "https://player.vimeo.com/video/953557338?h=fe638be2af"
+    },
+    "type_of_work": {
+      "value": "commercials",
+      "rendered": "commercials"
+    },
+    "subtitle": {
+      "value": "2 Series Gran Coupé",
+      "rendered": "2 Series Gran Coupé"
+    },
+    "_links": {
+      "self": [
+        {
+          "href": "http://lovers.company/api/wp-json/wp/v2/videos/68",
+          "targetHints": {
+            "allow": ["GET"]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "http://lovers.company/api/wp-json/wp/v2/videos"
+        }
+      ],
+      "about": [
+        {
+          "href": "http://lovers.company/api/wp-json/wp/v2/types/video"
+        }
+      ],
+      "wp:attachment": [
+        {
+          "href": "http://lovers.company/api/wp-json/wp/v2/media?parent=68"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  {
+    "id": 64,
+    "date": "2024-11-13T14:29:37",
+    "date_gmt": "2024-11-13T14:29:37",
+    "guid": {
+      "rendered": "http://lovers.company/api/?post_type=video&#038;p=64"
+    },
+    "modified": "2024-11-14T17:34:10",
+    "modified_gmt": "2024-11-14T17:34:10",
+    "slug": "diesel",
+    "status": "publish",
+    "type": "video",
+    "link": "http://lovers.company/api/video/diesel/",
+    "title": {
+      "rendered": "Diesel"
+    },
+    "content": {
+      "rendered": "\n<figure class=\"wp-block-embed is-type-video is-provider-vimeo wp-block-embed-vimeo\"><div class=\"wp-block-embed__wrapper\">\n<iframe loading=\"lazy\" title=\"Diesel - Francesca\" src=\"https://player.vimeo.com/video/953557677?dnt=1&amp;app_id=122963\" width=\"750\" height=\"422\" frameborder=\"0\" allow=\"autoplay; fullscreen; picture-in-picture; clipboard-write\"></iframe>\n</div></figure>\n",
+      "protected": false
+    },
+    "template": "",
+    "youtube": {
+      "value": "https://player.vimeo.com/video/953557677?h=f33af106f2",
+      "rendered": "https://player.vimeo.com/video/953557677?h=f33af106f2"
+    },
+    "type_of_work": {
+      "value": "content",
+      "rendered": "content"
+    },
+    "subtitle": {
+      "value": "",
+      "rendered": ""
+    },
+    "_links": {
+      "self": [
+        {
+          "href": "http://lovers.company/api/wp-json/wp/v2/videos/64",
+          "targetHints": {
+            "allow": ["GET"]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "http://lovers.company/api/wp-json/wp/v2/videos"
+        }
+      ],
+      "about": [
+        {
+          "href": "http://lovers.company/api/wp-json/wp/v2/types/video"
+        }
+      ],
+      "wp:attachment": [
+        {
+          "href": "http://lovers.company/api/wp-json/wp/v2/media?parent=64"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  }
+]

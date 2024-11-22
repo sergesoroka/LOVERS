@@ -3,8 +3,8 @@ import ContactComp from "@/components/ContactComp/ContactComp";
 import LoversImageComp from "@/components/ContactComp/LoversImageComp";
 
 export default async function Home() {
-  const data = await fetch("http://lovers.company/api/wp-json/wp/v2/pages");
-  const pages = await data.json();
+  // const data = await fetch("http://lovers.company/api/wp-json/wp/v2/pages");
+  // const pages = await data.json();
 
   return (
     <div className="relative">
@@ -20,7 +20,24 @@ export default async function Home() {
       <div className="pt-[22px] px-[24px] bg-[#1400ff]">
         <Header />
         <div className="mt-20">
-          {pages.map((page) => {
+          <div className="uppercase text-[32px] leading-[34px] md:text-[40px] md:leading-[44px]  md:px-[195px] pt-20">
+            We are -Lovers-, a full-service production company specializing in
+            audiovisual content creation. We work with global brands, creative
+            agencies, filmmakers, and photographers, combining our professional
+            experience with passion and love. Our priority is an innovative
+            approach and attention to detail to ensure that each project
+            consistently meets the highest standards of quality and technical
+            excellence. Our values are honesty, transparency, reliability, and
+            maintaining a good mood. We provide full-service production in the
+            Netherlands, Spain, Portugal, and Bulgaria, including directors &
+            DoPs, location scouting & management, special permits, studios,
+            multilingual casting services, celebrity negotiations,
+            camera/lighting/grip equipment, special effects, accommodations,
+            music licensing negotiations, and audio and visual post-production
+            services. Our goal is to build lasting and strong relationships with
+            our clients, founded on trust, openness, and positive emotions.
+          </div>
+          {/* {pages.map((page) => {
             if (page.id === 2) {
               return (
                 <div
@@ -30,7 +47,7 @@ export default async function Home() {
                 />
               );
             }
-          })}
+          })} */}
         </div>
         <ContactComp mode="dark" />
       </div>

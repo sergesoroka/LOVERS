@@ -1,10 +1,12 @@
 import WorksPageComp from "@/components/WorksPageComp/WorksPageComp";
 
-export default async function WorksCommercial() {
-  const data = await fetch("http://lovers.company/api/wp-json/wp/v2/videos", {
-    next: { revalidate: 10 },
-  });
-  const videos = await data.json();
+import video from "../../../data/video.json";
 
-  return <WorksPageComp videos={videos} category="commercials" />;
+export default async function WorksCommercial() {
+  // const data = await fetch("http://lovers.company/api/wp-json/wp/v2/videos", {
+  //   next: { revalidate: 10 },
+  // });
+  // const videos = await data.json();
+
+  return <WorksPageComp videos={video} category="commercials" />;
 }
