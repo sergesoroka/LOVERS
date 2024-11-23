@@ -23,7 +23,7 @@ export default function VideoSlider({ videos }) {
         <div className="">
           <iframe
             title="vimeo-player"
-            src={`${videos[page]?.youtube.rendered}?background=1&byline=0&title=0&byline=0&portrait=0&?color=1400FF`}
+            src={`${videos[page]?.vimeo.rendered}?background=1&byline=0&title=0&byline=0&portrait=0&?color=1400FF`}
             width="980"
             height="600"
           />

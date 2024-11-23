@@ -31,7 +31,7 @@ export default function WorksPageComp({ videos, category }) {
                 >
                   <VimeoPlayer
                     link={`/works/${category}/${video.slug}`}
-                    url={video.youtube.rendered}
+                    url={video.vimeo.rendered}
                   />
 
                   <div className="flex justify-between mb-10 mt-2 uppercase">
@@ -57,7 +57,7 @@ export default function WorksPageComp({ videos, category }) {
                 >
                   <VimeoPlayer
                     link={`/works/${category}/${video.slug}`}
-                    url={video.youtube.rendered}
+                    url={video.vimeo.rendered}
                   />
 
                   <div className="flex justify-between mb-10 mt-2 uppercase">

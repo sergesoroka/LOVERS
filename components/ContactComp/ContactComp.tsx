@@ -2,15 +2,15 @@ import "./contact.css";
 import GeneralQnquiries from "../GeneralQnquiries";
 import MediaLinks from "../MediaLinks";
 import DownloadPresentation from "../DownloadPresentation";
-// import WatchShowreel from "../WatchShowreel";
+import WatchShowreel from "../WatchShowreel";
 
-import pages from "../../data/pages.json";
+// import pages from "../../data/pages.json";
 
 import ImageComp from "./ImageComp";
 
 export default async function ContactComp({ mode }: { mode: string }) {
-  // const data = await fetch("http://lovers.company/api/wp-json/wp/v2/pages");
-  // const pages = await data.json();
+  const data = await fetch("http://restapi.lovers.company/wp-json/wp/v2/pages");
+  const pages = await data.json();
   return (
     <div className="relative">
       <div className="hidden md:block absolute top-[26.6rem] left-64 hover:top-[27.6rem]">
@@ -21,7 +21,7 @@ export default async function ContactComp({ mode }: { mode: string }) {
       </div>
       <div className="contacts">
         {pages.map((page) => {
-          if (page.id === 28) {
+          if (page.id === 14) {
             return (
               <div
                 key={page.id}
@@ -44,9 +44,9 @@ export default async function ContactComp({ mode }: { mode: string }) {
                     <MediaLinks />
                   </div>
                 </div>
+                <DownloadPresentation mode="small" />
                 <div className="pt-[26px] pb-[37px] flex flex-col md:flex-row justify-start gap-8  md:items-end md:gap-[130px]">
-                  <DownloadPresentation mode="small" />
-                  {/* <WatchShowreel /> */}
+                  <WatchShowreel />
                 </div>
               </div>
             );

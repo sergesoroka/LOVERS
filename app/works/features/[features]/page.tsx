@@ -3,7 +3,9 @@ import Header from "@/components/Header";
 import VideoSliderCategory from "@/components/VideoSlider/VideoSliderCategory";
 
 export default async function Video() {
-  const data = await fetch(`http://lovers.company/api/wp-json/wp/v2/videos`);
+  const data = await fetch(
+    `http://restapi.lovers.company/wp-json/wp/v2/video?per_page=50`
+  );
   const videos = await data.json();
 
   const categoryVideo = () =>

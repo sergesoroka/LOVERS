@@ -15,6 +15,8 @@ export default function VideoSliderCategory({ videos, slugs, category }) {
 
   const index = slugs.indexOf(slug);
 
+  console.log(videos);
+
   return (
     <div>
       <div className="flex justify-between items-center">
@@ -29,7 +31,7 @@ export default function VideoSliderCategory({ videos, slugs, category }) {
           <div className="">
             <iframe
               title="vimeo-player"
-              src={`${videos[index]?.youtube.rendered}?background=1&byline=0&title=0&byline=0&portrait=0&?color=1400FF`}
+              src={`${videos[index]?.vimeo.rendered}?background=1&byline=0&title=0&byline=0&portrait=0&?color=1400FF`}
               width="980"
               height="600"
             />
@@ -50,9 +52,9 @@ export default function VideoSliderCategory({ videos, slugs, category }) {
         )}
       </div>
       <div className="flex justify-between mb-10 mt-2 px-16 uppercase">
-        <p className=" w-[50%] text-left">{videos[index].title.rendered}</p>
+        <p className=" w-[50%] text-left">{videos[index]?.title.rendered}</p>
         <p className=" w-[380px] text-right">
-          {videos[index].subtitle.rendered}
+          {videos[index]?.subtitle.rendered}
         </p>
       </div>
     </div>
