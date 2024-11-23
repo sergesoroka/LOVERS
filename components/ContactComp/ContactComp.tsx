@@ -4,8 +4,6 @@ import MediaLinks from "../MediaLinks";
 import DownloadPresentation from "../DownloadPresentation";
 import WatchShowreel from "../WatchShowreel";
 
-// import pages from "../../data/pages.json";
-
 import ImageComp from "./ImageComp";
 
 export default async function ContactComp({ mode }: { mode: string }) {
@@ -16,7 +14,7 @@ export default async function ContactComp({ mode }: { mode: string }) {
       <div className="hidden md:block absolute top-[26.6rem] left-64 hover:top-[27.6rem]">
         <ImageComp name="daniil" />
       </div>
-      <div className="hidden md:block absolute top-[19.6rem] left-[34rem] hover:top-[18.6rem]">
+      <div className="hidden md:block absolute top-[19.6rem] left-[43rem] hover:top-[18.6rem]">
         <ImageComp name="mari" />
       </div>
       <div className="contacts">
@@ -34,19 +32,19 @@ export default async function ContactComp({ mode }: { mode: string }) {
                   dangerouslySetInnerHTML={{ __html: page.title.rendered }}
                 />
                 <div
-                  className="md:flex justify-start gap-[23px] uppercase my-14"
+                  className="md:flex justify-start gap-[230px] uppercase my-14"
                   dangerouslySetInnerHTML={{ __html: page.content.rendered }}
                 />
                 <hr />
                 <div className="pt-[26px] md:pb-[37px] md:flex justify-start  items-end md:gap-[126px]">
                   <GeneralQnquiries />
+                </div>
+                <DownloadPresentation mode="small" />
+                <div className="pt-[26px] pb-[37px] flex flex-col md:flex-row justify-start gap-8  md:items-end md:gap-[230px]">
+                  <WatchShowreel />
                   <div className="leading-[32px] mt-8">
                     <MediaLinks />
                   </div>
-                </div>
-                <DownloadPresentation mode="small" />
-                <div className="pt-[26px] pb-[37px] flex flex-col md:flex-row justify-start gap-8  md:items-end md:gap-[130px]">
-                  <WatchShowreel />
                 </div>
               </div>
             );
