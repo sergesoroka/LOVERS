@@ -60,8 +60,10 @@ export default function CategoryMenu({ size }: { size: string }) {
     return (
       <ul
         className={`${
-          smallIsShown ? "fixed top-[250px] left-[69px] right-0 z-50" : "hidden"
-        } categoryListSmall text-[90px] `}
+          smallIsShown
+            ? "fixed top-[250px] left-[69px] right-0 z-50 transition duration-150 ease-in-out"
+            : "hidden"
+        } categoryListSmall text-[90px] w-fit`}
       >
         {menuItems.map((item) => (
           <li
