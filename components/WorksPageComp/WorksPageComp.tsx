@@ -1,4 +1,3 @@
-import React from "react";
 import Header from "../Header";
 import CategoryMenu from "../CategoryMenu/CategoryMenu";
 import ContactComp from "../ContactComp/ContactComp";
@@ -11,11 +10,11 @@ export default function WorksPageComp({ videos, category }) {
       <div className="absolute top-30 md:top-[90px] md:left-[69px] text-[160px] z-50">
         <CategoryMenu size="l" />
       </div>
-      {/* {!category && (
-        <div className="absolute top-30 md:top-[990px] md:left-[69px] text-[160px] z-50">
+      {!category && (
+        <div className="hidden md:block  z-50">
           <CategoryMenu size="s" />
         </div>
-      )} */}
+      )}
       <div className="md:grid grid-cols-2 mb-60 place-items-center gap-[75px] mt-28 md:px-[40px]">
         {videos &&
           videos.map((video, idx) => {

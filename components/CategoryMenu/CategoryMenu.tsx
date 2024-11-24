@@ -2,6 +2,7 @@
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 import "./category.css";
+import { useEffect, useState } from "react";
 
 const menuItems = [
   { id: "0", link: "features", name: "features" },
@@ -14,31 +15,75 @@ const menuItems = [
 
 export default function CategoryMenu({ size }: { size: string }) {
   const pathname = usePathname();
+  const [isShown, setIsShown] = useState(true);
+  const [smallIsShown, setSmallIsShown] = useState(false);
 
-  return (
-    <ul
-      className={`${
-        size == "l" ? "categoryList" : "categoryListSmall"
-      }  text-[90px] `}
-    >
-      {menuItems.map((item) => (
-        <li
-          key={item.id}
-          className={`${
-            pathname === "/works/" + item.link && "text-white"
-          } text-[#1400ff] ${
-            size == "s" && "leading-[26px]"
-          } leading-[90px] uppercase`}
-        >
-          <Link
-            href={`${
-              item.link === "all-works" ? "/works" : "/works/" + item.link
-            }`}
+  useEffect(() => {
+    const handleScroll = () => {
+      const scrollPosition = window.scrollY;
+      if (scrollPosition > 40) setIsShown(false);
+      if (scrollPosition < 40) setIsShown(true);
+
+      if (scrollPosition > 570) setSmallIsShown(true);
+      if (scrollPosition < 570) setSmallIsShown(false);
+      console.log(scrollPosition, smallIsShown);
+    };
+    window.addEventListener("scroll", handleScroll);
+
+    return () => {
+      window.removeEventListener("scroll", handleScroll);
+    };
+  }, [isShown, setIsShown]);
+  if (size == "l" && isShown) {
+    return (
+      <ul className={`${"categoryList"}  text-[90px] `}>
+        {menuItems.map((item) => (
+          <li
+            key={item.id}
+            className={`${
+              pathname === "/works/" + item.link && "text-white"
+            } text-[#1400ff]  ${"leading-[90px]"}  uppercase`}
           >
-            {item.name}
-          </Link>
-        </li>
-      ))}
-    </ul>
-  );
+            <Link
+              href={`${
+                item.link === "all-works" ? "/works" : "/works/" + item.link
+              }`}
+            >
+              {item.name}
+            </Link>
+          </li>
+        ))}
+      </ul>
+    );
+  }
+  if (size == "s") {
+    return (
+      <ul
+        className={`${
+          smallIsShown ? "fixed top-[250px] left-[69px] right-0 z-50" : "hidden"
+        } categoryListSmall text-[90px] `}
+      >
+        {menuItems.map((item) => (
+          <li
+            key={item.id}
+            className={`${
+              pathname === "/works/" + item.link && "text-white"
+            } text-[#1400ff]  ${
+              size == "s"
+                ? "leading-[26px] text-white hover:text-[#1400ff]"
+                : "leading-[90px]"
+            }  uppercase`}
+          >
+            <Link
+              href={`${
+                item.link === "all-works" ? "/works" : "/works/" + item.link
+              }`}
+            >
+              {item.name}
+            </Link>
+          </li>
+        ))}
+      </ul>
+    );
+  }
 }
