@@ -19,10 +19,10 @@ export default function CategoryMenu({ size }: { size: string }) {
   const [smallIsShown, setSmallIsShown] = useState(false);
 
   useEffect(() => {
-    let scrollHeight = window.document.documentElement.scrollHeight;
-
     const handleScroll = () => {
+      const scrollHeight = window.document.documentElement.scrollHeight;
       const scrollPosition = window.scrollY;
+
       if (scrollPosition > 40) setIsShown(false);
       if (scrollPosition < 40) setIsShown(true);
 
