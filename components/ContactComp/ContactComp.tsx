@@ -11,10 +11,10 @@ export default async function ContactComp({ mode }: { mode: string }) {
   const pages = await data.json();
   return (
     <div className="relative">
-      <div className="hidden md:block absolute top-[26.6rem] left-64 hover:top-[27.6rem]">
+      <div className="hidden md:block absolute top-[26.6rem] w-[290px] h-[133px] left-64 ease-in-out delay-250 hover:translate-y-10 hover:translate-x-4">
         <ImageComp name="daniil" />
       </div>
-      <div className="hidden md:block absolute top-[19.6rem] left-[43rem] hover:top-[18.6rem]">
+      <div className="hidden md:block absolute w-[290px] h-[133px] top-[19.6rem] left-[37rem] ease-in-out delay-250 hover:-translate-y-10 hover:-translate-x-4">
         <ImageComp name="mari" />
       </div>
       <div className="contacts">

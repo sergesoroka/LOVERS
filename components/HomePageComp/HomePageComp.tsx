@@ -5,20 +5,6 @@ import MediaLinks from "../MediaLinks";
 import ScrollComp from "./ScrollComp";
 
 export default function HomePageComp() {
-  // useEffect(() => {
-  //   const handleScroll = () => {
-  //     const scrollPosition = window.scrollY; // Get current scroll position
-  //     const viewportHeight = window.innerHeight; // Height of the viewport
-  //     console.log(scrollPosition, viewportHeight);
-  //   };
-  //   // Add scroll listener
-  //   window.addEventListener("scroll", handleScroll);
-
-  //   // Cleanup listener on unmount
-  //   return () => {
-  //     window.removeEventListener("scroll", handleScroll);
-  //   };
-  // });
   return (
     <div className="home-page">
       <ScrollComp />
