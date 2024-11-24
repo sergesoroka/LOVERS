@@ -19,6 +19,8 @@ export default function CategoryMenu({ size }: { size: string }) {
   const [smallIsShown, setSmallIsShown] = useState(false);
 
   useEffect(() => {
+    let scrollHeight = window.document.documentElement.scrollHeight;
+
     const handleScroll = () => {
       const scrollPosition = window.scrollY;
       if (scrollPosition > 40) setIsShown(false);
@@ -26,14 +28,16 @@ export default function CategoryMenu({ size }: { size: string }) {
 
       if (scrollPosition > 570) setSmallIsShown(true);
       if (scrollPosition < 570) setSmallIsShown(false);
-      console.log(scrollPosition, smallIsShown);
+
+      if (scrollHeight - scrollPosition < 1200) setSmallIsShown(false);
     };
     window.addEventListener("scroll", handleScroll);
 
     return () => {
       window.removeEventListener("scroll", handleScroll);
     };
-  }, [isShown, setIsShown]);
+  }, [isShown, setIsShown, setSmallIsShown, setSmallIsShown]);
+
   if (size == "l" && isShown) {
     return (
       <ul className={`${"categoryList"}  text-[90px] `}>
