@@ -4,19 +4,19 @@ import MediaLinks from "../MediaLinks";
 import DownloadPresentation from "../DownloadPresentation";
 import WatchShowreel from "../WatchShowreel";
 
-import ImageComp from "./ImageComp";
+// import ImageComp from "./ImageComp";
 
 export default async function ContactComp({ mode }: { mode: string }) {
   const data = await fetch("http://restapi.lovers.company/wp-json/wp/v2/pages");
   const pages = await data.json();
   return (
     <div className="relative">
-      <div className="hidden md:block z-50 absolute top-[26.6rem] w-[290px] h-[133px] left-64 transition ease-in-out delay-150 hover:translate-y-12 hover:-translate-x-4">
+      {/* <div className="hidden md:block z-50 absolute top-[26.6rem] w-[290px] h-[133px] left-64 transition ease-in-out delay-150 hover:translate-y-12 hover:-translate-x-4">
         <ImageComp name="daniil" />
       </div>
       <div className="hidden md:block absolute w-[290px] h-[133px] top-[19.6rem] left-[43rem] transition ease-in-out delay-150 hover:-translate-y-12 hover:-translate-x-4">
         <ImageComp name="mari" />
-      </div>
+      </div> */}
       <div className="contacts">
         {pages.map((page) => {
           if (page.id === 14) {
