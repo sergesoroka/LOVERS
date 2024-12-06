@@ -1,5 +1,5 @@
 import Header from "../Header";
-import CategoryMenu from "../CategoryMenu/CategoryMenu";
+// import CategoryMenu from "../CategoryMenu/CategoryMenu";
 import ContactComp from "../ContactComp/ContactComp";
 import VimeoPlayer from "../VimeoPlayer/VimeoPlayer";
 

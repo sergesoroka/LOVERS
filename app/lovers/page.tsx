@@ -1,6 +1,6 @@
 import Header from "@/components/Header";
 import ContactComp from "@/components/ContactComp/ContactComp";
-import LoversImageComp from "@/components/ContactComp/LoversImageComp";
+// import LoversImageComp from "@/components/ContactComp/LoversImageComp";
 
 export default async function Home() {
   const data = await fetch("http://restapi.lovers.company/wp-json/wp/v2/pages");
