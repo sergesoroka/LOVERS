@@ -70,7 +70,7 @@ export default function Header() {
                 pathname == "/" ? "text-[#1400ff]" : "text-white"
               } `}
             >
-              From passion to action:
+              From passion to action
             </div>
           </div>
         </Link>
