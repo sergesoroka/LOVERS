@@ -28,11 +28,11 @@ export default async function ContactComp({ mode }: { mode: string }) {
                 <div
                   className={`${
                     mode == "light" ? "text-[#1400ff]" : "text-[#1f1b1b]"
-                  } contactsTitle uppercase text-[100px] leading-[84px] md:mt-[60px]  md:text-[160px] md:leading-[140px]  pt-14`}
+                  } contactsTitle uppercase text-[98px] leading-[84px] md:mt-[60px]  md:text-[160px] md:leading-[140px]  pt-14`}
                   dangerouslySetInnerHTML={{ __html: page.title.rendered }}
                 />
                 <div
-                  className="md:flex justify-start gap-[230px] uppercase my-14"
+                  className="flex flex-col gap-6 md:flex-row  md:justify-start md:gap-[230px] uppercase my-14"
                   dangerouslySetInnerHTML={{ __html: page.content.rendered }}
                 />
                 <hr />
