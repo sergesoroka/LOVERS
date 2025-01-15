@@ -12,12 +12,7 @@ export default function HomePageComp() {
     <div className="home-page">
       <ScrollComp />
       <div className="vimeo-background">
-        <iframe
-          src={bgLink}
-          frameborder="0"
-          allow="autoplay; fullscreen"
-          allowfullscreen
-        ></iframe>
+        <iframe src={bgLink} allow="autoplay; fullscreen"></iframe>
       </div>
       <div className="relative pt-[22px] px-[24px]">
         <Header />
