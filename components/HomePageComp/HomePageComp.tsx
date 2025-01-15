@@ -4,10 +4,21 @@ import MainLogoMobile from "../Logo/MainLogoMobile";
 import MediaLinks from "../MediaLinks";
 import ScrollComp from "./ScrollComp";
 
+const bgLink =
+  "https://player.vimeo.com/video/954061915?badge=0&autopause=0&player_id=0&app_id=58479?autoplay=1&loop=1&muted=1&background=1";
+
 export default function HomePageComp() {
   return (
     <div className="home-page">
       <ScrollComp />
+      <div className="vimeo-background">
+        <iframe
+          src={bgLink}
+          frameborder="0"
+          allow="autoplay; fullscreen"
+          allowfullscreen
+        ></iframe>
+      </div>
       <div className="relative pt-[22px] px-[24px]">
         <Header />
       </div>
