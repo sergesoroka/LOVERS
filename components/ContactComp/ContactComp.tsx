@@ -36,7 +36,7 @@ export default async function ContactComp({ mode }: { mode: string }) {
                   dangerouslySetInnerHTML={{ __html: page.content.rendered }}
                 />
                 <hr />
-                <div className="pt-[26px] md:pb-[37px] md:flex justify-start  items-end md:gap-[126px]">
+                <div className="pt-[26px]  md:flex justify-start  items-end md:gap-[126px]">
                   <GeneralQnquiries />
                 </div>
                 <DownloadPresentation mode="small" />
