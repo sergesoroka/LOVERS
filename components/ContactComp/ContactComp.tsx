@@ -40,7 +40,7 @@ export default async function ContactComp({ mode }: { mode: string }) {
                   <GeneralQnquiries />
                 </div>
                 <DownloadPresentation mode="small" />
-                <div className="pt-[26px] pb-[37px] flex flex-col md:flex-row justify-start gap-8  md:items-end md:gap-[230px]">
+                <div className="pb-[37px] flex flex-col md:flex-row justify-start gap-8  md:items-end md:gap-[230px]">
                   <WatchShowreel />
                   <div className="leading-[32px] mt-8">
                     <MediaLinks />
