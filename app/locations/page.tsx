@@ -9,7 +9,7 @@ export default async function Locions() {
 
   return (
     <div className="relative">
-      <div className="pt-[22px] px-[24px] bg-black locations-page">
+      <div className="pt-[22px] px-[24px] locations-page">
         <Header />
         <div className="mt-8 md:mt-20">
           <div className="text-[#1400ff] contactsTitle uppercase text-[98px]  md:mt-[60px]  md:text-[160px] leading-[100px] md:leading-[140px]  pt-14">
