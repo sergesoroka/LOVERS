@@ -4,8 +4,8 @@ import DownloadIcon from "@/components/Icons/DownloadIcon";
 // import LoversImageComp from "@/components/ContactComp/LoversImageComp";
 
 export default async function Locions() {
-  const data = await fetch("http://restapi.lovers.company/wp-json/wp/v2/pages");
-  const pages = await data.json();
+  // const data = await fetch("http://restapi.lovers.company/wp-json/wp/v2/pages");
+  // const pages = await data.json();
 
   return (
     <div className="relative">
