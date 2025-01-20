@@ -13,7 +13,7 @@ export default async function Video() {
   const slugsArray = getSlugs();
 
   return (
-    <div className="pt-[22px] px-[24px] bg-black h-full">
+    <div className="pt-[22px] px-[24px] bg-black h-screen">
       <Header />
       <VideoSliderCategory videos={videos} slugs={slugsArray} category="" />
     </div>
