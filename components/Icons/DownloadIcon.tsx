@@ -4,8 +4,8 @@ export default function DownloadIcon({ mode }: { mode: string }) {
   if (mode === "large") {
     return (
       <svg
-        width="36"
-        height="36"
+        width="62"
+        height="62"
         viewBox="0 0 24 24"
         fill="none"
         xmlns="http://www.w3.org/2000/svg"

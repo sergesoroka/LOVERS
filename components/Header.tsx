@@ -11,8 +11,8 @@ const menuItems = [
   { id: "0", link: "lovers" },
   { id: "1", link: "works" },
   // { id: "2", link: "clients" },
-  // { id: "3", link: "locations" },
-  // { id: "4", link: "casting" },
+  { id: "3", link: "locations" },
+  { id: "4", link: "casting" },
   { id: "5", link: "contacts" },
 ];
 export default function Header() {
@@ -80,10 +80,17 @@ export default function Header() {
             <li
               key={item.id}
               className={` ${
-                pathname == "/" + item.link && pathname !== "/works"
+                pathname == "/" + item.link &&
+                pathname !== "/works" &&
+                pathname !== "/locations" &&
+                pathname !== "/casting"
                   ? "text-black line-through"
                   : pathname == "/works" && item.link == "works"
                   ? "text-[#1400ff]  line-through"
+                  : pathname == "/locations" && item.link == "locations"
+                  ? "text-white  line-through"
+                  : pathname == "/casting" && item.link == "casting"
+                  ? "text-white  line-through"
                   : "text-white"
               } `}
             >
