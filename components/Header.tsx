@@ -10,7 +10,7 @@ import { useState } from "react";
 const menuItems = [
   { id: "0", link: "lovers" },
   { id: "1", link: "works" },
-  // { id: "2", link: "clients" },
+  { id: "2", link: "clients" },
   { id: "3", link: "locations" },
   { id: "4", link: "casting" },
   { id: "5", link: "contacts" },
@@ -76,13 +76,16 @@ export default function Header() {
                 pathname == "/" + item.link &&
                 pathname !== "/works" &&
                 pathname !== "/locations" &&
-                pathname !== "/casting"
+                pathname !== "/casting" &&
+                pathname !== "/clients"
                   ? "text-black line-through"
                   : pathname == "/works" && item.link == "works"
                   ? "text-[#1400ff]  line-through"
                   : pathname == "/locations" && item.link == "locations"
                   ? "text-white  line-through"
                   : pathname == "/casting" && item.link == "casting"
+                  ? "text-white  line-through"
+                  : pathname == "/clients" && item.link == "clients"
                   ? "text-white  line-through"
                   : "text-white"
               } `}
