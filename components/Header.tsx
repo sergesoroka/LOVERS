@@ -72,7 +72,7 @@ export default function Header() {
           {menuItems.map((item) => (
             <li
               key={item.id}
-              className={` ${
+              className={`hover:line-through ${
                 pathname == "/" + item.link &&
                 pathname !== "/works" &&
                 pathname !== "/locations" &&
@@ -86,7 +86,7 @@ export default function Header() {
                   : pathname == "/casting" && item.link == "casting"
                   ? "text-white  line-through"
                   : pathname == "/clients" && item.link == "clients"
-                  ? "text-white  line-through"
+                  ? "text-[#1400ff]  line-through"
                   : "text-white"
               } `}
             >

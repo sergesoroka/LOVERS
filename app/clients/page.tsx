@@ -10,7 +10,7 @@ export default async function Clients() {
 
   return (
     <div className="relative">
-      <div className="pt-[22px] px-[24px] bg-black">
+      <div className="pt-[22px] px-[24px] bg-[#151515]">
         <Header />
         <div className="mt-20">
           <div className="grid grid-cols-2 md:grid-cols-5 items-center justify-center pt-6">

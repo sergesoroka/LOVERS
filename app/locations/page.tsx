@@ -74,7 +74,7 @@ export default async function Locions() {
             hassle-free. We’ll guide you through the process and help bring your
             property to the big screen.
           </div>
-          <div className="relative uppercase text-[#1400ff] text-[20px] leading-[26px] md:mr-[7rem] mt-[2rem] md:ml-[7rem] md:leading-[44px] md:mb-[300px] z-10">
+          <div className="relative uppercase text-[#1400ff] text-[22px] leading-[26px] md:mr-[7rem] mt-[2rem] md:ml-[7rem] md:leading-[44px] md:mb-[300px] z-10">
             CONTACT US: production@lovers.company
           </div>
         </div>

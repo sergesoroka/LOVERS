@@ -68,7 +68,7 @@ export default async function Casting() {
             Registration is free. Join our team and get a chance to be part of
             amazing projects!
           </div>
-          <div className="relative uppercase text-[#1400ff] text-[20px] leading-[26px] md:mr-[7rem] mt-[2rem] md:ml-[7rem] md:leading-[44px] md:mb-[300px] z-10">
+          <div className="relative uppercase text-[#1400ff] text-[22px] leading-[26px] md:mr-[7rem] mt-[2rem] md:ml-[7rem] md:leading-[44px] md:mb-[300px] z-10">
             CONTACT US: production@lovers.company
           </div>
         </div>
