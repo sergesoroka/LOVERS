@@ -39,7 +39,7 @@ export default function HomePageComp({ videos }) {
       <div className="absolute bottom-[22px] right-[24px] text-[#1400ff] text-right">
         <MediaLinks />
       </div>
-      <Link href={`/works/${videos[randomNum]?.title?.rendered.toLowerCase()}`}>
+      <Link href={`/works/${videos[randomNum]?.slug}`}>
         <div className="absolute bottom-[22px] left-[24px] text-[#1400ff] text-right">
           {videos[randomNum]?.title?.rendered.toUpperCase()}
         </div>
