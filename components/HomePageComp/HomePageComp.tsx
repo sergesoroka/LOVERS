@@ -1,3 +1,4 @@
+import Link from "next/link";
 import Header from "../Header";
 import MainLogo from "../Logo/MainLogo";
 import MainLogoMobile from "../Logo/MainLogoMobile";
@@ -38,6 +39,11 @@ export default function HomePageComp({ videos }) {
       <div className="absolute bottom-[22px] right-[24px] text-[#1400ff] text-right">
         <MediaLinks />
       </div>
+      <Link href={`/works/${videos[randomNum]?.title?.rendered.toLowerCase()}`}>
+        <div className="absolute bottom-[22px] left-[24px] text-[#1400ff] text-right">
+          {videos[randomNum]?.title?.rendered.toUpperCase()}
+        </div>
+      </Link>
     </div>
   );
 }
