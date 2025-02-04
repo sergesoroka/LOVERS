@@ -19,7 +19,7 @@ export default async function DownloadPresentation({ mode }: { mode: string }) {
                 className="uppercase"
                 dangerouslySetInnerHTML={{ __html: page.content.rendered }}
               />
-              <DownloadIcon mode="small" />
+              <DownloadIcon mode={mode} />
             </div>
           );
         }
