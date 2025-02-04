@@ -3,18 +3,40 @@ export default async function MediaLinks() {
   const pages = await data.json();
 
   return (
-    <div>
+    <ul>
       {pages.map((page) => {
-        if (page.id === 48) {
+        if (page.id === 155) {
           return (
-            <div
+            <li
               key={page.id}
-              className="uppercase"
+              className="uppercase hover:line-through cursor-pointer hover:text-white z-50"
               dangerouslySetInnerHTML={{ __html: page.content.rendered }}
             />
           );
         }
       })}
-    </div>
+      {pages.map((page) => {
+        if (page.id === 157) {
+          return (
+            <li
+              key={page.id}
+              className="uppercase hover:line-through cursor-pointer hover:text-white"
+              dangerouslySetInnerHTML={{ __html: page.content.rendered }}
+            />
+          );
+        }
+      })}
+      {pages.map((page) => {
+        if (page.id === 159) {
+          return (
+            <li
+              key={page.id}
+              className="uppercase hover:line-through cursor-pointer hover:text-white"
+              dangerouslySetInnerHTML={{ __html: page.content.rendered }}
+            />
+          );
+        }
+      })}
+    </ul>
   );
 }

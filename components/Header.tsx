@@ -72,7 +72,7 @@ export default function Header() {
           {menuItems.map((item) => (
             <li
               key={item.id}
-              className={`hover:line-through ${
+              className={`cursor-pointer hover:line-through ${
                 pathname == "/" + item.link &&
                 pathname !== "/works" &&
                 pathname !== "/locations" &&

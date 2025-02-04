@@ -13,6 +13,9 @@ body {
   --background: #1400ff;
   --foreground: #fff;
 }
+a {
+  cursor: pointer;
+}
 
 .vp-title,
 .vp-sidedock {
