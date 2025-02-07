@@ -75,7 +75,13 @@ export default async function Locions() {
             property to the big screen.
           </div>
           <div className="relative uppercase text-[#1400ff] text-[22px] leading-[26px] md:mr-[7rem] mt-[2rem] md:ml-[7rem] md:leading-[44px] md:mb-[300px] z-10">
-            CONTACT US: production@lovers.company
+            CONTACT US:{" "}
+            <a
+              className="cursor-pointer"
+              href="mailto:production@lovers.company"
+            >
+              production@lovers.company
+            </a>
           </div>
         </div>
         <ContactComp mode="light" />
