@@ -1,6 +1,5 @@
 import Header from "@/components/Header";
 import ContactComp from "@/components/ContactComp/ContactComp";
-// import LoversImageComp from "@/components/ContactComp/LoversImageComp";
 
 export default async function Clients() {
   const data = await fetch(
