@@ -1,10 +1,32 @@
+"use client";
 import Link from "next/link";
+import { useRef } from "react";
 
 const VimeoPlayer = ({ url, link }) => {
+  const iframeRef = useRef<HTMLIFrameElement | null>(null);
+
+  const playVideo = () => {
+    if (iframeRef.current) {
+      iframeRef.current.contentWindow?.postMessage('{"method":"play"}', "*");
+    }
+  };
+
+  const pauseVideo = () => {
+    if (iframeRef.current) {
+      iframeRef.current.contentWindow?.postMessage('{"method":"pause"}', "*");
+    }
+  };
+
   return (
-    <div className="video-wrapper">
+    <div
+      className="video-wrapper"
+      onMouseEnter={playVideo}
+      onMouseLeave={pauseVideo}
+      style={{ width: "640px", height: "360px", overflow: "hidden" }}
+    >
       <iframe
-        src={`${url}?autoplay=1&background=1&byline=0&portrait=0`}
+        ref={iframeRef}
+        src={`${url}?background=1&byline=0&portrait=0&controls=0&muted=1`}
         allow="autoplay; fullscreen; picture-in-picture"
         allowFullScreen
       ></iframe>
