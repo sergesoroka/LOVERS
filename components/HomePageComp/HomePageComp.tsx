@@ -2,7 +2,7 @@ import Link from "next/link";
 import Header from "../Header";
 import MainLogo from "../Logo/MainLogo";
 import MainLogoMobile from "../Logo/MainLogoMobile";
-import MediaLinks from "../MediaLinks";
+// import MediaLinks from "../MediaLinks";
 import ScrollComp from "./ScrollComp";
 
 export default function HomePageComp({ videos }) {

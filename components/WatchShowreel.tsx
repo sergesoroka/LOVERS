@@ -1,4 +1,4 @@
-import page from "./../data/pages.json";
+// import page from "./../data/pages.json";
 
 export default async function WatchShowreel() {
   // const data = await fetch(
