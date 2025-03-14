@@ -1,11 +1,13 @@
 import Header from "@/components/Header";
 import ContactComp from "@/components/ContactComp/ContactComp";
 
+import pages from "./../../data/clients.json";
+
 export default async function Clients() {
-  const data = await fetch(
-    "https://restapi.lovers.company/wp-json/wp/v2/client?per_page=50"
-  );
-  const pages = await data.json();
+  // const data = await fetch(
+  //   "http://restapi.lovers.company/wp-json/wp/v2/client?per_page=50"
+  // );
+  // const pages = await data.json();
 
   return (
     <div className="relative">

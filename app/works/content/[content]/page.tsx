@@ -3,14 +3,16 @@ import Header from "@/components/Header";
 import VideoSliderCategory from "@/components/VideoSlider/VideoSliderCategory";
 // import video from "../../../../data/video.json";
 
+import { mov } from "@/data/videos-new";
+
 export default async function Video() {
-  const data = await fetch(
-    `http://restapi.lovers.company/wp-json/wp/v2/video?per_page=50`
-  );
-  const videos = await data.json();
+  // const data = await fetch(
+  //   `http://restapi.lovers.company/wp-json/wp/v2/video?per_page=50`
+  // );
+  // const videos = await data.json();
 
   const categoryVideo = () =>
-    videos.filter((video) => video.type_of_work.rendered == "content");
+    mov.filter((video) => video.type_of_work.rendered == "content");
   const renderedVideo = categoryVideo();
 
   const getSlugs = () => renderedVideo.map((video) => video.slug);

@@ -1,10 +1,11 @@
 import DownloadIcon from "./Icons/DownloadIcon";
+import pages from "./../data/pages.json";
 
 export default async function DownloadPresentation({ mode }: { mode: string }) {
-  const data = await fetch(
-    "https://restapi.lovers.company/wp-json/wp/v2/pages"
-  );
-  const pages = await data.json();
+  // const data = await fetch(
+  //   "https://restapi.lovers.company/wp-json/wp/v2/pages"
+  // );
+  // const pages = await data.json();
 
   return (
     <div className="relative">

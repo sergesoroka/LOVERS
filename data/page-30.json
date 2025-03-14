@@ -1,0 +1,74 @@
+{
+  "id": 30,
+  "date": "2024-11-23T12:03:46",
+  "date_gmt": "2024-11-23T12:03:46",
+  "guid": { "rendered": "http://restapi.lovers.company/?page_id=30" },
+  "modified": "2024-11-23T13:13:56",
+  "modified_gmt": "2024-11-23T13:13:56",
+  "slug": "general-enquiries",
+  "status": "publish",
+  "type": "page",
+  "link": "https://restapi.lovers.company/general-enquiries/",
+  "title": { "rendered": "General Enquiries" },
+  "content": {
+    "rendered": "\n<p><strong>General Enquiries:</strong>\n<br><a href=\"mailto:production@lovers.company\">production@lovers.company</a></p>\n",
+    "protected": false
+  },
+  "excerpt": {
+    "rendered": "<p>General Enquiries: production@lovers.company</p>\n",
+    "protected": false
+  },
+  "author": 1,
+  "featured_media": 0,
+  "parent": 0,
+  "menu_order": 0,
+  "comment_status": "closed",
+  "ping_status": "closed",
+  "template": "",
+  "meta": { "footnotes": "" },
+  "class_list": ["post-30", "page", "type-page", "status-publish", "hentry"],
+  "_links": {
+    "self": [
+      {
+        "href": "https://restapi.lovers.company/wp-json/wp/v2/pages/30",
+        "targetHints": { "allow": ["GET"] }
+      }
+    ],
+    "collection": [
+      { "href": "https://restapi.lovers.company/wp-json/wp/v2/pages" }
+    ],
+    "about": [
+      { "href": "https://restapi.lovers.company/wp-json/wp/v2/types/page" }
+    ],
+    "author": [
+      {
+        "embeddable": true,
+        "href": "https://restapi.lovers.company/wp-json/wp/v2/users/1"
+      }
+    ],
+    "replies": [
+      {
+        "embeddable": true,
+        "href": "https://restapi.lovers.company/wp-json/wp/v2/comments?post=30"
+      }
+    ],
+    "version-history": [
+      {
+        "count": 4,
+        "href": "https://restapi.lovers.company/wp-json/wp/v2/pages/30/revisions"
+      }
+    ],
+    "predecessor-version": [
+      {
+        "id": 60,
+        "href": "https://restapi.lovers.company/wp-json/wp/v2/pages/30/revisions/60"
+      }
+    ],
+    "wp:attachment": [
+      { "href": "https://restapi.lovers.company/wp-json/wp/v2/media?parent=30" }
+    ],
+    "curies": [
+      { "name": "wp", "href": "https://api.w.org/{rel}", "templated": true }
+    ]
+  }
+}

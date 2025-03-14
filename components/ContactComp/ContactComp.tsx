@@ -4,13 +4,15 @@ import MediaLinks from "../MediaLinks";
 import DownloadPresentation from "../DownloadPresentation";
 import WatchShowreel from "../WatchShowreel";
 
-// import ImageComp from "./ImageComp";
+import page from "./../../data/contacts-page.json";
 
 export default async function ContactComp({ mode }: { mode: string }) {
-  const data = await fetch(
-    "http://restapi.lovers.company/wp-json/wp/v2/pages/14"
-  );
-  const page = await data.json();
+  // const data = await fetch(
+  //   "http://restapi.lovers.company/wp-json/wp/v2/pages/14"
+  // );
+  // const pageData = await data.json();
+
+  // const page = pageData ? pageData : pages;
 
   return (
     <div className="relative">

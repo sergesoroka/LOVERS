@@ -1,0 +1,74 @@
+{
+  "id": 14,
+  "date": "2024-11-23T09:53:52",
+  "date_gmt": "2024-11-23T09:53:52",
+  "guid": { "rendered": "http://restapi.lovers.company/?page_id=14" },
+  "modified": "2024-12-12T15:38:55",
+  "modified_gmt": "2024-12-12T15:38:55",
+  "slug": "lets-make-love-stills-and-motion-together",
+  "status": "publish",
+  "type": "page",
+  "link": "https://restapi.lovers.company/lets-make-love-stills-and-motion-together/",
+  "title": { "rendered": "Let\u2019s make love, stills, and motion together." },
+  "content": {
+    "rendered": "\n<p><strong>Daniil Captiuh / ep</strong><br> <a href=\"mailto:danny@lovers.company\">danny@lovers.company</a></p>\n\n\n\n<p><strong>Mari Safarian / ep</strong><br>\n<a href=\"mailto:mari@lovers.company\">mari@lovers.company</a></p>\n\n\n\n<p></p>\n",
+    "protected": false
+  },
+  "excerpt": {
+    "rendered": "<p>Daniil Captiuh / ep danny@lovers.company Mari Safarian / ep mari@lovers.company</p>\n",
+    "protected": false
+  },
+  "author": 1,
+  "featured_media": 0,
+  "parent": 0,
+  "menu_order": 0,
+  "comment_status": "closed",
+  "ping_status": "closed",
+  "template": "",
+  "meta": { "footnotes": "" },
+  "class_list": ["post-14", "page", "type-page", "status-publish", "hentry"],
+  "_links": {
+    "self": [
+      {
+        "href": "https://restapi.lovers.company/wp-json/wp/v2/pages/14",
+        "targetHints": { "allow": ["GET"] }
+      }
+    ],
+    "collection": [
+      { "href": "https://restapi.lovers.company/wp-json/wp/v2/pages" }
+    ],
+    "about": [
+      { "href": "https://restapi.lovers.company/wp-json/wp/v2/types/page" }
+    ],
+    "author": [
+      {
+        "embeddable": true,
+        "href": "https://restapi.lovers.company/wp-json/wp/v2/users/1"
+      }
+    ],
+    "replies": [
+      {
+        "embeddable": true,
+        "href": "https://restapi.lovers.company/wp-json/wp/v2/comments?post=14"
+      }
+    ],
+    "version-history": [
+      {
+        "count": 14,
+        "href": "https://restapi.lovers.company/wp-json/wp/v2/pages/14/revisions"
+      }
+    ],
+    "predecessor-version": [
+      {
+        "id": 79,
+        "href": "https://restapi.lovers.company/wp-json/wp/v2/pages/14/revisions/79"
+      }
+    ],
+    "wp:attachment": [
+      { "href": "https://restapi.lovers.company/wp-json/wp/v2/media?parent=14" }
+    ],
+    "curies": [
+      { "name": "wp", "href": "https://api.w.org/{rel}", "templated": true }
+    ]
+  }
+}

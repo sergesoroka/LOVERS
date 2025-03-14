@@ -37,7 +37,7 @@ export default function HomePageComp({ videos }) {
         </div> */}
       </div>
       <div className="absolute bottom-[22px] right-[24px] text-[#1400ff] text-right">
-        <MediaLinks />
+        {/* <MediaLinks /> */}
       </div>
       <Link href={`/works/${videos[randomNum]?.slug}`}>
         <div className="absolute bottom-[22px] left-[24px] text-[#1400ff] text-right">
