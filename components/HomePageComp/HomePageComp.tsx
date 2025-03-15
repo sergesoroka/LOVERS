@@ -2,7 +2,7 @@ import Link from "next/link";
 import Header from "../Header";
 import MainLogo from "../Logo/MainLogo";
 import MainLogoMobile from "../Logo/MainLogoMobile";
-// import MediaLinks from "../MediaLinks";
+import MediaLinks from "../MediaLinks";
 import ScrollComp from "./ScrollComp";
 
 export default function HomePageComp({ videos }) {
@@ -37,7 +37,7 @@ export default function HomePageComp({ videos }) {
         </div> */}
       </div>
       <div className="absolute bottom-[22px] right-[24px] text-[#1400ff] text-right">
-        {/* <MediaLinks /> */}
+        <MediaLinks />
       </div>
       <Link href={`/works/${videos[randomNum]?.slug}`}>
         <div className="absolute bottom-[22px] left-[24px] text-[#1400ff] text-right">
