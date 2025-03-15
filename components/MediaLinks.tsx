@@ -1,5 +1,5 @@
 import Link from "next/link";
-import pages from "./../data/pages.json";
+// import pages from "./../data/pages.json";
 
 export default async function MediaLinks() {
   // const data = await fetch("http://restapi.lovers.company/wp-json/wp/v2/pages");
