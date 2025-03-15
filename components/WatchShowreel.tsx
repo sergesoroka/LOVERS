@@ -1,4 +1,4 @@
-// import page from "./../data/pages.json";
+import page from "./../data/page-39.json";
 
 export default async function WatchShowreel() {
   // const data = await fetch(
@@ -6,5 +6,15 @@ export default async function WatchShowreel() {
   // );
   // const page = await data.json();
 
-  return <div></div>;
+  return (
+    <div>
+      <div key={page.id} className="">
+        <div
+          className="uppercase"
+          dangerouslySetInnerHTML={{ __html: page?.content?.rendered }}
+        />
+        {/* <PlayOutlineIcon /> */}
+      </div>
+    </div>
+  );
 }

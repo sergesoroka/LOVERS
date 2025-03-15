@@ -1,0 +1,76 @@
+{
+  "id": 39,
+  "date": "2024-11-23T12:12:10",
+  "date_gmt": "2024-11-23T12:12:10",
+  "guid": { "rendered": "http://restapi.lovers.company/?page_id=39" },
+  "modified": "2024-11-23T12:12:10",
+  "modified_gmt": "2024-11-23T12:12:10",
+  "slug": "emmy-andriessestraat-2581087-ml-amsterdam31-6-21-33-96-63",
+  "status": "publish",
+  "type": "page",
+  "link": "https://restapi.lovers.company/emmy-andriessestraat-2581087-ml-amsterdam31-6-21-33-96-63/",
+  "title": {
+    "rendered": "Emmy Andriessestraat 2581087 ML Amsterdam+31 6 21 33 96 63"
+  },
+  "content": {
+    "rendered": "\n<p>Emmy Andriessestraat 258<br>1087 ML Amsterdam<br><br>+31 6 21 33 96 63</p>\n",
+    "protected": false
+  },
+  "excerpt": {
+    "rendered": "<p>Emmy Andriessestraat 2581087 ML Amsterdam +31 6 21 33 96 63</p>\n",
+    "protected": false
+  },
+  "author": 1,
+  "featured_media": 0,
+  "parent": 0,
+  "menu_order": 0,
+  "comment_status": "closed",
+  "ping_status": "closed",
+  "template": "",
+  "meta": { "footnotes": "" },
+  "class_list": ["post-39", "page", "type-page", "status-publish", "hentry"],
+  "_links": {
+    "self": [
+      {
+        "href": "https://restapi.lovers.company/wp-json/wp/v2/pages/39",
+        "targetHints": { "allow": ["GET"] }
+      }
+    ],
+    "collection": [
+      { "href": "https://restapi.lovers.company/wp-json/wp/v2/pages" }
+    ],
+    "about": [
+      { "href": "https://restapi.lovers.company/wp-json/wp/v2/types/page" }
+    ],
+    "author": [
+      {
+        "embeddable": true,
+        "href": "https://restapi.lovers.company/wp-json/wp/v2/users/1"
+      }
+    ],
+    "replies": [
+      {
+        "embeddable": true,
+        "href": "https://restapi.lovers.company/wp-json/wp/v2/comments?post=39"
+      }
+    ],
+    "version-history": [
+      {
+        "count": 2,
+        "href": "https://restapi.lovers.company/wp-json/wp/v2/pages/39/revisions"
+      }
+    ],
+    "predecessor-version": [
+      {
+        "id": 168,
+        "href": "https://restapi.lovers.company/wp-json/wp/v2/pages/39/revisions/168"
+      }
+    ],
+    "wp:attachment": [
+      { "href": "https://restapi.lovers.company/wp-json/wp/v2/media?parent=39" }
+    ],
+    "curies": [
+      { "name": "wp", "href": "https://api.w.org/{rel}", "templated": true }
+    ]
+  }
+}

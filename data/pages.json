@@ -1,46 +1,73 @@
 [
   {
-    "id": 152,
-    "date": "2025-01-21T14:28:17",
-    "date_gmt": "2025-01-21T14:28:17",
-    "guid": {
-      "rendered": "https://restapi.lovers.company/?post_type=client&#038;p=152"
-    },
-    "modified": "2025-01-21T14:28:17",
-    "modified_gmt": "2025-01-21T14:28:17",
-    "slug": "yr",
+    "id": 166,
+    "date": "2025-02-04T13:57:41",
+    "date_gmt": "2025-02-04T13:57:41",
+    "guid": { "rendered": "https://restapi.lovers.company/?page_id=166" },
+    "modified": "2025-02-04T13:57:41",
+    "modified_gmt": "2025-02-04T13:57:41",
+    "slug": "download-presentation",
     "status": "publish",
-    "type": "client",
-    "link": "https://restapi.lovers.company/client/yr/",
-    "title": { "rendered": "Y&amp;R" },
+    "type": "page",
+    "link": "https://restapi.lovers.company/download-presentation/",
+    "title": { "rendered": "Download presentation" },
     "content": {
-      "rendered": "\n<figure class=\"wp-block-image size-full\"><img loading=\"lazy\" decoding=\"async\" width=\"320\" height=\"320\" src=\"https://restapi.lovers.company/wp-content/uploads/2025/01/yr-webp320\u0445320.webp\" alt=\"\" class=\"wp-image-153\" srcset=\"https://restapi.lovers.company/wp-content/uploads/2025/01/yr-webp320\u0445320.webp 320w, https://restapi.lovers.company/wp-content/uploads/2025/01/yr-webp320\u0445320-300x300.webp 300w, https://restapi.lovers.company/wp-content/uploads/2025/01/yr-webp320\u0445320-150x150.webp 150w\" sizes=\"auto, (max-width: 320px) 100vw, 320px\" /></figure>\n",
+      "rendered": "\n<p><a href=\"https://drive.google.com/file/d/1A7jkWsIPfW5--tipyhZjxfNjzo2UgU4A/view\" target=\"_blank\" rel=\"noreferrer noopener\">DOWNLOAD OUR PRESENTATION</a></p>\n",
       "protected": false
     },
+    "excerpt": {
+      "rendered": "<p>DOWNLOAD OUR PRESENTATION</p>\n",
+      "protected": false
+    },
+    "author": 1,
+    "featured_media": 0,
+    "parent": 0,
+    "menu_order": 0,
+    "comment_status": "closed",
+    "ping_status": "closed",
     "template": "",
-    "class_list": [
-      "post-152",
-      "client",
-      "type-client",
-      "status-publish",
-      "hentry"
-    ],
+    "meta": { "footnotes": "" },
+    "class_list": ["post-166", "page", "type-page", "status-publish", "hentry"],
     "_links": {
       "self": [
         {
-          "href": "https://restapi.lovers.company/wp-json/wp/v2/client/152",
+          "href": "https://restapi.lovers.company/wp-json/wp/v2/pages/166",
           "targetHints": { "allow": ["GET"] }
         }
       ],
       "collection": [
-        { "href": "https://restapi.lovers.company/wp-json/wp/v2/client" }
+        { "href": "https://restapi.lovers.company/wp-json/wp/v2/pages" }
       ],
       "about": [
-        { "href": "https://restapi.lovers.company/wp-json/wp/v2/types/client" }
+        { "href": "https://restapi.lovers.company/wp-json/wp/v2/types/page" }
+      ],
+      "author": [
+        {
+          "embeddable": true,
+          "href": "https://restapi.lovers.company/wp-json/wp/v2/users/1"
+        }
+      ],
+      "replies": [
+        {
+          "embeddable": true,
+          "href": "https://restapi.lovers.company/wp-json/wp/v2/comments?post=166"
+        }
+      ],
+      "version-history": [
+        {
+          "count": 1,
+          "href": "https://restapi.lovers.company/wp-json/wp/v2/pages/166/revisions"
+        }
+      ],
+      "predecessor-version": [
+        {
+          "id": 167,
+          "href": "https://restapi.lovers.company/wp-json/wp/v2/pages/166/revisions/167"
+        }
       ],
       "wp:attachment": [
         {
-          "href": "https://restapi.lovers.company/wp-json/wp/v2/media?parent=152"
+          "href": "https://restapi.lovers.company/wp-json/wp/v2/media?parent=166"
         }
       ],
       "curies": [
@@ -49,47 +76,74 @@
     }
   },
   {
-    "id": 150,
-    "date": "2025-01-21T14:27:45",
-    "date_gmt": "2025-01-21T14:27:45",
-    "guid": {
-      "rendered": "https://restapi.lovers.company/?post_type=client&#038;p=150"
-    },
-    "modified": "2025-01-21T14:27:45",
-    "modified_gmt": "2025-01-21T14:27:45",
-    "slug": "voir",
+    "id": 164,
+    "date": "2025-02-04T13:42:41",
+    "date_gmt": "2025-02-04T13:42:41",
+    "guid": { "rendered": "https://restapi.lovers.company/?page_id=164" },
+    "modified": "2025-02-04T13:44:46",
+    "modified_gmt": "2025-02-04T13:44:46",
+    "slug": "locations-presentation",
     "status": "publish",
-    "type": "client",
-    "link": "https://restapi.lovers.company/client/voir/",
-    "title": { "rendered": "Voir" },
+    "type": "page",
+    "link": "https://restapi.lovers.company/locations-presentation/",
+    "title": { "rendered": "Locations presentation" },
     "content": {
-      "rendered": "\n<figure class=\"wp-block-image size-full\"><img loading=\"lazy\" decoding=\"async\" width=\"320\" height=\"320\" src=\"https://restapi.lovers.company/wp-content/uploads/2025/01/voir-webp320\u0445320.webp\" alt=\"\" class=\"wp-image-151\" srcset=\"https://restapi.lovers.company/wp-content/uploads/2025/01/voir-webp320\u0445320.webp 320w, https://restapi.lovers.company/wp-content/uploads/2025/01/voir-webp320\u0445320-300x300.webp 300w, https://restapi.lovers.company/wp-content/uploads/2025/01/voir-webp320\u0445320-150x150.webp 150w\" sizes=\"auto, (max-width: 320px) 100vw, 320px\" /></figure>\n",
+      "rendered": "\n<p><a href=\"https://drive.google.com/file/d/14rX9Ap6mLoj7eyB6K7LNjsf9Cd6x0VEA/view\" target=\"_blank\" rel=\"noreferrer noopener\">DOWNLOAD OUR PRESENTATION TO SEE LOCATION EXAMPLES</a></p>\n\n\n\n<p></p>\n",
       "protected": false
     },
+    "excerpt": {
+      "rendered": "<p>DOWNLOAD OUR PRESENTATION TO SEE LOCATION EXAMPLES</p>\n",
+      "protected": false
+    },
+    "author": 1,
+    "featured_media": 0,
+    "parent": 0,
+    "menu_order": 0,
+    "comment_status": "closed",
+    "ping_status": "closed",
     "template": "",
-    "class_list": [
-      "post-150",
-      "client",
-      "type-client",
-      "status-publish",
-      "hentry"
-    ],
+    "meta": { "footnotes": "" },
+    "class_list": ["post-164", "page", "type-page", "status-publish", "hentry"],
     "_links": {
       "self": [
         {
-          "href": "https://restapi.lovers.company/wp-json/wp/v2/client/150",
+          "href": "https://restapi.lovers.company/wp-json/wp/v2/pages/164",
           "targetHints": { "allow": ["GET"] }
         }
       ],
       "collection": [
-        { "href": "https://restapi.lovers.company/wp-json/wp/v2/client" }
+        { "href": "https://restapi.lovers.company/wp-json/wp/v2/pages" }
       ],
       "about": [
-        { "href": "https://restapi.lovers.company/wp-json/wp/v2/types/client" }
+        { "href": "https://restapi.lovers.company/wp-json/wp/v2/types/page" }
+      ],
+      "author": [
+        {
+          "embeddable": true,
+          "href": "https://restapi.lovers.company/wp-json/wp/v2/users/1"
+        }
+      ],
+      "replies": [
+        {
+          "embeddable": true,
+          "href": "https://restapi.lovers.company/wp-json/wp/v2/comments?post=164"
+        }
+      ],
+      "version-history": [
+        {
+          "count": 1,
+          "href": "https://restapi.lovers.company/wp-json/wp/v2/pages/164/revisions"
+        }
+      ],
+      "predecessor-version": [
+        {
+          "id": 165,
+          "href": "https://restapi.lovers.company/wp-json/wp/v2/pages/164/revisions/165"
+        }
       ],
       "wp:attachment": [
         {
-          "href": "https://restapi.lovers.company/wp-json/wp/v2/media?parent=150"
+          "href": "https://restapi.lovers.company/wp-json/wp/v2/media?parent=164"
         }
       ],
       "curies": [
@@ -98,47 +152,74 @@
     }
   },
   {
-    "id": 148,
-    "date": "2025-01-21T14:27:19",
-    "date_gmt": "2025-01-21T14:27:19",
-    "guid": {
-      "rendered": "https://restapi.lovers.company/?post_type=client&#038;p=148"
-    },
-    "modified": "2025-01-21T14:27:19",
-    "modified_gmt": "2025-01-21T14:27:19",
-    "slug": "vodafone",
+    "id": 162,
+    "date": "2025-02-04T13:39:42",
+    "date_gmt": "2025-02-04T13:39:42",
+    "guid": { "rendered": "https://restapi.lovers.company/?page_id=162" },
+    "modified": "2025-02-04T13:39:42",
+    "modified_gmt": "2025-02-04T13:39:42",
+    "slug": "production-presentation",
     "status": "publish",
-    "type": "client",
-    "link": "https://restapi.lovers.company/client/vodafone/",
-    "title": { "rendered": "Vodafone" },
+    "type": "page",
+    "link": "https://restapi.lovers.company/production-presentation/",
+    "title": { "rendered": "Production presentation" },
     "content": {
-      "rendered": "\n<figure class=\"wp-block-image size-full\"><img loading=\"lazy\" decoding=\"async\" width=\"320\" height=\"320\" src=\"https://restapi.lovers.company/wp-content/uploads/2025/01/vdf-webp320\u0445320.webp\" alt=\"\" class=\"wp-image-149\" srcset=\"https://restapi.lovers.company/wp-content/uploads/2025/01/vdf-webp320\u0445320.webp 320w, https://restapi.lovers.company/wp-content/uploads/2025/01/vdf-webp320\u0445320-300x300.webp 300w, https://restapi.lovers.company/wp-content/uploads/2025/01/vdf-webp320\u0445320-150x150.webp 150w\" sizes=\"auto, (max-width: 320px) 100vw, 320px\" /></figure>\n",
+      "rendered": "\n<p><a href=\"https://drive.google.com/file/d/1A7jkWsIPfW5--tipyhZjxfNjzo2UgU4A/view\" target=\"_blank\" rel=\"noreferrer noopener\">DOWNLOAD OUR PRESENTATION TO LEARN MORE ABOUT OUR TALENTS</a></p>\n",
       "protected": false
     },
+    "excerpt": {
+      "rendered": "<p>DOWNLOAD OUR PRESENTATION TO LEARN MORE ABOUT OUR TALENTS</p>\n",
+      "protected": false
+    },
+    "author": 1,
+    "featured_media": 0,
+    "parent": 0,
+    "menu_order": 0,
+    "comment_status": "closed",
+    "ping_status": "closed",
     "template": "",
-    "class_list": [
-      "post-148",
-      "client",
-      "type-client",
-      "status-publish",
-      "hentry"
-    ],
+    "meta": { "footnotes": "" },
+    "class_list": ["post-162", "page", "type-page", "status-publish", "hentry"],
     "_links": {
       "self": [
         {
-          "href": "https://restapi.lovers.company/wp-json/wp/v2/client/148",
+          "href": "https://restapi.lovers.company/wp-json/wp/v2/pages/162",
           "targetHints": { "allow": ["GET"] }
         }
       ],
       "collection": [
-        { "href": "https://restapi.lovers.company/wp-json/wp/v2/client" }
+        { "href": "https://restapi.lovers.company/wp-json/wp/v2/pages" }
       ],
       "about": [
-        { "href": "https://restapi.lovers.company/wp-json/wp/v2/types/client" }
+        { "href": "https://restapi.lovers.company/wp-json/wp/v2/types/page" }
+      ],
+      "author": [
+        {
+          "embeddable": true,
+          "href": "https://restapi.lovers.company/wp-json/wp/v2/users/1"
+        }
+      ],
+      "replies": [
+        {
+          "embeddable": true,
+          "href": "https://restapi.lovers.company/wp-json/wp/v2/comments?post=162"
+        }
+      ],
+      "version-history": [
+        {
+          "count": 1,
+          "href": "https://restapi.lovers.company/wp-json/wp/v2/pages/162/revisions"
+        }
+      ],
+      "predecessor-version": [
+        {
+          "id": 163,
+          "href": "https://restapi.lovers.company/wp-json/wp/v2/pages/162/revisions/163"
+        }
       ],
       "wp:attachment": [
         {
-          "href": "https://restapi.lovers.company/wp-json/wp/v2/media?parent=148"
+          "href": "https://restapi.lovers.company/wp-json/wp/v2/media?parent=162"
         }
       ],
       "curies": [
@@ -147,47 +228,71 @@
     }
   },
   {
-    "id": 146,
-    "date": "2025-01-21T14:26:45",
-    "date_gmt": "2025-01-21T14:26:45",
-    "guid": {
-      "rendered": "https://restapi.lovers.company/?post_type=client&#038;p=146"
-    },
-    "modified": "2025-01-21T14:26:45",
-    "modified_gmt": "2025-01-21T14:26:45",
-    "slug": "tbwa",
+    "id": 159,
+    "date": "2025-02-04T13:25:12",
+    "date_gmt": "2025-02-04T13:25:12",
+    "guid": { "rendered": "https://restapi.lovers.company/?page_id=159" },
+    "modified": "2025-02-04T13:25:12",
+    "modified_gmt": "2025-02-04T13:25:12",
+    "slug": "linkedin",
     "status": "publish",
-    "type": "client",
-    "link": "https://restapi.lovers.company/client/tbwa/",
-    "title": { "rendered": "TBWA" },
+    "type": "page",
+    "link": "https://restapi.lovers.company/linkedin/",
+    "title": { "rendered": "Linkedin" },
     "content": {
-      "rendered": "\n<figure class=\"wp-block-image size-full\"><img loading=\"lazy\" decoding=\"async\" width=\"320\" height=\"320\" src=\"https://restapi.lovers.company/wp-content/uploads/2025/01/tbwa-webp320\u0445320.webp\" alt=\"\" class=\"wp-image-147\" srcset=\"https://restapi.lovers.company/wp-content/uploads/2025/01/tbwa-webp320\u0445320.webp 320w, https://restapi.lovers.company/wp-content/uploads/2025/01/tbwa-webp320\u0445320-300x300.webp 300w, https://restapi.lovers.company/wp-content/uploads/2025/01/tbwa-webp320\u0445320-150x150.webp 150w\" sizes=\"auto, (max-width: 320px) 100vw, 320px\" /></figure>\n",
+      "rendered": "\n<p><a href=\"https://www.linkedin.com/company/loverscompany\">linkedin</a></p>\n",
       "protected": false
     },
+    "excerpt": { "rendered": "<p>linkedin</p>\n", "protected": false },
+    "author": 1,
+    "featured_media": 0,
+    "parent": 0,
+    "menu_order": 0,
+    "comment_status": "closed",
+    "ping_status": "closed",
     "template": "",
-    "class_list": [
-      "post-146",
-      "client",
-      "type-client",
-      "status-publish",
-      "hentry"
-    ],
+    "meta": { "footnotes": "" },
+    "class_list": ["post-159", "page", "type-page", "status-publish", "hentry"],
     "_links": {
       "self": [
         {
-          "href": "https://restapi.lovers.company/wp-json/wp/v2/client/146",
+          "href": "https://restapi.lovers.company/wp-json/wp/v2/pages/159",
           "targetHints": { "allow": ["GET"] }
         }
       ],
       "collection": [
-        { "href": "https://restapi.lovers.company/wp-json/wp/v2/client" }
+        { "href": "https://restapi.lovers.company/wp-json/wp/v2/pages" }
       ],
       "about": [
-        { "href": "https://restapi.lovers.company/wp-json/wp/v2/types/client" }
+        { "href": "https://restapi.lovers.company/wp-json/wp/v2/types/page" }
+      ],
+      "author": [
+        {
+          "embeddable": true,
+          "href": "https://restapi.lovers.company/wp-json/wp/v2/users/1"
+        }
+      ],
+      "replies": [
+        {
+          "embeddable": true,
+          "href": "https://restapi.lovers.company/wp-json/wp/v2/comments?post=159"
+        }
+      ],
+      "version-history": [
+        {
+          "count": 1,
+          "href": "https://restapi.lovers.company/wp-json/wp/v2/pages/159/revisions"
+        }
+      ],
+      "predecessor-version": [
+        {
+          "id": 160,
+          "href": "https://restapi.lovers.company/wp-json/wp/v2/pages/159/revisions/160"
+        }
       ],
       "wp:attachment": [
         {
-          "href": "https://restapi.lovers.company/wp-json/wp/v2/media?parent=146"
+          "href": "https://restapi.lovers.company/wp-json/wp/v2/media?parent=159"
         }
       ],
       "curies": [
@@ -196,47 +301,71 @@
     }
   },
   {
-    "id": 144,
-    "date": "2025-01-21T14:26:12",
-    "date_gmt": "2025-01-21T14:26:12",
-    "guid": {
-      "rendered": "https://restapi.lovers.company/?post_type=client&#038;p=144"
-    },
-    "modified": "2025-01-21T14:26:12",
-    "modified_gmt": "2025-01-21T14:26:12",
-    "slug": "superette",
+    "id": 157,
+    "date": "2025-02-04T13:24:06",
+    "date_gmt": "2025-02-04T13:24:06",
+    "guid": { "rendered": "https://restapi.lovers.company/?page_id=157" },
+    "modified": "2025-02-04T13:27:14",
+    "modified_gmt": "2025-02-04T13:27:14",
+    "slug": "instagram",
     "status": "publish",
-    "type": "client",
-    "link": "https://restapi.lovers.company/client/superette/",
-    "title": { "rendered": "Superette" },
+    "type": "page",
+    "link": "https://restapi.lovers.company/instagram/",
+    "title": { "rendered": "Instagram" },
     "content": {
-      "rendered": "\n<figure class=\"wp-block-image size-full\"><img loading=\"lazy\" decoding=\"async\" width=\"320\" height=\"320\" src=\"https://restapi.lovers.company/wp-content/uploads/2025/01/superete-webp320\u0445320.webp\" alt=\"\" class=\"wp-image-145\" srcset=\"https://restapi.lovers.company/wp-content/uploads/2025/01/superete-webp320\u0445320.webp 320w, https://restapi.lovers.company/wp-content/uploads/2025/01/superete-webp320\u0445320-300x300.webp 300w, https://restapi.lovers.company/wp-content/uploads/2025/01/superete-webp320\u0445320-150x150.webp 150w\" sizes=\"auto, (max-width: 320px) 100vw, 320px\" /></figure>\n",
+      "rendered": "\n<p><a href=\"https://www.instagram.com/production.lovers.company/?igsh=MWxmbjFuNWttdm1vZw%3D%3D#\" target=\"_blank\" rel=\"noreferrer noopener\">instagram</a></p>\n",
       "protected": false
     },
+    "excerpt": { "rendered": "<p>instagram</p>\n", "protected": false },
+    "author": 1,
+    "featured_media": 0,
+    "parent": 0,
+    "menu_order": 0,
+    "comment_status": "closed",
+    "ping_status": "closed",
     "template": "",
-    "class_list": [
-      "post-144",
-      "client",
-      "type-client",
-      "status-publish",
-      "hentry"
-    ],
+    "meta": { "footnotes": "" },
+    "class_list": ["post-157", "page", "type-page", "status-publish", "hentry"],
     "_links": {
       "self": [
         {
-          "href": "https://restapi.lovers.company/wp-json/wp/v2/client/144",
+          "href": "https://restapi.lovers.company/wp-json/wp/v2/pages/157",
           "targetHints": { "allow": ["GET"] }
         }
       ],
       "collection": [
-        { "href": "https://restapi.lovers.company/wp-json/wp/v2/client" }
+        { "href": "https://restapi.lovers.company/wp-json/wp/v2/pages" }
       ],
       "about": [
-        { "href": "https://restapi.lovers.company/wp-json/wp/v2/types/client" }
+        { "href": "https://restapi.lovers.company/wp-json/wp/v2/types/page" }
+      ],
+      "author": [
+        {
+          "embeddable": true,
+          "href": "https://restapi.lovers.company/wp-json/wp/v2/users/1"
+        }
+      ],
+      "replies": [
+        {
+          "embeddable": true,
+          "href": "https://restapi.lovers.company/wp-json/wp/v2/comments?post=157"
+        }
+      ],
+      "version-history": [
+        {
+          "count": 2,
+          "href": "https://restapi.lovers.company/wp-json/wp/v2/pages/157/revisions"
+        }
+      ],
+      "predecessor-version": [
+        {
+          "id": 161,
+          "href": "https://restapi.lovers.company/wp-json/wp/v2/pages/157/revisions/161"
+        }
       ],
       "wp:attachment": [
         {
-          "href": "https://restapi.lovers.company/wp-json/wp/v2/media?parent=144"
+          "href": "https://restapi.lovers.company/wp-json/wp/v2/media?parent=157"
         }
       ],
       "curies": [
@@ -245,47 +374,71 @@
     }
   },
   {
-    "id": 142,
-    "date": "2025-01-21T14:25:35",
-    "date_gmt": "2025-01-21T14:25:35",
-    "guid": {
-      "rendered": "https://restapi.lovers.company/?post_type=client&#038;p=142"
-    },
-    "modified": "2025-01-21T14:25:35",
-    "modified_gmt": "2025-01-21T14:25:35",
-    "slug": "soixanze",
+    "id": 155,
+    "date": "2025-02-04T13:19:23",
+    "date_gmt": "2025-02-04T13:19:23",
+    "guid": { "rendered": "https://restapi.lovers.company/?page_id=155" },
+    "modified": "2025-02-04T13:19:23",
+    "modified_gmt": "2025-02-04T13:19:23",
+    "slug": "vimeo",
     "status": "publish",
-    "type": "client",
-    "link": "https://restapi.lovers.company/client/soixanze/",
-    "title": { "rendered": "Soixanze" },
+    "type": "page",
+    "link": "https://restapi.lovers.company/vimeo/",
+    "title": { "rendered": "Vimeo" },
     "content": {
-      "rendered": "\n<figure class=\"wp-block-image size-full\"><img loading=\"lazy\" decoding=\"async\" width=\"320\" height=\"320\" src=\"https://restapi.lovers.company/wp-content/uploads/2025/01/soixanze-webp320\u0445320.webp\" alt=\"\" class=\"wp-image-143\" srcset=\"https://restapi.lovers.company/wp-content/uploads/2025/01/soixanze-webp320\u0445320.webp 320w, https://restapi.lovers.company/wp-content/uploads/2025/01/soixanze-webp320\u0445320-300x300.webp 300w, https://restapi.lovers.company/wp-content/uploads/2025/01/soixanze-webp320\u0445320-150x150.webp 150w\" sizes=\"auto, (max-width: 320px) 100vw, 320px\" /></figure>\n",
+      "rendered": "\n<p><a href=\"https://vimeo.com/loverscompany\" target=\"_blank\" rel=\"noreferrer noopener\">vimeo</a></p>\n",
       "protected": false
     },
+    "excerpt": { "rendered": "<p>vimeo</p>\n", "protected": false },
+    "author": 1,
+    "featured_media": 0,
+    "parent": 0,
+    "menu_order": 0,
+    "comment_status": "closed",
+    "ping_status": "closed",
     "template": "",
-    "class_list": [
-      "post-142",
-      "client",
-      "type-client",
-      "status-publish",
-      "hentry"
-    ],
+    "meta": { "footnotes": "" },
+    "class_list": ["post-155", "page", "type-page", "status-publish", "hentry"],
     "_links": {
       "self": [
         {
-          "href": "https://restapi.lovers.company/wp-json/wp/v2/client/142",
+          "href": "https://restapi.lovers.company/wp-json/wp/v2/pages/155",
           "targetHints": { "allow": ["GET"] }
         }
       ],
       "collection": [
-        { "href": "https://restapi.lovers.company/wp-json/wp/v2/client" }
+        { "href": "https://restapi.lovers.company/wp-json/wp/v2/pages" }
       ],
       "about": [
-        { "href": "https://restapi.lovers.company/wp-json/wp/v2/types/client" }
+        { "href": "https://restapi.lovers.company/wp-json/wp/v2/types/page" }
+      ],
+      "author": [
+        {
+          "embeddable": true,
+          "href": "https://restapi.lovers.company/wp-json/wp/v2/users/1"
+        }
+      ],
+      "replies": [
+        {
+          "embeddable": true,
+          "href": "https://restapi.lovers.company/wp-json/wp/v2/comments?post=155"
+        }
+      ],
+      "version-history": [
+        {
+          "count": 1,
+          "href": "https://restapi.lovers.company/wp-json/wp/v2/pages/155/revisions"
+        }
+      ],
+      "predecessor-version": [
+        {
+          "id": 156,
+          "href": "https://restapi.lovers.company/wp-json/wp/v2/pages/155/revisions/156"
+        }
       ],
       "wp:attachment": [
         {
-          "href": "https://restapi.lovers.company/wp-json/wp/v2/media?parent=142"
+          "href": "https://restapi.lovers.company/wp-json/wp/v2/media?parent=155"
         }
       ],
       "curies": [
@@ -294,47 +447,68 @@
     }
   },
   {
-    "id": 140,
-    "date": "2025-01-21T14:24:46",
-    "date_gmt": "2025-01-21T14:24:46",
-    "guid": {
-      "rendered": "https://restapi.lovers.company/?post_type=client&#038;p=140"
-    },
-    "modified": "2025-01-21T14:24:46",
-    "modified_gmt": "2025-01-21T14:24:46",
-    "slug": "satellite",
+    "id": 75,
+    "date": "2024-12-07T06:51:12",
+    "date_gmt": "2024-12-07T06:51:12",
+    "guid": { "rendered": "https://restapi.lovers.company/?page_id=75" },
+    "modified": "2024-12-07T06:51:12",
+    "modified_gmt": "2024-12-07T06:51:12",
+    "slug": "works",
     "status": "publish",
-    "type": "client",
-    "link": "https://restapi.lovers.company/client/satellite/",
-    "title": { "rendered": "Satellite" },
-    "content": {
-      "rendered": "\n<figure class=\"wp-block-image size-full\"><img loading=\"lazy\" decoding=\"async\" width=\"320\" height=\"320\" src=\"https://restapi.lovers.company/wp-content/uploads/2025/01/sattelite-webp320\u0445320.webp\" alt=\"\" class=\"wp-image-141\" srcset=\"https://restapi.lovers.company/wp-content/uploads/2025/01/sattelite-webp320\u0445320.webp 320w, https://restapi.lovers.company/wp-content/uploads/2025/01/sattelite-webp320\u0445320-300x300.webp 300w, https://restapi.lovers.company/wp-content/uploads/2025/01/sattelite-webp320\u0445320-150x150.webp 150w\" sizes=\"auto, (max-width: 320px) 100vw, 320px\" /></figure>\n",
-      "protected": false
-    },
+    "type": "page",
+    "link": "https://restapi.lovers.company/works/",
+    "title": { "rendered": "Works" },
+    "content": { "rendered": "", "protected": false },
+    "excerpt": { "rendered": "", "protected": false },
+    "author": 1,
+    "featured_media": 0,
+    "parent": 0,
+    "menu_order": 0,
+    "comment_status": "closed",
+    "ping_status": "closed",
     "template": "",
-    "class_list": [
-      "post-140",
-      "client",
-      "type-client",
-      "status-publish",
-      "hentry"
-    ],
+    "meta": { "footnotes": "" },
+    "class_list": ["post-75", "page", "type-page", "status-publish", "hentry"],
     "_links": {
       "self": [
         {
-          "href": "https://restapi.lovers.company/wp-json/wp/v2/client/140",
+          "href": "https://restapi.lovers.company/wp-json/wp/v2/pages/75",
           "targetHints": { "allow": ["GET"] }
         }
       ],
       "collection": [
-        { "href": "https://restapi.lovers.company/wp-json/wp/v2/client" }
+        { "href": "https://restapi.lovers.company/wp-json/wp/v2/pages" }
       ],
       "about": [
-        { "href": "https://restapi.lovers.company/wp-json/wp/v2/types/client" }
+        { "href": "https://restapi.lovers.company/wp-json/wp/v2/types/page" }
+      ],
+      "author": [
+        {
+          "embeddable": true,
+          "href": "https://restapi.lovers.company/wp-json/wp/v2/users/1"
+        }
+      ],
+      "replies": [
+        {
+          "embeddable": true,
+          "href": "https://restapi.lovers.company/wp-json/wp/v2/comments?post=75"
+        }
+      ],
+      "version-history": [
+        {
+          "count": 1,
+          "href": "https://restapi.lovers.company/wp-json/wp/v2/pages/75/revisions"
+        }
+      ],
+      "predecessor-version": [
+        {
+          "id": 76,
+          "href": "https://restapi.lovers.company/wp-json/wp/v2/pages/75/revisions/76"
+        }
       ],
       "wp:attachment": [
         {
-          "href": "https://restapi.lovers.company/wp-json/wp/v2/media?parent=140"
+          "href": "https://restapi.lovers.company/wp-json/wp/v2/media?parent=75"
         }
       ],
       "curies": [
@@ -343,47 +517,68 @@
     }
   },
   {
-    "id": 138,
-    "date": "2025-01-21T14:24:11",
-    "date_gmt": "2025-01-21T14:24:11",
-    "guid": {
-      "rendered": "https://restapi.lovers.company/?post_type=client&#038;p=138"
-    },
-    "modified": "2025-01-21T14:24:11",
-    "modified_gmt": "2025-01-21T14:24:11",
-    "slug": "red-rage-films",
+    "id": 73,
+    "date": "2024-12-07T06:50:37",
+    "date_gmt": "2024-12-07T06:50:37",
+    "guid": { "rendered": "https://restapi.lovers.company/?page_id=73" },
+    "modified": "2024-12-07T06:50:37",
+    "modified_gmt": "2024-12-07T06:50:37",
+    "slug": "lovers",
     "status": "publish",
-    "type": "client",
-    "link": "https://restapi.lovers.company/client/red-rage-films/",
-    "title": { "rendered": "Red Rage Films" },
-    "content": {
-      "rendered": "\n<figure class=\"wp-block-image size-full\"><img loading=\"lazy\" decoding=\"async\" width=\"320\" height=\"320\" src=\"https://restapi.lovers.company/wp-content/uploads/2025/01/red-webp320\u0445320.webp\" alt=\"\" class=\"wp-image-139\" srcset=\"https://restapi.lovers.company/wp-content/uploads/2025/01/red-webp320\u0445320.webp 320w, https://restapi.lovers.company/wp-content/uploads/2025/01/red-webp320\u0445320-300x300.webp 300w, https://restapi.lovers.company/wp-content/uploads/2025/01/red-webp320\u0445320-150x150.webp 150w\" sizes=\"auto, (max-width: 320px) 100vw, 320px\" /></figure>\n",
-      "protected": false
-    },
+    "type": "page",
+    "link": "https://restapi.lovers.company/lovers/",
+    "title": { "rendered": "Lovers" },
+    "content": { "rendered": "", "protected": false },
+    "excerpt": { "rendered": "", "protected": false },
+    "author": 1,
+    "featured_media": 0,
+    "parent": 0,
+    "menu_order": 0,
+    "comment_status": "closed",
+    "ping_status": "closed",
     "template": "",
-    "class_list": [
-      "post-138",
-      "client",
-      "type-client",
-      "status-publish",
-      "hentry"
-    ],
+    "meta": { "footnotes": "" },
+    "class_list": ["post-73", "page", "type-page", "status-publish", "hentry"],
     "_links": {
       "self": [
         {
-          "href": "https://restapi.lovers.company/wp-json/wp/v2/client/138",
+          "href": "https://restapi.lovers.company/wp-json/wp/v2/pages/73",
           "targetHints": { "allow": ["GET"] }
         }
       ],
       "collection": [
-        { "href": "https://restapi.lovers.company/wp-json/wp/v2/client" }
+        { "href": "https://restapi.lovers.company/wp-json/wp/v2/pages" }
       ],
       "about": [
-        { "href": "https://restapi.lovers.company/wp-json/wp/v2/types/client" }
+        { "href": "https://restapi.lovers.company/wp-json/wp/v2/types/page" }
+      ],
+      "author": [
+        {
+          "embeddable": true,
+          "href": "https://restapi.lovers.company/wp-json/wp/v2/users/1"
+        }
+      ],
+      "replies": [
+        {
+          "embeddable": true,
+          "href": "https://restapi.lovers.company/wp-json/wp/v2/comments?post=73"
+        }
+      ],
+      "version-history": [
+        {
+          "count": 1,
+          "href": "https://restapi.lovers.company/wp-json/wp/v2/pages/73/revisions"
+        }
+      ],
+      "predecessor-version": [
+        {
+          "id": 74,
+          "href": "https://restapi.lovers.company/wp-json/wp/v2/pages/73/revisions/74"
+        }
       ],
       "wp:attachment": [
         {
-          "href": "https://restapi.lovers.company/wp-json/wp/v2/media?parent=138"
+          "href": "https://restapi.lovers.company/wp-json/wp/v2/media?parent=73"
         }
       ],
       "curies": [
@@ -392,47 +587,74 @@
     }
   },
   {
-    "id": 136,
-    "date": "2025-01-21T14:23:42",
-    "date_gmt": "2025-01-21T14:23:42",
-    "guid": {
-      "rendered": "https://restapi.lovers.company/?post_type=client&#038;p=136"
-    },
-    "modified": "2025-01-21T14:23:42",
-    "modified_gmt": "2025-01-21T14:23:42",
-    "slug": "park-pictures",
+    "id": 48,
+    "date": "2024-11-23T12:46:28",
+    "date_gmt": "2024-11-23T12:46:28",
+    "guid": { "rendered": "http://restapi.lovers.company/?page_id=48" },
+    "modified": "2024-12-12T15:38:28",
+    "modified_gmt": "2024-12-12T15:38:28",
+    "slug": "media-links",
     "status": "publish",
-    "type": "client",
-    "link": "https://restapi.lovers.company/client/park-pictures/",
-    "title": { "rendered": "Park Pictures" },
+    "type": "page",
+    "link": "https://restapi.lovers.company/media-links/",
+    "title": { "rendered": "Media Links" },
     "content": {
-      "rendered": "\n<figure class=\"wp-block-image size-full\"><img loading=\"lazy\" decoding=\"async\" width=\"320\" height=\"320\" src=\"https://restapi.lovers.company/wp-content/uploads/2025/01/pp-webp320\u0445320.webp\" alt=\"\" class=\"wp-image-137\" srcset=\"https://restapi.lovers.company/wp-content/uploads/2025/01/pp-webp320\u0445320.webp 320w, https://restapi.lovers.company/wp-content/uploads/2025/01/pp-webp320\u0445320-300x300.webp 300w, https://restapi.lovers.company/wp-content/uploads/2025/01/pp-webp320\u0445320-150x150.webp 150w\" sizes=\"auto, (max-width: 320px) 100vw, 320px\" /></figure>\n",
+      "rendered": "\n<p><a href=\"https://vimeo.com/loverscompany\" target=\"_blank\">vimeo</a><br><a href=\"https://www.instagram.com/production.lovers.company/?igsh=MWxmbjFuNWttdm1vZw%3D%3D#\" target=\"_blank\">instagram</a><br><a href=\"https://www.linkedin.com/company/loverscompany\" target=\"_blank\">linkedin</a></p>\n",
       "protected": false
     },
+    "excerpt": {
+      "rendered": "<p>vimeoinstagramlinkedin</p>\n",
+      "protected": false
+    },
+    "author": 1,
+    "featured_media": 0,
+    "parent": 0,
+    "menu_order": 0,
+    "comment_status": "closed",
+    "ping_status": "closed",
     "template": "",
-    "class_list": [
-      "post-136",
-      "client",
-      "type-client",
-      "status-publish",
-      "hentry"
-    ],
+    "meta": { "footnotes": "" },
+    "class_list": ["post-48", "page", "type-page", "status-publish", "hentry"],
     "_links": {
       "self": [
         {
-          "href": "https://restapi.lovers.company/wp-json/wp/v2/client/136",
+          "href": "https://restapi.lovers.company/wp-json/wp/v2/pages/48",
           "targetHints": { "allow": ["GET"] }
         }
       ],
       "collection": [
-        { "href": "https://restapi.lovers.company/wp-json/wp/v2/client" }
+        { "href": "https://restapi.lovers.company/wp-json/wp/v2/pages" }
       ],
       "about": [
-        { "href": "https://restapi.lovers.company/wp-json/wp/v2/types/client" }
+        { "href": "https://restapi.lovers.company/wp-json/wp/v2/types/page" }
+      ],
+      "author": [
+        {
+          "embeddable": true,
+          "href": "https://restapi.lovers.company/wp-json/wp/v2/users/1"
+        }
+      ],
+      "replies": [
+        {
+          "embeddable": true,
+          "href": "https://restapi.lovers.company/wp-json/wp/v2/comments?post=48"
+        }
+      ],
+      "version-history": [
+        {
+          "count": 5,
+          "href": "https://restapi.lovers.company/wp-json/wp/v2/pages/48/revisions"
+        }
+      ],
+      "predecessor-version": [
+        {
+          "id": 154,
+          "href": "https://restapi.lovers.company/wp-json/wp/v2/pages/48/revisions/154"
+        }
       ],
       "wp:attachment": [
         {
-          "href": "https://restapi.lovers.company/wp-json/wp/v2/media?parent=136"
+          "href": "https://restapi.lovers.company/wp-json/wp/v2/media?parent=48"
         }
       ],
       "curies": [
@@ -441,1125 +663,74 @@
     }
   },
   {
-    "id": 134,
-    "date": "2025-01-21T14:23:15",
-    "date_gmt": "2025-01-21T14:23:15",
-    "guid": {
-      "rendered": "https://restapi.lovers.company/?post_type=client&#038;p=134"
-    },
-    "modified": "2025-01-21T14:23:15",
-    "modified_gmt": "2025-01-21T14:23:15",
-    "slug": "partizan",
+    "id": 41,
+    "date": "2024-11-23T12:27:46",
+    "date_gmt": "2024-11-23T12:27:46",
+    "guid": { "rendered": "http://restapi.lovers.company/?page_id=41" },
+    "modified": "2024-12-06T06:32:41",
+    "modified_gmt": "2024-12-06T06:32:41",
+    "slug": "about-lovers",
     "status": "publish",
-    "type": "client",
-    "link": "https://restapi.lovers.company/client/partizan/",
-    "title": { "rendered": "Partizan" },
+    "type": "page",
+    "link": "https://restapi.lovers.company/about-lovers/",
+    "title": { "rendered": "About Lovers" },
     "content": {
-      "rendered": "\n<figure class=\"wp-block-image size-full\"><img loading=\"lazy\" decoding=\"async\" width=\"320\" height=\"320\" src=\"https://restapi.lovers.company/wp-content/uploads/2025/01/partizan-webp320\u0445320.webp\" alt=\"\" class=\"wp-image-135\" srcset=\"https://restapi.lovers.company/wp-content/uploads/2025/01/partizan-webp320\u0445320.webp 320w, https://restapi.lovers.company/wp-content/uploads/2025/01/partizan-webp320\u0445320-300x300.webp 300w, https://restapi.lovers.company/wp-content/uploads/2025/01/partizan-webp320\u0445320-150x150.webp 150w\" sizes=\"auto, (max-width: 320px) 100vw, 320px\" /></figure>\n",
+      "rendered": "\nWE ARE A PRODUCTION SERVICE >LOVERS> SPECIALIZING IN <u>AUDIOVISUAL CONTENT CREATION.</u>\n\nWITH TEAMS IN BULGARIA, SPAIN, AND THE NETHERLANDS, WE PARTNER WITH PRODUCTION COMPANIES, CREATIVE AGENCIES, FILMMAKERS, AND PHOTOGRAPHERS, COMBINING OUR EXPERTISE WITH <u>PASSION AND CREATIVITY TO SUPPORT GLOBAL BRANDS.</u>\n\nWE BELIEVE IN THE POWER OF COLLABORATION. OUR FOCUS IS ON INNOVATIVE SOLUTIONS AND METICULOUS ATTENTION TO DETAIL, ENSURING EVERY PROJECT ACHIEVES THE HIGHEST STANDARDS OF QUALITY AND TECHNICAL EXCELLENCE.\n\nAT >LOVERS>, WE VALUE HONESTY, TRANSPARENCY, RELIABILITY, AND CREATING A POSITIVE, ENJOYABLE PROCESS FOR EVERYONE INVOLVED.\n\n\n\n<p></p>\n",
       "protected": false
     },
+    "excerpt": {
+      "rendered": "<p>WE ARE A PRODUCTION SERVICE >LOVERS> SPECIALIZING IN AUDIOVISUAL CONTENT CREATION. WITH TEAMS IN BULGARIA, SPAIN, AND THE NETHERLANDS, WE PARTNER WITH PRODUCTION COMPANIES, CREATIVE AGENCIES, FILMMAKERS, AND PHOTOGRAPHERS, COMBINING OUR EXPERTISE WITH PASSION AND CREATIVITY TO SUPPORT GLOBAL BRANDS. WE BELIEVE IN THE POWER OF COLLABORATION. OUR FOCUS IS ON INNOVATIVE SOLUTIONS AND METICULOUS [&hellip;]</p>\n",
+      "protected": false
+    },
+    "author": 1,
+    "featured_media": 0,
+    "parent": 0,
+    "menu_order": 0,
+    "comment_status": "closed",
+    "ping_status": "closed",
     "template": "",
-    "class_list": [
-      "post-134",
-      "client",
-      "type-client",
-      "status-publish",
-      "hentry"
-    ],
+    "meta": { "footnotes": "" },
+    "class_list": ["post-41", "page", "type-page", "status-publish", "hentry"],
     "_links": {
       "self": [
         {
-          "href": "https://restapi.lovers.company/wp-json/wp/v2/client/134",
+          "href": "https://restapi.lovers.company/wp-json/wp/v2/pages/41",
           "targetHints": { "allow": ["GET"] }
         }
       ],
       "collection": [
-        { "href": "https://restapi.lovers.company/wp-json/wp/v2/client" }
+        { "href": "https://restapi.lovers.company/wp-json/wp/v2/pages" }
       ],
       "about": [
-        { "href": "https://restapi.lovers.company/wp-json/wp/v2/types/client" }
+        { "href": "https://restapi.lovers.company/wp-json/wp/v2/types/page" }
+      ],
+      "author": [
+        {
+          "embeddable": true,
+          "href": "https://restapi.lovers.company/wp-json/wp/v2/users/1"
+        }
+      ],
+      "replies": [
+        {
+          "embeddable": true,
+          "href": "https://restapi.lovers.company/wp-json/wp/v2/comments?post=41"
+        }
+      ],
+      "version-history": [
+        {
+          "count": 6,
+          "href": "https://restapi.lovers.company/wp-json/wp/v2/pages/41/revisions"
+        }
+      ],
+      "predecessor-version": [
+        {
+          "id": 67,
+          "href": "https://restapi.lovers.company/wp-json/wp/v2/pages/41/revisions/67"
+        }
       ],
       "wp:attachment": [
         {
-          "href": "https://restapi.lovers.company/wp-json/wp/v2/media?parent=134"
-        }
-      ],
-      "curies": [
-        { "name": "wp", "href": "https://api.w.org/{rel}", "templated": true }
-      ]
-    }
-  },
-  {
-    "id": 132,
-    "date": "2025-01-21T14:22:44",
-    "date_gmt": "2025-01-21T14:22:44",
-    "guid": {
-      "rendered": "https://restapi.lovers.company/?post_type=client&#038;p=132"
-    },
-    "modified": "2025-01-21T14:22:44",
-    "modified_gmt": "2025-01-21T14:22:44",
-    "slug": "nivea",
-    "status": "publish",
-    "type": "client",
-    "link": "https://restapi.lovers.company/client/nivea/",
-    "title": { "rendered": "Nivea" },
-    "content": {
-      "rendered": "\n<figure class=\"wp-block-image size-full\"><img loading=\"lazy\" decoding=\"async\" width=\"320\" height=\"320\" src=\"https://restapi.lovers.company/wp-content/uploads/2025/01/nivea-webp320\u0445320.webp\" alt=\"\" class=\"wp-image-133\" srcset=\"https://restapi.lovers.company/wp-content/uploads/2025/01/nivea-webp320\u0445320.webp 320w, https://restapi.lovers.company/wp-content/uploads/2025/01/nivea-webp320\u0445320-300x300.webp 300w, https://restapi.lovers.company/wp-content/uploads/2025/01/nivea-webp320\u0445320-150x150.webp 150w\" sizes=\"auto, (max-width: 320px) 100vw, 320px\" /></figure>\n",
-      "protected": false
-    },
-    "template": "",
-    "class_list": [
-      "post-132",
-      "client",
-      "type-client",
-      "status-publish",
-      "hentry"
-    ],
-    "_links": {
-      "self": [
-        {
-          "href": "https://restapi.lovers.company/wp-json/wp/v2/client/132",
-          "targetHints": { "allow": ["GET"] }
-        }
-      ],
-      "collection": [
-        { "href": "https://restapi.lovers.company/wp-json/wp/v2/client" }
-      ],
-      "about": [
-        { "href": "https://restapi.lovers.company/wp-json/wp/v2/types/client" }
-      ],
-      "wp:attachment": [
-        {
-          "href": "https://restapi.lovers.company/wp-json/wp/v2/media?parent=132"
-        }
-      ],
-      "curies": [
-        { "name": "wp", "href": "https://api.w.org/{rel}", "templated": true }
-      ]
-    }
-  },
-  {
-    "id": 130,
-    "date": "2025-01-21T14:22:19",
-    "date_gmt": "2025-01-21T14:22:19",
-    "guid": {
-      "rendered": "https://restapi.lovers.company/?post_type=client&#038;p=130"
-    },
-    "modified": "2025-01-21T14:22:19",
-    "modified_gmt": "2025-01-21T14:22:19",
-    "slug": "nike",
-    "status": "publish",
-    "type": "client",
-    "link": "https://restapi.lovers.company/client/nike/",
-    "title": { "rendered": "Nike" },
-    "content": {
-      "rendered": "\n<figure class=\"wp-block-image size-full\"><img loading=\"lazy\" decoding=\"async\" width=\"320\" height=\"320\" src=\"https://restapi.lovers.company/wp-content/uploads/2025/01/nike-webp320\u0445320.webp\" alt=\"\" class=\"wp-image-131\" srcset=\"https://restapi.lovers.company/wp-content/uploads/2025/01/nike-webp320\u0445320.webp 320w, https://restapi.lovers.company/wp-content/uploads/2025/01/nike-webp320\u0445320-300x300.webp 300w, https://restapi.lovers.company/wp-content/uploads/2025/01/nike-webp320\u0445320-150x150.webp 150w\" sizes=\"auto, (max-width: 320px) 100vw, 320px\" /></figure>\n",
-      "protected": false
-    },
-    "template": "",
-    "class_list": [
-      "post-130",
-      "client",
-      "type-client",
-      "status-publish",
-      "hentry"
-    ],
-    "_links": {
-      "self": [
-        {
-          "href": "https://restapi.lovers.company/wp-json/wp/v2/client/130",
-          "targetHints": { "allow": ["GET"] }
-        }
-      ],
-      "collection": [
-        { "href": "https://restapi.lovers.company/wp-json/wp/v2/client" }
-      ],
-      "about": [
-        { "href": "https://restapi.lovers.company/wp-json/wp/v2/types/client" }
-      ],
-      "wp:attachment": [
-        {
-          "href": "https://restapi.lovers.company/wp-json/wp/v2/media?parent=130"
-        }
-      ],
-      "curies": [
-        { "name": "wp", "href": "https://api.w.org/{rel}", "templated": true }
-      ]
-    }
-  },
-  {
-    "id": 126,
-    "date": "2025-01-21T14:21:22",
-    "date_gmt": "2025-01-21T14:21:22",
-    "guid": {
-      "rendered": "https://restapi.lovers.company/?post_type=client&#038;p=126"
-    },
-    "modified": "2025-01-21T14:21:22",
-    "modified_gmt": "2025-01-21T14:21:22",
-    "slug": "moonwalk",
-    "status": "publish",
-    "type": "client",
-    "link": "https://restapi.lovers.company/client/moonwalk/",
-    "title": { "rendered": "Moonwalk" },
-    "content": {
-      "rendered": "\n<figure class=\"wp-block-image size-full\"><img loading=\"lazy\" decoding=\"async\" width=\"320\" height=\"320\" src=\"https://restapi.lovers.company/wp-content/uploads/2025/01/moonwalk-webp320\u0445320.webp\" alt=\"\" class=\"wp-image-127\" srcset=\"https://restapi.lovers.company/wp-content/uploads/2025/01/moonwalk-webp320\u0445320.webp 320w, https://restapi.lovers.company/wp-content/uploads/2025/01/moonwalk-webp320\u0445320-300x300.webp 300w, https://restapi.lovers.company/wp-content/uploads/2025/01/moonwalk-webp320\u0445320-150x150.webp 150w\" sizes=\"auto, (max-width: 320px) 100vw, 320px\" /></figure>\n",
-      "protected": false
-    },
-    "template": "",
-    "class_list": [
-      "post-126",
-      "client",
-      "type-client",
-      "status-publish",
-      "hentry"
-    ],
-    "_links": {
-      "self": [
-        {
-          "href": "https://restapi.lovers.company/wp-json/wp/v2/client/126",
-          "targetHints": { "allow": ["GET"] }
-        }
-      ],
-      "collection": [
-        { "href": "https://restapi.lovers.company/wp-json/wp/v2/client" }
-      ],
-      "about": [
-        { "href": "https://restapi.lovers.company/wp-json/wp/v2/types/client" }
-      ],
-      "wp:attachment": [
-        {
-          "href": "https://restapi.lovers.company/wp-json/wp/v2/media?parent=126"
-        }
-      ],
-      "curies": [
-        { "name": "wp", "href": "https://api.w.org/{rel}", "templated": true }
-      ]
-    }
-  },
-  {
-    "id": 124,
-    "date": "2025-01-21T14:20:52",
-    "date_gmt": "2025-01-21T14:20:52",
-    "guid": {
-      "rendered": "https://restapi.lovers.company/?post_type=client&#038;p=124"
-    },
-    "modified": "2025-01-21T14:20:52",
-    "modified_gmt": "2025-01-21T14:20:52",
-    "slug": "mac",
-    "status": "publish",
-    "type": "client",
-    "link": "https://restapi.lovers.company/client/mac/",
-    "title": { "rendered": "Mac" },
-    "content": {
-      "rendered": "\n<figure class=\"wp-block-image size-full\"><img loading=\"lazy\" decoding=\"async\" width=\"320\" height=\"320\" src=\"https://restapi.lovers.company/wp-content/uploads/2025/01/mac-webp320\u0445320.webp\" alt=\"\" class=\"wp-image-125\" srcset=\"https://restapi.lovers.company/wp-content/uploads/2025/01/mac-webp320\u0445320.webp 320w, https://restapi.lovers.company/wp-content/uploads/2025/01/mac-webp320\u0445320-300x300.webp 300w, https://restapi.lovers.company/wp-content/uploads/2025/01/mac-webp320\u0445320-150x150.webp 150w\" sizes=\"auto, (max-width: 320px) 100vw, 320px\" /></figure>\n",
-      "protected": false
-    },
-    "template": "",
-    "class_list": [
-      "post-124",
-      "client",
-      "type-client",
-      "status-publish",
-      "hentry"
-    ],
-    "_links": {
-      "self": [
-        {
-          "href": "https://restapi.lovers.company/wp-json/wp/v2/client/124",
-          "targetHints": { "allow": ["GET"] }
-        }
-      ],
-      "collection": [
-        { "href": "https://restapi.lovers.company/wp-json/wp/v2/client" }
-      ],
-      "about": [
-        { "href": "https://restapi.lovers.company/wp-json/wp/v2/types/client" }
-      ],
-      "wp:attachment": [
-        {
-          "href": "https://restapi.lovers.company/wp-json/wp/v2/media?parent=124"
-        }
-      ],
-      "curies": [
-        { "name": "wp", "href": "https://api.w.org/{rel}", "templated": true }
-      ]
-    }
-  },
-  {
-    "id": 122,
-    "date": "2025-01-21T14:20:27",
-    "date_gmt": "2025-01-21T14:20:27",
-    "guid": {
-      "rendered": "https://restapi.lovers.company/?post_type=client&#038;p=122"
-    },
-    "modified": "2025-01-21T14:20:27",
-    "modified_gmt": "2025-01-21T14:20:27",
-    "slug": "les-fils-de",
-    "status": "publish",
-    "type": "client",
-    "link": "https://restapi.lovers.company/client/les-fils-de/",
-    "title": { "rendered": "les Fils De" },
-    "content": {
-      "rendered": "\n<figure class=\"wp-block-image size-full\"><img loading=\"lazy\" decoding=\"async\" width=\"320\" height=\"320\" src=\"https://restapi.lovers.company/wp-content/uploads/2025/01/les-fils-de-webp320\u0445320.webp\" alt=\"\" class=\"wp-image-123\" srcset=\"https://restapi.lovers.company/wp-content/uploads/2025/01/les-fils-de-webp320\u0445320.webp 320w, https://restapi.lovers.company/wp-content/uploads/2025/01/les-fils-de-webp320\u0445320-300x300.webp 300w, https://restapi.lovers.company/wp-content/uploads/2025/01/les-fils-de-webp320\u0445320-150x150.webp 150w\" sizes=\"auto, (max-width: 320px) 100vw, 320px\" /></figure>\n",
-      "protected": false
-    },
-    "template": "",
-    "class_list": [
-      "post-122",
-      "client",
-      "type-client",
-      "status-publish",
-      "hentry"
-    ],
-    "_links": {
-      "self": [
-        {
-          "href": "https://restapi.lovers.company/wp-json/wp/v2/client/122",
-          "targetHints": { "allow": ["GET"] }
-        }
-      ],
-      "collection": [
-        { "href": "https://restapi.lovers.company/wp-json/wp/v2/client" }
-      ],
-      "about": [
-        { "href": "https://restapi.lovers.company/wp-json/wp/v2/types/client" }
-      ],
-      "wp:attachment": [
-        {
-          "href": "https://restapi.lovers.company/wp-json/wp/v2/media?parent=122"
-        }
-      ],
-      "curies": [
-        { "name": "wp", "href": "https://api.w.org/{rel}", "templated": true }
-      ]
-    }
-  },
-  {
-    "id": 118,
-    "date": "2025-01-21T14:18:47",
-    "date_gmt": "2025-01-21T14:18:47",
-    "guid": {
-      "rendered": "https://restapi.lovers.company/?post_type=client&#038;p=118"
-    },
-    "modified": "2025-01-21T14:18:47",
-    "modified_gmt": "2025-01-21T14:18:47",
-    "slug": "kenzo",
-    "status": "publish",
-    "type": "client",
-    "link": "https://restapi.lovers.company/client/kenzo/",
-    "title": { "rendered": "Kenzo" },
-    "content": {
-      "rendered": "\n<figure class=\"wp-block-image size-full\"><img loading=\"lazy\" decoding=\"async\" width=\"320\" height=\"320\" src=\"https://restapi.lovers.company/wp-content/uploads/2025/01/kenzo-webp320\u0445320.webp\" alt=\"\" class=\"wp-image-119\" srcset=\"https://restapi.lovers.company/wp-content/uploads/2025/01/kenzo-webp320\u0445320.webp 320w, https://restapi.lovers.company/wp-content/uploads/2025/01/kenzo-webp320\u0445320-300x300.webp 300w, https://restapi.lovers.company/wp-content/uploads/2025/01/kenzo-webp320\u0445320-150x150.webp 150w\" sizes=\"auto, (max-width: 320px) 100vw, 320px\" /></figure>\n",
-      "protected": false
-    },
-    "template": "",
-    "class_list": [
-      "post-118",
-      "client",
-      "type-client",
-      "status-publish",
-      "hentry"
-    ],
-    "_links": {
-      "self": [
-        {
-          "href": "https://restapi.lovers.company/wp-json/wp/v2/client/118",
-          "targetHints": { "allow": ["GET"] }
-        }
-      ],
-      "collection": [
-        { "href": "https://restapi.lovers.company/wp-json/wp/v2/client" }
-      ],
-      "about": [
-        { "href": "https://restapi.lovers.company/wp-json/wp/v2/types/client" }
-      ],
-      "wp:attachment": [
-        {
-          "href": "https://restapi.lovers.company/wp-json/wp/v2/media?parent=118"
-        }
-      ],
-      "curies": [
-        { "name": "wp", "href": "https://api.w.org/{rel}", "templated": true }
-      ]
-    }
-  },
-  {
-    "id": 116,
-    "date": "2025-01-21T14:18:27",
-    "date_gmt": "2025-01-21T14:18:27",
-    "guid": {
-      "rendered": "https://restapi.lovers.company/?post_type=client&#038;p=116"
-    },
-    "modified": "2025-01-21T14:18:27",
-    "modified_gmt": "2025-01-21T14:18:27",
-    "slug": "inssurection",
-    "status": "publish",
-    "type": "client",
-    "link": "https://restapi.lovers.company/client/inssurection/",
-    "title": { "rendered": "Inssurection" },
-    "content": {
-      "rendered": "\n<figure class=\"wp-block-image size-full\"><img loading=\"lazy\" decoding=\"async\" width=\"320\" height=\"320\" src=\"https://restapi.lovers.company/wp-content/uploads/2025/01/inssurection-webp320\u0445320.webp\" alt=\"\" class=\"wp-image-117\" srcset=\"https://restapi.lovers.company/wp-content/uploads/2025/01/inssurection-webp320\u0445320.webp 320w, https://restapi.lovers.company/wp-content/uploads/2025/01/inssurection-webp320\u0445320-300x300.webp 300w, https://restapi.lovers.company/wp-content/uploads/2025/01/inssurection-webp320\u0445320-150x150.webp 150w\" sizes=\"auto, (max-width: 320px) 100vw, 320px\" /></figure>\n",
-      "protected": false
-    },
-    "template": "",
-    "class_list": [
-      "post-116",
-      "client",
-      "type-client",
-      "status-publish",
-      "hentry"
-    ],
-    "_links": {
-      "self": [
-        {
-          "href": "https://restapi.lovers.company/wp-json/wp/v2/client/116",
-          "targetHints": { "allow": ["GET"] }
-        }
-      ],
-      "collection": [
-        { "href": "https://restapi.lovers.company/wp-json/wp/v2/client" }
-      ],
-      "about": [
-        { "href": "https://restapi.lovers.company/wp-json/wp/v2/types/client" }
-      ],
-      "wp:attachment": [
-        {
-          "href": "https://restapi.lovers.company/wp-json/wp/v2/media?parent=116"
-        }
-      ],
-      "curies": [
-        { "name": "wp", "href": "https://api.w.org/{rel}", "templated": true }
-      ]
-    }
-  },
-  {
-    "id": 114,
-    "date": "2025-01-21T14:17:12",
-    "date_gmt": "2025-01-21T14:17:12",
-    "guid": {
-      "rendered": "https://restapi.lovers.company/?post_type=client&#038;p=114"
-    },
-    "modified": "2025-01-21T14:17:12",
-    "modified_gmt": "2025-01-21T14:17:12",
-    "slug": "twinfilm",
-    "status": "publish",
-    "type": "client",
-    "link": "https://restapi.lovers.company/client/twinfilm/",
-    "title": { "rendered": "TwinFilm" },
-    "content": {
-      "rendered": "\n<figure class=\"wp-block-image size-full\"><img loading=\"lazy\" decoding=\"async\" width=\"320\" height=\"320\" src=\"https://restapi.lovers.company/wp-content/uploads/2025/01/Group-23-webp320\u0445320.webp\" alt=\"\" class=\"wp-image-115\" srcset=\"https://restapi.lovers.company/wp-content/uploads/2025/01/Group-23-webp320\u0445320.webp 320w, https://restapi.lovers.company/wp-content/uploads/2025/01/Group-23-webp320\u0445320-300x300.webp 300w, https://restapi.lovers.company/wp-content/uploads/2025/01/Group-23-webp320\u0445320-150x150.webp 150w\" sizes=\"auto, (max-width: 320px) 100vw, 320px\" /></figure>\n",
-      "protected": false
-    },
-    "template": "",
-    "class_list": [
-      "post-114",
-      "client",
-      "type-client",
-      "status-publish",
-      "hentry"
-    ],
-    "_links": {
-      "self": [
-        {
-          "href": "https://restapi.lovers.company/wp-json/wp/v2/client/114",
-          "targetHints": { "allow": ["GET"] }
-        }
-      ],
-      "collection": [
-        { "href": "https://restapi.lovers.company/wp-json/wp/v2/client" }
-      ],
-      "about": [
-        { "href": "https://restapi.lovers.company/wp-json/wp/v2/types/client" }
-      ],
-      "wp:attachment": [
-        {
-          "href": "https://restapi.lovers.company/wp-json/wp/v2/media?parent=114"
-        }
-      ],
-      "curies": [
-        { "name": "wp", "href": "https://api.w.org/{rel}", "templated": true }
-      ]
-    }
-  },
-  {
-    "id": 112,
-    "date": "2025-01-21T14:16:41",
-    "date_gmt": "2025-01-21T14:16:41",
-    "guid": {
-      "rendered": "https://restapi.lovers.company/?post_type=client&#038;p=112"
-    },
-    "modified": "2025-01-21T14:16:41",
-    "modified_gmt": "2025-01-21T14:16:41",
-    "slug": "otto",
-    "status": "publish",
-    "type": "client",
-    "link": "https://restapi.lovers.company/client/otto/",
-    "title": { "rendered": "Otto" },
-    "content": {
-      "rendered": "\n<figure class=\"wp-block-image size-full\"><img loading=\"lazy\" decoding=\"async\" width=\"320\" height=\"320\" src=\"https://restapi.lovers.company/wp-content/uploads/2025/01/Group-22-webp320\u0445320.webp\" alt=\"\" class=\"wp-image-113\" srcset=\"https://restapi.lovers.company/wp-content/uploads/2025/01/Group-22-webp320\u0445320.webp 320w, https://restapi.lovers.company/wp-content/uploads/2025/01/Group-22-webp320\u0445320-300x300.webp 300w, https://restapi.lovers.company/wp-content/uploads/2025/01/Group-22-webp320\u0445320-150x150.webp 150w\" sizes=\"auto, (max-width: 320px) 100vw, 320px\" /></figure>\n",
-      "protected": false
-    },
-    "template": "",
-    "class_list": [
-      "post-112",
-      "client",
-      "type-client",
-      "status-publish",
-      "hentry"
-    ],
-    "_links": {
-      "self": [
-        {
-          "href": "https://restapi.lovers.company/wp-json/wp/v2/client/112",
-          "targetHints": { "allow": ["GET"] }
-        }
-      ],
-      "collection": [
-        { "href": "https://restapi.lovers.company/wp-json/wp/v2/client" }
-      ],
-      "about": [
-        { "href": "https://restapi.lovers.company/wp-json/wp/v2/types/client" }
-      ],
-      "wp:attachment": [
-        {
-          "href": "https://restapi.lovers.company/wp-json/wp/v2/media?parent=112"
-        }
-      ],
-      "curies": [
-        { "name": "wp", "href": "https://api.w.org/{rel}", "templated": true }
-      ]
-    }
-  },
-  {
-    "id": 110,
-    "date": "2025-01-21T14:16:13",
-    "date_gmt": "2025-01-21T14:16:13",
-    "guid": {
-      "rendered": "https://restapi.lovers.company/?post_type=client&#038;p=110"
-    },
-    "modified": "2025-01-21T14:16:13",
-    "modified_gmt": "2025-01-21T14:16:13",
-    "slug": "netflix",
-    "status": "publish",
-    "type": "client",
-    "link": "https://restapi.lovers.company/client/netflix/",
-    "title": { "rendered": "Netflix" },
-    "content": {
-      "rendered": "\n<figure class=\"wp-block-image size-full\"><img loading=\"lazy\" decoding=\"async\" width=\"320\" height=\"320\" src=\"https://restapi.lovers.company/wp-content/uploads/2025/01/Group-20-webp320\u0445320.webp\" alt=\"\" class=\"wp-image-111\" srcset=\"https://restapi.lovers.company/wp-content/uploads/2025/01/Group-20-webp320\u0445320.webp 320w, https://restapi.lovers.company/wp-content/uploads/2025/01/Group-20-webp320\u0445320-300x300.webp 300w, https://restapi.lovers.company/wp-content/uploads/2025/01/Group-20-webp320\u0445320-150x150.webp 150w\" sizes=\"auto, (max-width: 320px) 100vw, 320px\" /></figure>\n",
-      "protected": false
-    },
-    "template": "",
-    "class_list": [
-      "post-110",
-      "client",
-      "type-client",
-      "status-publish",
-      "hentry"
-    ],
-    "_links": {
-      "self": [
-        {
-          "href": "https://restapi.lovers.company/wp-json/wp/v2/client/110",
-          "targetHints": { "allow": ["GET"] }
-        }
-      ],
-      "collection": [
-        { "href": "https://restapi.lovers.company/wp-json/wp/v2/client" }
-      ],
-      "about": [
-        { "href": "https://restapi.lovers.company/wp-json/wp/v2/types/client" }
-      ],
-      "wp:attachment": [
-        {
-          "href": "https://restapi.lovers.company/wp-json/wp/v2/media?parent=110"
-        }
-      ],
-      "curies": [
-        { "name": "wp", "href": "https://api.w.org/{rel}", "templated": true }
-      ]
-    }
-  },
-  {
-    "id": 108,
-    "date": "2025-01-21T14:15:45",
-    "date_gmt": "2025-01-21T14:15:45",
-    "guid": {
-      "rendered": "https://restapi.lovers.company/?post_type=client&#038;p=108"
-    },
-    "modified": "2025-01-21T14:15:45",
-    "modified_gmt": "2025-01-21T14:15:45",
-    "slug": "cacharel",
-    "status": "publish",
-    "type": "client",
-    "link": "https://restapi.lovers.company/client/cacharel/",
-    "title": { "rendered": "Cacharel" },
-    "content": {
-      "rendered": "\n<figure class=\"wp-block-image size-full\"><img loading=\"lazy\" decoding=\"async\" width=\"320\" height=\"320\" src=\"https://restapi.lovers.company/wp-content/uploads/2025/01/Group-19-webp320\u0445320.webp\" alt=\"\" class=\"wp-image-109\" srcset=\"https://restapi.lovers.company/wp-content/uploads/2025/01/Group-19-webp320\u0445320.webp 320w, https://restapi.lovers.company/wp-content/uploads/2025/01/Group-19-webp320\u0445320-300x300.webp 300w, https://restapi.lovers.company/wp-content/uploads/2025/01/Group-19-webp320\u0445320-150x150.webp 150w\" sizes=\"auto, (max-width: 320px) 100vw, 320px\" /></figure>\n",
-      "protected": false
-    },
-    "template": "",
-    "class_list": [
-      "post-108",
-      "client",
-      "type-client",
-      "status-publish",
-      "hentry"
-    ],
-    "_links": {
-      "self": [
-        {
-          "href": "https://restapi.lovers.company/wp-json/wp/v2/client/108",
-          "targetHints": { "allow": ["GET"] }
-        }
-      ],
-      "collection": [
-        { "href": "https://restapi.lovers.company/wp-json/wp/v2/client" }
-      ],
-      "about": [
-        { "href": "https://restapi.lovers.company/wp-json/wp/v2/types/client" }
-      ],
-      "wp:attachment": [
-        {
-          "href": "https://restapi.lovers.company/wp-json/wp/v2/media?parent=108"
-        }
-      ],
-      "curies": [
-        { "name": "wp", "href": "https://api.w.org/{rel}", "templated": true }
-      ]
-    }
-  },
-  {
-    "id": 106,
-    "date": "2025-01-21T14:15:14",
-    "date_gmt": "2025-01-21T14:15:14",
-    "guid": {
-      "rendered": "https://restapi.lovers.company/?post_type=client&#038;p=106"
-    },
-    "modified": "2025-01-21T14:15:14",
-    "modified_gmt": "2025-01-21T14:15:14",
-    "slug": "tm",
-    "status": "publish",
-    "type": "client",
-    "link": "https://restapi.lovers.company/client/tm/",
-    "title": { "rendered": "TM" },
-    "content": {
-      "rendered": "\n<figure class=\"wp-block-image size-full\"><img loading=\"lazy\" decoding=\"async\" width=\"320\" height=\"320\" src=\"https://restapi.lovers.company/wp-content/uploads/2025/01/Group-15-webp320\u0445320.webp\" alt=\"\" class=\"wp-image-107\" srcset=\"https://restapi.lovers.company/wp-content/uploads/2025/01/Group-15-webp320\u0445320.webp 320w, https://restapi.lovers.company/wp-content/uploads/2025/01/Group-15-webp320\u0445320-300x300.webp 300w, https://restapi.lovers.company/wp-content/uploads/2025/01/Group-15-webp320\u0445320-150x150.webp 150w\" sizes=\"auto, (max-width: 320px) 100vw, 320px\" /></figure>\n",
-      "protected": false
-    },
-    "template": "",
-    "class_list": [
-      "post-106",
-      "client",
-      "type-client",
-      "status-publish",
-      "hentry"
-    ],
-    "_links": {
-      "self": [
-        {
-          "href": "https://restapi.lovers.company/wp-json/wp/v2/client/106",
-          "targetHints": { "allow": ["GET"] }
-        }
-      ],
-      "collection": [
-        { "href": "https://restapi.lovers.company/wp-json/wp/v2/client" }
-      ],
-      "about": [
-        { "href": "https://restapi.lovers.company/wp-json/wp/v2/types/client" }
-      ],
-      "wp:attachment": [
-        {
-          "href": "https://restapi.lovers.company/wp-json/wp/v2/media?parent=106"
-        }
-      ],
-      "curies": [
-        { "name": "wp", "href": "https://api.w.org/{rel}", "templated": true }
-      ]
-    }
-  },
-  {
-    "id": 103,
-    "date": "2025-01-21T14:09:48",
-    "date_gmt": "2025-01-21T14:09:48",
-    "guid": {
-      "rendered": "https://restapi.lovers.company/?post_type=client&#038;p=103"
-    },
-    "modified": "2025-01-21T14:09:48",
-    "modified_gmt": "2025-01-21T14:09:48",
-    "slug": "not_know",
-    "status": "publish",
-    "type": "client",
-    "link": "https://restapi.lovers.company/client/not_know/",
-    "title": { "rendered": "not_know" },
-    "content": {
-      "rendered": "\n<figure class=\"wp-block-image size-full\"><img loading=\"lazy\" decoding=\"async\" width=\"320\" height=\"320\" src=\"https://restapi.lovers.company/wp-content/uploads/2025/01/Group-14-webp320\u0445320.webp\" alt=\"\" class=\"wp-image-104\" srcset=\"https://restapi.lovers.company/wp-content/uploads/2025/01/Group-14-webp320\u0445320.webp 320w, https://restapi.lovers.company/wp-content/uploads/2025/01/Group-14-webp320\u0445320-300x300.webp 300w, https://restapi.lovers.company/wp-content/uploads/2025/01/Group-14-webp320\u0445320-150x150.webp 150w\" sizes=\"auto, (max-width: 320px) 100vw, 320px\" /></figure>\n",
-      "protected": false
-    },
-    "template": "",
-    "class_list": [
-      "post-103",
-      "client",
-      "type-client",
-      "status-publish",
-      "hentry"
-    ],
-    "_links": {
-      "self": [
-        {
-          "href": "https://restapi.lovers.company/wp-json/wp/v2/client/103",
-          "targetHints": { "allow": ["GET"] }
-        }
-      ],
-      "collection": [
-        { "href": "https://restapi.lovers.company/wp-json/wp/v2/client" }
-      ],
-      "about": [
-        { "href": "https://restapi.lovers.company/wp-json/wp/v2/types/client" }
-      ],
-      "wp:attachment": [
-        {
-          "href": "https://restapi.lovers.company/wp-json/wp/v2/media?parent=103"
-        }
-      ],
-      "curies": [
-        { "name": "wp", "href": "https://api.w.org/{rel}", "templated": true }
-      ]
-    }
-  },
-  {
-    "id": 101,
-    "date": "2025-01-21T14:08:53",
-    "date_gmt": "2025-01-21T14:08:53",
-    "guid": {
-      "rendered": "https://restapi.lovers.company/?post_type=client&#038;p=101"
-    },
-    "modified": "2025-01-21T14:08:53",
-    "modified_gmt": "2025-01-21T14:08:53",
-    "slug": "loreal",
-    "status": "publish",
-    "type": "client",
-    "link": "https://restapi.lovers.company/client/loreal/",
-    "title": { "rendered": "Loreal" },
-    "content": {
-      "rendered": "\n<figure class=\"wp-block-image size-full\"><img loading=\"lazy\" decoding=\"async\" width=\"320\" height=\"320\" src=\"https://restapi.lovers.company/wp-content/uploads/2025/01/Group-13-webp320\u0445320.webp\" alt=\"\" class=\"wp-image-102\" srcset=\"https://restapi.lovers.company/wp-content/uploads/2025/01/Group-13-webp320\u0445320.webp 320w, https://restapi.lovers.company/wp-content/uploads/2025/01/Group-13-webp320\u0445320-300x300.webp 300w, https://restapi.lovers.company/wp-content/uploads/2025/01/Group-13-webp320\u0445320-150x150.webp 150w\" sizes=\"auto, (max-width: 320px) 100vw, 320px\" /></figure>\n",
-      "protected": false
-    },
-    "template": "",
-    "class_list": [
-      "post-101",
-      "client",
-      "type-client",
-      "status-publish",
-      "hentry"
-    ],
-    "_links": {
-      "self": [
-        {
-          "href": "https://restapi.lovers.company/wp-json/wp/v2/client/101",
-          "targetHints": { "allow": ["GET"] }
-        }
-      ],
-      "collection": [
-        { "href": "https://restapi.lovers.company/wp-json/wp/v2/client" }
-      ],
-      "about": [
-        { "href": "https://restapi.lovers.company/wp-json/wp/v2/types/client" }
-      ],
-      "wp:attachment": [
-        {
-          "href": "https://restapi.lovers.company/wp-json/wp/v2/media?parent=101"
-        }
-      ],
-      "curies": [
-        { "name": "wp", "href": "https://api.w.org/{rel}", "templated": true }
-      ]
-    }
-  },
-  {
-    "id": 100,
-    "date": "2025-01-21T14:08:26",
-    "date_gmt": "2025-01-21T14:08:26",
-    "guid": {
-      "rendered": "https://restapi.lovers.company/?post_type=client&#038;p=100"
-    },
-    "modified": "2025-01-21T14:12:25",
-    "modified_gmt": "2025-01-21T14:12:25",
-    "slug": "maccann",
-    "status": "publish",
-    "type": "client",
-    "link": "https://restapi.lovers.company/client/maccann/",
-    "title": { "rendered": "MacCANN" },
-    "content": {
-      "rendered": "\n<figure class=\"wp-block-image size-full\"><img loading=\"lazy\" decoding=\"async\" width=\"320\" height=\"320\" src=\"https://restapi.lovers.company/wp-content/uploads/2025/01/Group-12-webp320\u0445320.webp\" alt=\"\" class=\"wp-image-105\" srcset=\"https://restapi.lovers.company/wp-content/uploads/2025/01/Group-12-webp320\u0445320.webp 320w, https://restapi.lovers.company/wp-content/uploads/2025/01/Group-12-webp320\u0445320-300x300.webp 300w, https://restapi.lovers.company/wp-content/uploads/2025/01/Group-12-webp320\u0445320-150x150.webp 150w\" sizes=\"auto, (max-width: 320px) 100vw, 320px\" /></figure>\n",
-      "protected": false
-    },
-    "template": "",
-    "class_list": [
-      "post-100",
-      "client",
-      "type-client",
-      "status-publish",
-      "hentry"
-    ],
-    "_links": {
-      "self": [
-        {
-          "href": "https://restapi.lovers.company/wp-json/wp/v2/client/100",
-          "targetHints": { "allow": ["GET"] }
-        }
-      ],
-      "collection": [
-        { "href": "https://restapi.lovers.company/wp-json/wp/v2/client" }
-      ],
-      "about": [
-        { "href": "https://restapi.lovers.company/wp-json/wp/v2/types/client" }
-      ],
-      "wp:attachment": [
-        {
-          "href": "https://restapi.lovers.company/wp-json/wp/v2/media?parent=100"
-        }
-      ],
-      "curies": [
-        { "name": "wp", "href": "https://api.w.org/{rel}", "templated": true }
-      ]
-    }
-  },
-  {
-    "id": 98,
-    "date": "2025-01-21T13:48:50",
-    "date_gmt": "2025-01-21T13:48:50",
-    "guid": {
-      "rendered": "https://restapi.lovers.company/?post_type=client&#038;p=98"
-    },
-    "modified": "2025-01-21T13:48:50",
-    "modified_gmt": "2025-01-21T13:48:50",
-    "slug": "tabasco",
-    "status": "publish",
-    "type": "client",
-    "link": "https://restapi.lovers.company/client/tabasco/",
-    "title": { "rendered": "Tabasco" },
-    "content": {
-      "rendered": "\n<figure class=\"wp-block-image size-full\"><img loading=\"lazy\" decoding=\"async\" width=\"320\" height=\"320\" src=\"https://restapi.lovers.company/wp-content/uploads/2025/01/Group-10-webp320\u0445320.webp\" alt=\"\" class=\"wp-image-99\" srcset=\"https://restapi.lovers.company/wp-content/uploads/2025/01/Group-10-webp320\u0445320.webp 320w, https://restapi.lovers.company/wp-content/uploads/2025/01/Group-10-webp320\u0445320-300x300.webp 300w, https://restapi.lovers.company/wp-content/uploads/2025/01/Group-10-webp320\u0445320-150x150.webp 150w\" sizes=\"auto, (max-width: 320px) 100vw, 320px\" /></figure>\n",
-      "protected": false
-    },
-    "template": "",
-    "class_list": [
-      "post-98",
-      "client",
-      "type-client",
-      "status-publish",
-      "hentry"
-    ],
-    "_links": {
-      "self": [
-        {
-          "href": "https://restapi.lovers.company/wp-json/wp/v2/client/98",
-          "targetHints": { "allow": ["GET"] }
-        }
-      ],
-      "collection": [
-        { "href": "https://restapi.lovers.company/wp-json/wp/v2/client" }
-      ],
-      "about": [
-        { "href": "https://restapi.lovers.company/wp-json/wp/v2/types/client" }
-      ],
-      "wp:attachment": [
-        {
-          "href": "https://restapi.lovers.company/wp-json/wp/v2/media?parent=98"
-        }
-      ],
-      "curies": [
-        { "name": "wp", "href": "https://api.w.org/{rel}", "templated": true }
-      ]
-    }
-  },
-  {
-    "id": 96,
-    "date": "2025-01-21T13:48:24",
-    "date_gmt": "2025-01-21T13:48:24",
-    "guid": {
-      "rendered": "https://restapi.lovers.company/?post_type=client&#038;p=96"
-    },
-    "modified": "2025-01-21T13:48:24",
-    "modified_gmt": "2025-01-21T13:48:24",
-    "slug": "sovage",
-    "status": "publish",
-    "type": "client",
-    "link": "https://restapi.lovers.company/client/sovage/",
-    "title": { "rendered": "Sovage" },
-    "content": {
-      "rendered": "\n<figure class=\"wp-block-image size-full\"><img loading=\"lazy\" decoding=\"async\" width=\"320\" height=\"320\" src=\"https://restapi.lovers.company/wp-content/uploads/2025/01/Group-9-webp320\u0445320.webp\" alt=\"\" class=\"wp-image-97\" srcset=\"https://restapi.lovers.company/wp-content/uploads/2025/01/Group-9-webp320\u0445320.webp 320w, https://restapi.lovers.company/wp-content/uploads/2025/01/Group-9-webp320\u0445320-300x300.webp 300w, https://restapi.lovers.company/wp-content/uploads/2025/01/Group-9-webp320\u0445320-150x150.webp 150w\" sizes=\"auto, (max-width: 320px) 100vw, 320px\" /></figure>\n",
-      "protected": false
-    },
-    "template": "",
-    "class_list": [
-      "post-96",
-      "client",
-      "type-client",
-      "status-publish",
-      "hentry"
-    ],
-    "_links": {
-      "self": [
-        {
-          "href": "https://restapi.lovers.company/wp-json/wp/v2/client/96",
-          "targetHints": { "allow": ["GET"] }
-        }
-      ],
-      "collection": [
-        { "href": "https://restapi.lovers.company/wp-json/wp/v2/client" }
-      ],
-      "about": [
-        { "href": "https://restapi.lovers.company/wp-json/wp/v2/types/client" }
-      ],
-      "wp:attachment": [
-        {
-          "href": "https://restapi.lovers.company/wp-json/wp/v2/media?parent=96"
-        }
-      ],
-      "curies": [
-        { "name": "wp", "href": "https://api.w.org/{rel}", "templated": true }
-      ]
-    }
-  },
-  {
-    "id": 94,
-    "date": "2025-01-21T13:47:59",
-    "date_gmt": "2025-01-21T13:47:59",
-    "guid": {
-      "rendered": "https://restapi.lovers.company/?post_type=client&#038;p=94"
-    },
-    "modified": "2025-01-21T13:47:59",
-    "modified_gmt": "2025-01-21T13:47:59",
-    "slug": "frenzy",
-    "status": "publish",
-    "type": "client",
-    "link": "https://restapi.lovers.company/client/frenzy/",
-    "title": { "rendered": "Frenzy" },
-    "content": {
-      "rendered": "\n<figure class=\"wp-block-image size-full\"><img loading=\"lazy\" decoding=\"async\" width=\"320\" height=\"320\" src=\"https://restapi.lovers.company/wp-content/uploads/2025/01/frenzy-webp320\u0445320.webp\" alt=\"\" class=\"wp-image-95\" srcset=\"https://restapi.lovers.company/wp-content/uploads/2025/01/frenzy-webp320\u0445320.webp 320w, https://restapi.lovers.company/wp-content/uploads/2025/01/frenzy-webp320\u0445320-300x300.webp 300w, https://restapi.lovers.company/wp-content/uploads/2025/01/frenzy-webp320\u0445320-150x150.webp 150w\" sizes=\"auto, (max-width: 320px) 100vw, 320px\" /></figure>\n",
-      "protected": false
-    },
-    "template": "",
-    "class_list": [
-      "post-94",
-      "client",
-      "type-client",
-      "status-publish",
-      "hentry"
-    ],
-    "_links": {
-      "self": [
-        {
-          "href": "https://restapi.lovers.company/wp-json/wp/v2/client/94",
-          "targetHints": { "allow": ["GET"] }
-        }
-      ],
-      "collection": [
-        { "href": "https://restapi.lovers.company/wp-json/wp/v2/client" }
-      ],
-      "about": [
-        { "href": "https://restapi.lovers.company/wp-json/wp/v2/types/client" }
-      ],
-      "wp:attachment": [
-        {
-          "href": "https://restapi.lovers.company/wp-json/wp/v2/media?parent=94"
-        }
-      ],
-      "curies": [
-        { "name": "wp", "href": "https://api.w.org/{rel}", "templated": true }
-      ]
-    }
-  },
-  {
-    "id": 90,
-    "date": "2025-01-21T13:47:07",
-    "date_gmt": "2025-01-21T13:47:07",
-    "guid": {
-      "rendered": "https://restapi.lovers.company/?post_type=client&#038;p=90"
-    },
-    "modified": "2025-01-21T13:47:07",
-    "modified_gmt": "2025-01-21T13:47:07",
-    "slug": "division",
-    "status": "publish",
-    "type": "client",
-    "link": "https://restapi.lovers.company/client/division/",
-    "title": { "rendered": "Division" },
-    "content": {
-      "rendered": "\n<figure class=\"wp-block-image size-full\"><img loading=\"lazy\" decoding=\"async\" width=\"320\" height=\"320\" src=\"https://restapi.lovers.company/wp-content/uploads/2025/01/division-webp320\u0445320.webp\" alt=\"\" class=\"wp-image-91\" srcset=\"https://restapi.lovers.company/wp-content/uploads/2025/01/division-webp320\u0445320.webp 320w, https://restapi.lovers.company/wp-content/uploads/2025/01/division-webp320\u0445320-300x300.webp 300w, https://restapi.lovers.company/wp-content/uploads/2025/01/division-webp320\u0445320-150x150.webp 150w\" sizes=\"auto, (max-width: 320px) 100vw, 320px\" /></figure>\n",
-      "protected": false
-    },
-    "template": "",
-    "class_list": [
-      "post-90",
-      "client",
-      "type-client",
-      "status-publish",
-      "hentry"
-    ],
-    "_links": {
-      "self": [
-        {
-          "href": "https://restapi.lovers.company/wp-json/wp/v2/client/90",
-          "targetHints": { "allow": ["GET"] }
-        }
-      ],
-      "collection": [
-        { "href": "https://restapi.lovers.company/wp-json/wp/v2/client" }
-      ],
-      "about": [
-        { "href": "https://restapi.lovers.company/wp-json/wp/v2/types/client" }
-      ],
-      "wp:attachment": [
-        {
-          "href": "https://restapi.lovers.company/wp-json/wp/v2/media?parent=90"
-        }
-      ],
-      "curies": [
-        { "name": "wp", "href": "https://api.w.org/{rel}", "templated": true }
-      ]
-    }
-  },
-  {
-    "id": 88,
-    "date": "2025-01-21T13:46:20",
-    "date_gmt": "2025-01-21T13:46:20",
-    "guid": {
-      "rendered": "https://restapi.lovers.company/?post_type=client&#038;p=88"
-    },
-    "modified": "2025-01-21T13:46:20",
-    "modified_gmt": "2025-01-21T13:46:20",
-    "slug": "dior",
-    "status": "publish",
-    "type": "client",
-    "link": "https://restapi.lovers.company/client/dior/",
-    "title": { "rendered": "Dior" },
-    "content": {
-      "rendered": "\n<figure class=\"wp-block-image size-full\"><img loading=\"lazy\" decoding=\"async\" width=\"320\" height=\"320\" src=\"https://restapi.lovers.company/wp-content/uploads/2025/01/dior-webp320\u0445320.webp\" alt=\"\" class=\"wp-image-89\" srcset=\"https://restapi.lovers.company/wp-content/uploads/2025/01/dior-webp320\u0445320.webp 320w, https://restapi.lovers.company/wp-content/uploads/2025/01/dior-webp320\u0445320-300x300.webp 300w, https://restapi.lovers.company/wp-content/uploads/2025/01/dior-webp320\u0445320-150x150.webp 150w\" sizes=\"auto, (max-width: 320px) 100vw, 320px\" /></figure>\n",
-      "protected": false
-    },
-    "template": "",
-    "class_list": [
-      "post-88",
-      "client",
-      "type-client",
-      "status-publish",
-      "hentry"
-    ],
-    "_links": {
-      "self": [
-        {
-          "href": "https://restapi.lovers.company/wp-json/wp/v2/client/88",
-          "targetHints": { "allow": ["GET"] }
-        }
-      ],
-      "collection": [
-        { "href": "https://restapi.lovers.company/wp-json/wp/v2/client" }
-      ],
-      "about": [
-        { "href": "https://restapi.lovers.company/wp-json/wp/v2/types/client" }
-      ],
-      "wp:attachment": [
-        {
-          "href": "https://restapi.lovers.company/wp-json/wp/v2/media?parent=88"
-        }
-      ],
-      "curies": [
-        { "name": "wp", "href": "https://api.w.org/{rel}", "templated": true }
-      ]
-    }
-  },
-  {
-    "id": 86,
-    "date": "2025-01-21T13:45:58",
-    "date_gmt": "2025-01-21T13:45:58",
-    "guid": {
-      "rendered": "https://restapi.lovers.company/?post_type=client&#038;p=86"
-    },
-    "modified": "2025-01-21T13:45:58",
-    "modified_gmt": "2025-01-21T13:45:58",
-    "slug": "banda",
-    "status": "publish",
-    "type": "client",
-    "link": "https://restapi.lovers.company/client/banda/",
-    "title": { "rendered": "Banda" },
-    "content": {
-      "rendered": "\n<figure class=\"wp-block-image size-full\"><img loading=\"lazy\" decoding=\"async\" width=\"320\" height=\"320\" src=\"https://restapi.lovers.company/wp-content/uploads/2025/01/banda-webp320\u0445320.webp\" alt=\"\" class=\"wp-image-87\" srcset=\"https://restapi.lovers.company/wp-content/uploads/2025/01/banda-webp320\u0445320.webp 320w, https://restapi.lovers.company/wp-content/uploads/2025/01/banda-webp320\u0445320-300x300.webp 300w, https://restapi.lovers.company/wp-content/uploads/2025/01/banda-webp320\u0445320-150x150.webp 150w\" sizes=\"auto, (max-width: 320px) 100vw, 320px\" /></figure>\n",
-      "protected": false
-    },
-    "template": "",
-    "class_list": [
-      "post-86",
-      "client",
-      "type-client",
-      "status-publish",
-      "hentry"
-    ],
-    "_links": {
-      "self": [
-        {
-          "href": "https://restapi.lovers.company/wp-json/wp/v2/client/86",
-          "targetHints": { "allow": ["GET"] }
-        }
-      ],
-      "collection": [
-        { "href": "https://restapi.lovers.company/wp-json/wp/v2/client" }
-      ],
-      "about": [
-        { "href": "https://restapi.lovers.company/wp-json/wp/v2/types/client" }
-      ],
-      "wp:attachment": [
-        {
-          "href": "https://restapi.lovers.company/wp-json/wp/v2/media?parent=86"
-        }
-      ],
-      "curies": [
-        { "name": "wp", "href": "https://api.w.org/{rel}", "templated": true }
-      ]
-    }
-  },
-  {
-    "id": 84,
-    "date": "2025-01-21T12:44:13",
-    "date_gmt": "2025-01-21T12:44:13",
-    "guid": {
-      "rendered": "https://restapi.lovers.company/?post_type=client&#038;p=84"
-    },
-    "modified": "2025-01-21T12:44:13",
-    "modified_gmt": "2025-01-21T12:44:13",
-    "slug": "annex",
-    "status": "publish",
-    "type": "client",
-    "link": "https://restapi.lovers.company/client/annex/",
-    "title": { "rendered": "ANNEX" },
-    "content": {
-      "rendered": "\n<figure class=\"wp-block-image size-full\"><img loading=\"lazy\" decoding=\"async\" width=\"320\" height=\"320\" src=\"https://restapi.lovers.company/wp-content/uploads/2025/01/ANNEX-webp320\u0445320.webp\" alt=\"\" class=\"wp-image-85\" srcset=\"https://restapi.lovers.company/wp-content/uploads/2025/01/ANNEX-webp320\u0445320.webp 320w, https://restapi.lovers.company/wp-content/uploads/2025/01/ANNEX-webp320\u0445320-300x300.webp 300w, https://restapi.lovers.company/wp-content/uploads/2025/01/ANNEX-webp320\u0445320-150x150.webp 150w\" sizes=\"auto, (max-width: 320px) 100vw, 320px\" /></figure>\n",
-      "protected": false
-    },
-    "template": "",
-    "class_list": [
-      "post-84",
-      "client",
-      "type-client",
-      "status-publish",
-      "hentry"
-    ],
-    "_links": {
-      "self": [
-        {
-          "href": "https://restapi.lovers.company/wp-json/wp/v2/client/84",
-          "targetHints": { "allow": ["GET"] }
-        }
-      ],
-      "collection": [
-        { "href": "https://restapi.lovers.company/wp-json/wp/v2/client" }
-      ],
-      "about": [
-        { "href": "https://restapi.lovers.company/wp-json/wp/v2/types/client" }
-      ],
-      "wp:attachment": [
-        {
-          "href": "https://restapi.lovers.company/wp-json/wp/v2/media?parent=84"
+          "href": "https://restapi.lovers.company/wp-json/wp/v2/media?parent=41"
         }
       ],
       "curies": [

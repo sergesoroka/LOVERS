@@ -40,7 +40,7 @@ export default async function MediaLinks() {
           );
         }
       })} */}
-      {pages.map((page) => {
+      {/* {pages.map((page) => {
         if (page.id === 157) {
           return (
             <li
@@ -50,8 +50,8 @@ export default async function MediaLinks() {
             />
           );
         }
-      })}
-      {pages.map((page) => {
+      })} */}
+      {/* {pages.map((page) => {
         if (page.id === 159) {
           return (
             <li
@@ -61,7 +61,7 @@ export default async function MediaLinks() {
             />
           );
         }
-      })}
+      })} */}
     </ul>
   );
 }

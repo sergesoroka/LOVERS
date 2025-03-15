@@ -43,6 +43,7 @@ export default async function ContactComp({ mode }: { mode: string }) {
           </div>
           <div className="pb-[37px] flex flex-col md:flex-row justify-start gap-8  md:items-end md:gap-[230px]">
             <WatchShowreel />
+
             <div className="leading-[32px] mt-8">
               <MediaLinks />
             </div>
