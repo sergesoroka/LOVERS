@@ -10,7 +10,7 @@ import { useState } from "react";
 const menuItems = [
   { id: "0", link: "lovers" },
   { id: "1", link: "works" },
-  // { id: "2", link: "clients" },
+  { id: "2", link: "clients" },
   { id: "3", link: "locations" },
   { id: "4", link: "casting" },
   { id: "5", link: "contacts" },
