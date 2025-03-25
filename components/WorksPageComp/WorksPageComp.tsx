@@ -16,61 +16,64 @@ export default function WorksPageComp({ videos, category }) {
         </div>
       )} */}
       <div className="md:grid grid-cols-2 mb-60 place-items-center gap-[75px] mt-28 md:px-[40px]">
-        {videos &&
-          videos.map((video, idx) => {
-            if (category && video.type_of_work.rendered == category) {
-              return (
-                <div
-                  key={video.id}
-                  className={`group  ${
-                    (idx + 1) % 3 == 0
-                      ? "md:col-span-2 md:w-[770px] w-full"
-                      : "md:w-[579px] w-full"
-                  } `}
-                >
-                  <VimeoPlayer
-                    link={`/works/${category}/${video.slug}`}
-                    url={video.vimeo.rendered}
-                  />
+        {videos?.docs.map((video, idx) => {
+          if (category && video.category == category) {
+            return (
+              <div
+                key={video.id}
+                className={`group  ${
+                  (idx + 1) % 3 == 0
+                    ? "md:col-span-2 md:w-[770px] w-full"
+                    : "md:w-[579px] w-full"
+                } `}
+              >
+                <VimeoPlayer
+                  link={`/works/${category}/${video.name
+                    .toLowerCase()
+                    .replace(/\s+/g, "-")}`}
+                  url={video.link}
+                />
 
-                  <div className="flex justify-between mb-10 mt-2 uppercase">
-                    <p className="group-hover:text-yellow-400 w-[50%] text-left">
-                      {video.title.rendered}
-                    </p>
-                    <p className="group-hover:text-yellow-400 w-[50%] text-right">
-                      {video.subtitle.rendered}
-                    </p>
-                  </div>
+                <div className="flex justify-between mb-10 mt-2 uppercase">
+                  <p className="group-hover:text-yellow-400 w-[50%] text-left">
+                    {video.name}
+                  </p>
+                  <p className="group-hover:text-yellow-400 w-[50%] text-right">
+                    {video.client}
+                  </p>
                 </div>
-              );
-            }
-            if (!category) {
-              return (
-                <div
-                  key={video.id}
-                  className={`group  ${
-                    (idx + 1) % 3 == 0
-                      ? "md:col-span-2 md:w-[770px] w-full"
-                      : "md:w-[579px] w-full"
-                  } `}
-                >
-                  <VimeoPlayer
-                    link={`/works/${category}/${video.slug}`}
-                    url={video.vimeo.rendered}
-                  />
+              </div>
+            );
+          }
+          if (!category) {
+            return (
+              <div
+                key={video.id}
+                className={`group  ${
+                  (idx + 1) % 3 == 0
+                    ? "md:col-span-2 md:w-[770px] w-full"
+                    : "md:w-[579px] w-full"
+                } `}
+              >
+                <VimeoPlayer
+                  link={`/works/${category}/${video.name
+                    .toLowerCase()
+                    .replace(/\s+/g, "-")}`}
+                  url={video.link}
+                />
 
-                  <div className="flex justify-between mb-10 mt-2 uppercase">
-                    <p className="group-hover:text-[#1400ff] w-[50%] text-left">
-                      {video.title.rendered}
-                    </p>
-                    <p className="group-hover:text-[#1400ff] w-[50%] text-right">
-                      {video.subtitle.rendered}
-                    </p>
-                  </div>
+                <div className="flex justify-between mb-10 mt-2 uppercase">
+                  <p className="group-hover:text-[#1400ff] w-[50%] text-left">
+                    {video.name}
+                  </p>
+                  <p className="group-hover:text-[#1400ff] w-[50%] text-right">
+                    {video.client}
+                  </p>
                 </div>
-              );
-            }
-          })}
+              </div>
+            );
+          }
+        })}
       </div>
       <ContactComp mode="light" />
     </div>

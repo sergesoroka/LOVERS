@@ -1,19 +1,16 @@
 import "./components.css";
 
-import pages from "./../data/page-30.json";
+// import pages from "./../data/page-30.json";
 
-export default async function GeneralQnquiries() {
-  // const data = await fetch(
-  //   "http://restapi.lovers.company/wp-json/wp/v2/pages/30"
-  // );
-  // const pages = await data.json();
-
+export default async function GeneralQnquiries({ data }) {
   return (
-    <div className="relative">
-      <div
+    <div className="relative qnquiries uppercase text-[20px] leading-[24px]">
+      <span className="block my-0 font-semibold">{data?.docs[2].name}:</span>
+      <span className="block my-0">{data?.docs[2].contact}</span>
+      {/* <div
         className="qnquiries uppercase text-[20px] leading-[24px]"
         dangerouslySetInnerHTML={{ __html: pages?.content?.rendered }}
-      />
+      /> */}
     </div>
   );
 }

@@ -7,10 +7,11 @@ import WatchShowreel from "../WatchShowreel";
 import page from "./../../data/contacts-page.json";
 
 export default async function ContactComp({ mode }: { mode: string }) {
-  // const data = await fetch(
-  //   "http://restapi.lovers.company/wp-json/wp/v2/pages/14"
-  // );
-  // const pageData = await data.json();
+  const data = await fetch(
+    "https://lovers-payload-cms.vercel.app/api/contacts"
+  );
+  const pageData = await data.json();
+  console.log(pageData.docs);
 
   // const page = pageData ? pageData : pages;
 
@@ -39,7 +40,7 @@ export default async function ContactComp({ mode }: { mode: string }) {
           />
           <hr />
           <div className="pt-[26px]  md:flex justify-start  items-end md:gap-[126px]">
-            <GeneralQnquiries />
+            <GeneralQnquiries data={pageData} />
           </div>
           <div className="pb-[37px] flex flex-col md:flex-row justify-start gap-8  md:items-end md:gap-[230px]">
             <WatchShowreel />
