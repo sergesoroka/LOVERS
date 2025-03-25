@@ -1,6 +1,7 @@
 import Header from "@/components/Header";
 import ContactComp from "@/components/ContactComp/ContactComp";
-// import DownloadIcon from "@/components/Icons/DownloadIcon";
+import Link from "next/link";
+import DownloadIcon from "@/components/Icons/DownloadIcon";
 // import LoversImageComp from "@/components/ContactComp/LoversImageComp";
 
 export default async function Casting() {
@@ -49,16 +50,23 @@ export default async function Casting() {
             advertising campaigns and photoshoots. We have talents of all ages
             and types. Every day, we discover new faces.
           </div>
-
-          <div className="text-[#1400ff] md:mt-[12rem] contactsTitle uppercase text-[78px] underline underline-offset-4 decoration-[5px] cursor-pointer md:text-[160px] leading-[84px] md:leading-[140px] z-0">
-            DOWNLOAD OUR PRESENTATION
-          </div>
-          <div className="flex items-center justify-start gap-8">
-            <div className="text-[#1400ff] contactsTitle uppercase text-[78px] underline underline-offset-4 decoration-[5px] cursor-pointer md:text-[160px] leading-[84px] md:leading-[140px] z-0">
-              TO LEARN MORE ABOUT OUR TALENTS
+          <Link
+            href="https://drive.google.com/file/d/1A7jkWsIPfW5--tipyhZjxfNjzo2UgU4A/view"
+            target="_blank"
+          >
+            <div className="text-[#1400ff] md:mt-[12rem] contactsTitle uppercase text-[78px] underline underline-offset-4 decoration-[5px] cursor-pointer md:text-[160px] leading-[84px] md:leading-[140px] z-0">
+              DOWNLOAD OUR PRESENTATION
             </div>
-            {/* <DownloadIcon mode="large" /> */}
-          </div>
+            <div className="">
+              <div className=" text-[#1400ff] contactsTitle uppercase text-[78px] underline underline-offset-4 decoration-[5px] cursor-pointer md:text-[160px] leading-[84px] md:leading-[140px] z-0">
+                <p>TO LEARN MORE ABOUT OUR</p>
+              </div>
+              <div className="flex items-center gap-4 text-[#1400ff] contactsTitle uppercase text-[78px] underline underline-offset-4 decoration-[5px] cursor-pointer md:text-[160px] leading-[84px] md:leading-[140px] z-0">
+                <p>TALENTS</p>
+                <DownloadIcon mode="large" />
+              </div>
+            </div>
+          </Link>
           <div className="text-[#1400ff] mt-[6rem] md:mt-[12rem] contactsTitle uppercase text-[78px] md:text-[160px] leading-[84px] md:leading-[140px] z-0">
             FOR TALENTS
           </div>

@@ -7,8 +7,12 @@ export default async function DownloadPresentation({ mode }: { mode: string }) {
   // );
   // const pages = await data.json();
 
+  // locations: https://drive.google.com/file/d/14rX9Ap6mLoj7eyB6K7LNjsf9Cd6x0VEA/view
+  // production: https://drive.google.com/file/d/1A7jkWsIPfW5--tipyhZjxfNjzo2UgU4A/view
+
   return (
     <div className="relative">
+      loc
       {pages.map((page) => {
         if (page.id === 166) {
           return (

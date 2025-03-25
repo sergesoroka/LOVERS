@@ -1,6 +1,7 @@
 import Header from "@/components/Header";
 import ContactComp from "@/components/ContactComp/ContactComp";
 import DownloadIcon from "@/components/Icons/DownloadIcon";
+import Link from "next/link";
 // import LoversImageComp from "@/components/ContactComp/LoversImageComp";
 
 export default async function Locions() {
@@ -54,15 +55,20 @@ export default async function Locions() {
             We have it all! We stay up to date on new locations and are always
             ready to offer fresh ideas for your project.
           </div>
-          <div className="text-[#1400ff] md:mt-[12rem] contactsTitle uppercase text-[78px] underline underline-offset-4 decoration-[5px] cursor-pointer md:text-[160px] leading-[84px] md:leading-[140px] z-0">
-            DOWNLOAD OUR PRESENTATION
-          </div>
-          <div className="flex items-center justify-start gap-8">
-            <div className="text-[#1400ff] contactsTitle uppercase text-[78px] underline underline-offset-4 decoration-[5px] cursor-pointer md:text-[160px] leading-[84px] md:leading-[140px] z-0">
-              TO SEE LOCATION EXAMPLES
+          <Link
+            href="https://drive.google.com/file/d/14rX9Ap6mLoj7eyB6K7LNjsf9Cd6x0VEA/view"
+            target="_blank"
+          >
+            <div className="text-[#1400ff] md:mt-[12rem] contactsTitle uppercase text-[78px] underline underline-offset-4 decoration-[5px] cursor-pointer md:text-[160px] leading-[84px] md:leading-[140px] z-0">
+              DOWNLOAD OUR PRESENTATION
             </div>
-            <DownloadIcon mode="large" />
-          </div>
+            <div className="flex items-center justify-start gap-8">
+              <div className="text-[#1400ff] contactsTitle uppercase text-[78px] underline underline-offset-4 decoration-[5px] cursor-pointer md:text-[160px] leading-[84px] md:leading-[140px] z-0">
+                TO SEE LOCATION EXAMPLES
+              </div>
+              <DownloadIcon mode="large" />
+            </div>
+          </Link>
           <div className="text-[#1400ff] mt-[6rem] md:mt-[12rem] contactsTitle uppercase text-[78px] md:text-[160px] leading-[84px] md:leading-[140px] z-0">
             FOR PROPERTY <br />
             OWNERS
