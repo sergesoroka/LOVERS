@@ -12,7 +12,6 @@ export default async function DownloadPresentation({ mode }: { mode: string }) {
 
   return (
     <div className="relative">
-      loc
       {pages.map((page) => {
         if (page.id === 166) {
           return (
