@@ -16,7 +16,7 @@ export default function WorksPageComp({ videos, category }) {
         </div>
       )} */}
       <div className="md:grid grid-cols-2 mb-60 place-items-center gap-[75px] mt-28 md:px-[40px]">
-        {videos?.docs.map((video, idx) => {
+        {videos?.docs.reverse().map((video, idx) => {
           if (category && video.category == category) {
             return (
               <div
