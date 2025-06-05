@@ -12,17 +12,20 @@ export default async function Home() {
         <div className="mt-20">
           <div className="uppercase text-[32px] leading-[34px] md:text-[40px] md:leading-[44px]">
             <div className="uppercase text-[32px] leading-[34px] md:text-[40px] md:leading-[44px]  md:px-[200px] pt-20">
-              WE ARE A PRODUCTION SERVICE &gt;LOVERS&gt; SPECIALIZING IN
-              AUDIOVISUAL CONTENT CREATION. WITH TEAMS IN BULGARIA, SPAIN, AND
-              THE NETHERLANDS, WE PARTNER WITH PRODUCTION COMPANIES, CREATIVE
-              AGENCIES, FILMMAKERS, AND PHOTOGRAPHERS, COMBINING OUR EXPERTISE
-              WITH PASSION AND CREATIVITY TO SUPPORT GLOBAL BRANDS. WE BELIEVE
-              IN THE POWER OF COLLABORATION. OUR FOCUS IS ON INNOVATIVE
-              SOLUTIONS AND METICULOUS ATTENTION TO DETAIL, ENSURING EVERY
-              PROJECT ACHIEVES THE HIGHEST STANDARDS OF QUALITY AND TECHNICAL
-              EXCELLENCE. AT &gt;LOVERS&gt;, WE VALUE HONESTY, TRANSPARENCY,
-              RELIABILITY, AND CREATING A POSITIVE, ENJOYABLE PROCESS FOR
-              EVERYONE INVOLVED.
+              WE ARE &gt;LOVERS&gt; — A CREATIVE PRODUCTION COMPANY AND A
+              FLEXIBLE CREATIVE AGENCY SPECIALIZING IN VISUAL STORYTELLING,
+              BRANDING, AND WEB DESIGN. With teams in Spain, Bulgaria, France,
+              Germany, the Netherlands, and the UK, we partner with production
+              companies, creative agencies, filmmakers, and brands, offering
+              everything from audiovisual content and campaigns to brand
+              identity, creative direction, and digital experiences. We believe
+              in the power of collaboration, clarity, and adaptability. Our
+              focus is on smart, cost-effective solutions and meticulous
+              attention to detail, ensuring each project meets the highest
+              standards of creative and technical excellence. At &gt;LOVERS&gt;,
+              we value honesty, transparency, and reliability — and we build
+              creative processes that are smooth, inspiring, and genuinely
+              enjoyable for everyone involved.
             </div>
           </div>
         </div>
