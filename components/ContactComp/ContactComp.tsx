@@ -34,7 +34,7 @@ export default async function ContactComp({ mode }: { mode: string }) {
             dangerouslySetInnerHTML={{ __html: page.title.rendered }}
           />
           <div
-            className="grid grid-cols-2 md:gap-x-[230px] md:gap-y-[48px] mt-[-59px] uppercase my-14"
+            className="w-[86%] grid grid-cols-2 md:gap-y-[48px] mt-[-59px] uppercase my-14"
             dangerouslySetInnerHTML={{ __html: page.content.rendered }}
           />
           <hr />
