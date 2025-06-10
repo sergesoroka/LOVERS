@@ -1,5 +1,6 @@
 "use client";
 import "./components.css";
+import LogoMenu from "./Icons/LogoMenu";
 
 import { usePathname } from "next/navigation";
 
@@ -22,39 +23,78 @@ export default function Header() {
   return (
     <>
       {open ? (
-        <div className="fixed md:hidden top-0 bottom-0 right-0 left-0 bg-[#1400ff] z-[999]">
-          <div className="flex justify-between pt-[22px] px-[24px]">
-            <Logo />
+        <div className="fixed  top-0 bottom-0 right-0 left-0 bg-[#1400ff] z-[999]">
+          <div className="flex justify-between pt-[22px] px-[24px] items-start">
+            <LogoMenu />
             <button
               onClick={() => setOpen(false)}
-              className="line-through uppercase text-black"
+              className="absolute top-[43px] right-[38px] uppercase text-white cursor-pointer select-none"
             >
-              close menu
+              close
             </button>
           </div>
-          <ul className="mobMenu uppercase mb-8 px-[18px]">
+          <ul className="flex flex-wrap gap-10 mobMenu uppercase mb-8 px-[18px] mt-[50px] ml-[43px]">
             {menuItems.map((item) => (
-              <li key={item.id} className="text-black">
+              <li key={item.id} className="text-white text-[180px] mb-[60px]">
                 <Link href={`/${item.link}`}>{item.link}</Link>
               </li>
             ))}
           </ul>
+          <div className="absolute bottom-[22px] right-[24px] text-black text-right text-[28px]">
+            <ul>
+              <Link href="https://vimeo.com/loverscompany" target="_blank">
+                <li className="uppercase hover:line-through cursor-pointer hover:text-white z-50">
+                  vimeo
+                </li>
+              </Link>
+              <Link
+                href="https://www.instagram.com/production.lovers.company/?igsh=MWxmbjFuNWttdm1vZw%3D%3D#"
+                target="_blank"
+              >
+                <li className="uppercase hover:line-through cursor-pointer hover:text-white z-50">
+                  instagram
+                </li>
+              </Link>
+              <Link
+                href="https://www.linkedin.com/company/loverscompany"
+                target="_blank"
+              >
+                <li className="uppercase hover:line-through cursor-pointer hover:text-white z-50">
+                  linkedin
+                </li>
+              </Link>
+            </ul>
+          </div>
         </div>
       ) : (
-        <div className="md:hidden flex items-center justify-between">
+        <div className="flex items-center justify-between">
           <Link href="/">
-            <Logo />
+            <div className="flex items-center justify-between">
+              <div className="hidden md:flex items-center justify-between">
+                <Logo />
+              </div>
+
+              <div
+                className={`hidden md:block uppercase ml-[11px] text-[18px] ${
+                  pathname == "/" ? "text-[#1400ff]" : "text-white"
+                } `}
+              >
+                From passion to action
+              </div>
+            </div>
           </Link>
-          <div className="uppercase" onClick={() => setOpen(true)}>
+          <div
+            className="absolute top-[43px] right-[38px] uppercase text-red-50 cursor-pointer select-none"
+            onClick={() => setOpen(true)}
+          >
             menu
           </div>
         </div>
       )}
-
       <div className="fixed right-[24px] left-[24px] z-50 flex justify-between items-center">
         <Link href="/">
           <div className="flex items-center justify-between">
-            <div className="hidden md:flex items-center justify-between">
+            {/* <div className="hidden md:flex items-center justify-between">
               <Logo />
             </div>
 
@@ -64,11 +104,11 @@ export default function Header() {
               } `}
             >
               From passion to action
-            </div>
+            </div> */}
           </div>
         </Link>
 
-        <ul className="hidden md:flex justify-end items-center gap-7 uppercase">
+        {/* <ul className="hidden md:flex justify-end items-center gap-7 uppercase">
           {menuItems.map((item) => (
             <li
               key={item.id}
@@ -93,7 +133,7 @@ export default function Header() {
               <Link href={`/${item.link}`}>{item.link}</Link>
             </li>
           ))}
-        </ul>
+        </ul> */}
       </div>
     </>
   );
