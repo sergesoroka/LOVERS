@@ -24,18 +24,23 @@ export default function Header() {
     <>
       {open ? (
         <div className="fixed  top-0 bottom-0 right-0 left-0 bg-[#1400ff] z-[999]">
-          <div className="flex justify-between pt-[22px] px-[24px] items-start">
-            <LogoMenu />
+          <div className="md:flex justify-between pt-[22px] px-[24px] items-start">
+            <div className="hidden md:block">
+              <LogoMenu />
+            </div>
             <button
               onClick={() => setOpen(false)}
-              className="absolute top-[43px] right-[38px] uppercase text-white cursor-pointer select-none"
+              className="absolute top-[28px] right-[38px] uppercase text-white cursor-pointer select-none"
             >
               close
             </button>
           </div>
-          <ul className="flex flex-wrap gap-10 mobMenu uppercase mb-8 px-[18px] mt-[50px] ml-[43px]">
+          <ul className="md:flex flex-wrap gap-10 mobMenu uppercase mb-8 px-[18px] mt-[50px] ml-[43px]">
             {menuItems.map((item) => (
-              <li key={item.id} className="text-white text-[180px] mb-[60px]">
+              <li
+                key={item.id}
+                className="text-white text-[90px] md:text-[180px] md:mb-[60px]"
+              >
                 <Link href={`/${item.link}`}>{item.link}</Link>
               </li>
             ))}
@@ -84,7 +89,7 @@ export default function Header() {
             </div>
           </Link>
           <div
-            className="absolute top-[43px] right-[38px] uppercase text-red-50 cursor-pointer select-none"
+            className="absolute top-[28px] right-[38px] uppercase text-red-50 cursor-pointer select-none"
             onClick={() => setOpen(true)}
           >
             menu
