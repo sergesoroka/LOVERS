@@ -39,7 +39,7 @@ export default function Header() {
             {menuItems.map((item) => (
               <li
                 key={item.id}
-                className="text-white text-[90px] md:text-[180px] md:mb-[60px]"
+                className="text-white text-[90px] md:text-[180px] md:mb-[60px] tracking-tight"
               >
                 <Link href={`/${item.link}`}>{item.link}</Link>
               </li>
