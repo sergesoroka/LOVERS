@@ -45,7 +45,7 @@ export default function Header() {
               </li>
             ))}
           </ul>
-          <div className="md:absolute ml-16 mb-8 bottom-[22px] right-[24px] text-black md:text-right text-[28px]">
+          <div className="md:absolute ml-16 mb-8 bottom-0 right-[24px] text-black md:text-right text-[28px]">
             <ul>
               <Link href="https://vimeo.com/loverscompany" target="_blank">
                 <li className="uppercase hover:line-through cursor-pointer hover:text-white z-50">
