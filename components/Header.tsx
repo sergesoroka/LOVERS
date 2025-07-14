@@ -23,10 +23,12 @@ export default function Header() {
   return (
     <>
       {open ? (
-        <div className="fixed overflow-scroll top-0 bottom-0 right-0 left-0 bg-[#1400ff] z-[999]">
+        <div className="fixed overflow-scroll md:overflow-hidden top-0 bottom-0 right-0 left-0 bg-[#1400ff] z-[999]">
           <div className="md:flex justify-between pt-[22px] px-[24px] items-start">
             <div className="hidden md:block">
-              <LogoMenu />
+              <Link href={"/"}>
+                <LogoMenu />
+              </Link>
             </div>
             <button
               onClick={() => setOpen(false)}
