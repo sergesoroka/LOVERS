@@ -35,17 +35,17 @@ export default function Header() {
               close
             </button>
           </div>
-          <ul className="md:flex flex-wrap gap-10 mobMenu uppercase mb-8 px-[18px] mt-[50px] ml-[43px]">
+          <ul className="md:flex flex-wrap gap-10 mobMenu uppercase mb-8 px-[18px] mt-[76px] ml-[43px]">
             {menuItems.map((item) => (
               <li
                 key={item.id}
-                className="text-white text-[90px] md:text-[180px] md:mb-[60px] tracking-tight"
+                className="menuItems text-white text-[90px] md:text-[180px] md:mb-[60px] tracking-tight"
               >
                 <Link href={`/${item.link}`}>{item.link}</Link>
               </li>
             ))}
           </ul>
-          <div className="md:absolute ml-16 mb-8 bottom-0 right-[24px] text-black md:text-right text-[28px]">
+          <div className="md:absolute ml-16 mb-3 bottom-0 right-[24px] text-black md:text-right text-[28px]">
             <ul>
               <Link href="https://vimeo.com/loverscompany" target="_blank">
                 <li className="uppercase hover:line-through cursor-pointer hover:text-white z-50">
