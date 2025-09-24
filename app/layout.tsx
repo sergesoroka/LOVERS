@@ -1,6 +1,10 @@
 import type { Metadata } from "next";
 import localFont from "next/font/local";
 import "./globals.css";
+import gsap from "gsap";
+import { ScrollTrigger } from "gsap/all";
+
+gsap.registerPlugin(ScrollTrigger);
 
 const geistSans = localFont({
   src: "./fonts/GeistVF.woff",

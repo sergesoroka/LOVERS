@@ -4,9 +4,15 @@ import LogoMenu from "./Icons/LogoMenu";
 
 import { usePathname } from "next/navigation";
 
-import Logo from "./Logo/Logo";
 import Link from "next/link";
 import { useState } from "react";
+import Logo from "./Logo/Logo";
+import gsap from "gsap";
+import { useGSAP } from "@gsap/react";
+
+// import { ScrollTrigger } from "gsap/all";
+
+// gsap.registerPlugin(ScrollTrigger);
 
 const menuItems = [
   { id: "0", link: "lovers" },
@@ -14,18 +20,23 @@ const menuItems = [
   { id: "2", link: "clients" },
   { id: "3", link: "locations" },
   { id: "4", link: "casting" },
-  { id: "5", link: "contacts" },
+  { id: "5", link: "partners" },
+  { id: "6", link: "contacts" },
 ];
 export default function Header() {
   const [open, setOpen] = useState(false);
   const pathname = usePathname();
+
+  useGSAP(() => {
+    gsap.to("#slogan", { opacity: 1, duration: 1 });
+  }, []);
 
   return (
     <>
       {open ? (
         <div className="fixed overflow-scroll md:overflow-hidden top-0 bottom-0 right-0 left-0 bg-[#1400ff] z-[999]">
           <div className="md:flex justify-between pt-[22px] px-[24px] items-start">
-            <div className="hidden md:block">
+            <div className="logo hidden md:block">
               <Link href={"/"}>
                 <LogoMenu />
               </Link>
@@ -82,7 +93,8 @@ export default function Header() {
               </div>
 
               <div
-                className={`hidden md:block uppercase ml-[11px] text-[18px] ${
+                id="slogan"
+                className={`hidden md:block md:opacity-0 uppercase ml-[11px] text-[18px] ${
                   pathname == "/" ? "text-[#1400ff]" : "text-white"
                 } `}
               >
