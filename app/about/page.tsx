@@ -1,6 +1,5 @@
-import Header from "@/components/Header";
 import ContactComp from "@/components/ContactComp/ContactComp";
-import ClientsComp from "@/components/ClientsComp/ClientsComp";
+import Header from "@/components/Header";
 
 export default async function About() {
   const data = await fetch(
