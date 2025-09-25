@@ -1,5 +1,5 @@
 import Header from "../Header";
-// import CategoryMenu from "../CategoryMenu/CategoryMenu";
+import CategoryMenu from "../CategoryMenu/CategoryMenu";
 import ContactComp from "../ContactComp/ContactComp";
 import VimeoPlayer from "../VimeoPlayer/VimeoPlayer";
 
@@ -7,10 +7,10 @@ export default function WorksPageComp({ videos, category }) {
   return (
     <div className="pt-[22px] px-[24px] bg-black relative">
       <Header />
-      {/* <div className="absolute top-30 md:top-[90px] md:left-[69px] text-[160px] z-50">
+      <div className="fixed top-30 md:top-[90px] md:left-[69px] text-[160px]">
         <CategoryMenu size="l" />
       </div>
-      {!category && (
+      {/* {!category && (
         <div className="hidden md:block  z-50">
           <CategoryMenu size="s" />
         </div>

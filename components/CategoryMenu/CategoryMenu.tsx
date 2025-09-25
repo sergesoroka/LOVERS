@@ -23,8 +23,8 @@ export default function CategoryMenu({ size }: { size: string }) {
       const scrollHeight = window.document.documentElement.scrollHeight;
       const scrollPosition = window.scrollY;
 
-      if (scrollPosition > 40) setIsShown(false);
-      if (scrollPosition < 40) setIsShown(true);
+      if (scrollPosition > 4500) setIsShown(false);
+      if (scrollPosition < 4500) setIsShown(true);
 
       if (scrollPosition > 570) setSmallIsShown(true);
       if (scrollPosition < 570) setSmallIsShown(false);
@@ -36,7 +36,7 @@ export default function CategoryMenu({ size }: { size: string }) {
     return () => {
       window.removeEventListener("scroll", handleScroll);
     };
-  }, [isShown, setIsShown, setSmallIsShown, setSmallIsShown]);
+  }, [isShown, setIsShown, setSmallIsShown]);
 
   if (size == "l" && isShown) {
     return (
