@@ -65,22 +65,24 @@ export default function Header() {
         </div>
       ) : (
         <div className="flex items-center justify-between">
-          <Link href="/">
-            <div className="flex items-center justify-between">
-              <div className="hidden md:flex items-center justify-between">
-                <Logo />
-              </div>
+          {pathname === "/" ? null : (
+            <Link href="/">
+              <div className="flex items-center justify-between">
+                <div className="hidden md:flex items-center justify-between">
+                  <Logo />
+                </div>
 
-              <div
-                id="slogan"
-                className={`hidden md:block md:opacity-0 uppercase ml-[11px] text-[18px] ${
-                  pathname == "/" ? "text-[#1400ff]" : "text-white"
-                } `}
-              >
-                From passion to action
+                <div
+                  id="slogan"
+                  className={`hidden md:block md:opacity-0 uppercase ml-[11px] text-[18px] ${
+                    pathname == "/" ? "text-[#1400ff]" : "text-white"
+                  } `}
+                >
+                  From passion to action
+                </div>
               </div>
-            </div>
-          </Link>
+            </Link>
+          )}
           <div
             className="absolute top-[28px] right-[38px] uppercase text-red-50 cursor-pointer select-none"
             onClick={() => setOpen(true)}

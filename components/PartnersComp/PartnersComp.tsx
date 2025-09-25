@@ -1,7 +1,4 @@
-export default async function PartnersComp({ mode }: { mode: string }) {
-  const data = await fetch("https://lovers-payload-cms.vercel.app/api/people");
-  const pageData = await data.json();
-
+export default async function PartnersComp() {
   return (
     <div className="relative">
       <h2 className="pagesTitle text-[#1400ff] ml-11 contactsTitle uppercase text-[98px] leading-[84px] md:mt-[60px]  md:text-[160px] md:leading-[140px]">
