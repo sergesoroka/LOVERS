@@ -34,7 +34,7 @@ export default function WorksPageComp({ videos, category }) {
                   url={video.link}
                 />
 
-                <div className="flex justify-between mb-10 mt-2 uppercase">
+                <div className="flex justify-between mb-10 mt-2 uppercase z-20">
                   <p className="group-hover:text-yellow-400 w-[50%] text-left">
                     {video.name}
                   </p>
@@ -49,7 +49,7 @@ export default function WorksPageComp({ videos, category }) {
             return (
               <div
                 key={video.id}
-                className={`group  ${
+                className={`group z-20 ${
                   (idx + 1) % 3 == 0
                     ? "md:col-span-2 md:w-[770px] w-full"
                     : "md:w-[579px] w-full"
@@ -62,7 +62,7 @@ export default function WorksPageComp({ videos, category }) {
                   url={video.link}
                 />
 
-                <div className="flex justify-between mb-10 mt-2 uppercase">
+                <div className="flex justify-between mb-10 mt-2 uppercase z-20">
                   <p className="group-hover:text-[#1400ff] w-[50%] text-left">
                     {video.name}
                   </p>

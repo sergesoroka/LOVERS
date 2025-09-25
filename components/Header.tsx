@@ -84,7 +84,7 @@ export default function Header() {
             </Link>
           )}
           <div
-            className="absolute top-[28px] right-[38px] uppercase text-red-50 cursor-pointer select-none"
+            className="fixed top-[43px] right-[38px] uppercase text-red-50 cursor-pointer select-none"
             onClick={() => setOpen(true)}
           >
             menu
