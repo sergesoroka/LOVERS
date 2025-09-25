@@ -25,9 +25,7 @@ export default async function About() {
             </div>
           </div>
         </div>
-        <div className="bg-[#151515] pt-20 pb-10 h-full w-full">
-          <ClientsComp />
-        </div>
+
         <ContactComp mode="dark" />
       </div>
     </div>
