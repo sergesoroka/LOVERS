@@ -1,6 +1,5 @@
-import Header from "@/components/Header";
 import ContactComp from "@/components/ContactComp/ContactComp";
-import ClientsComp from "@/components/ClientsComp/ClientsComp";
+import Header from "@/components/Header";
 
 export default async function Home() {
   const data = await fetch(
@@ -26,7 +25,7 @@ export default async function Home() {
           </div>
         </div>
         <div className="bg-[#151515] pt-20 pb-10 h-full w-full">
-          <ClientsComp />
+          {/* <ClientsComp /> */}
         </div>
         <ContactComp mode="dark" />
       </div>
