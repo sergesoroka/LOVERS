@@ -1,7 +1,7 @@
 "use client";
 
-import gsap from "gsap";
 import { useGSAP } from "@gsap/react";
+import gsap from "gsap";
 import { ScrollTrigger } from "gsap/all";
 
 function Slogan({ mode }) {
@@ -23,9 +23,10 @@ function Slogan({ mode }) {
   return (
     <div
       id="contactTitle"
+      style={{ opacity: opacity }}
       className={`${
         mode == "light" ? "text-[#1400ff]" : "text-[#1f1b1b]"
-      } contactsTitle opacity-0 uppercase text-[98px] leading-[84px] md:mt-[60px]  md:text-[160px] md:leading-[140px]  pt-14`}
+      } contactsTitle uppercase text-[98px] leading-[84px] md:mt-[60px]  md:text-[160px] md:leading-[140px]  pt-14`}
     >
       Let’s make love, stills, and motion together.
     </div>

@@ -83,10 +83,10 @@ body {
 
 .casting-page {
   position: relative;
-  background-image: url("../public/casting.gif");
+  background-image: url("../public/casting.png");
   background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
+  background-position: top right;
+  background-position-y: 155px;
   background-attachment: fixed;
   overflow: auto;
   height: 100vh;
