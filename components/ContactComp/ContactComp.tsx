@@ -7,6 +7,7 @@ import WatchShowreel from "../WatchShowreel";
 import page from "./../../data/contacts-page.json";
 import ContactRecord from "./ContactRecord";
 import GeneralQnquiries from "../GeneralQnquiries";
+import Slogan from "./Slogan";
 
 export default async function ContactComp({ mode }: { mode: string }) {
   const data = await fetch("https://lovers-payload-cms.vercel.app/api/people");
@@ -18,17 +19,11 @@ export default async function ContactComp({ mode }: { mode: string }) {
   const pageDataGeneral = await dataGeneral.json();
 
   return (
-    <div className="relative">
+    <div className="relative  ml-6 md:ml-0">
       <div className="contacts">
         <div key={page.id} className="md:px-[69px]  text-[22px] leading-[24px]">
-          <div
-            className={`${
-              mode == "light" ? "text-[#1400ff]" : "text-[#1f1b1b]"
-            } contactsTitle uppercase text-[98px] leading-[84px] md:mt-[60px]  md:text-[160px] md:leading-[140px]  pt-14`}
-          >
-            Let’s make love, stills, and motion together.
-          </div>
-          <div className="flex justify-between items-start">
+          <Slogan mode={mode} />
+          <div className="md:flex justify-between items-start">
             <div className="w-[84%] flex flex-col gap-5 mt-8 md:mt-[-60px] mb-[60px]">
               {pageData.docs.map((contact, index) => (
                 <ContactRecord key={index} contact={contact} />
