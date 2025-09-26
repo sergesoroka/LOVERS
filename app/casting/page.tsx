@@ -12,7 +12,7 @@ export default async function Casting() {
     <div className="relative">
       <div className="pt-[22px] px-[24px] bg-[#212121] casting-page">
         <Header />
-        <div className="mt-8 md:mt-20">
+        <div className="mt-8 md:mt-20 md:pl-10">
           <div className="text-[#1400ff] contactsTitle uppercase text-[98px]  md:mt-[60px]  md:text-[160px] leading-[100px] md:leading-[140px]">
             Casting
           </div>

@@ -39,7 +39,11 @@ export default async function ContactComp({ mode }: { mode: string }) {
           </div>
         </div>
       </div>
-      <div className="flex justify-between items-end uppercase text-[#1400ff] pb-2 text-[12px]">
+      <div
+        className={`${
+          mode === "light" ? "text-[#1400ff]" : "text-[#000000]"
+        } flex justify-between items-end uppercase pb-2 text-[12px] mx-8`}
+      >
         <p>© lovers production 2024</p>
         <p>design by antuos 2024</p>
       </div>

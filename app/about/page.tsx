@@ -3,10 +3,8 @@ import ContactComp from "@/components/ContactComp/ContactComp";
 import Header from "@/components/Header";
 
 export default async function About() {
-  const data = await fetch(
-    "https://lovers-payload-cms.vercel.app/api/contacts"
-  );
-  const lovers = await data.json();
+  const data = await fetch("https://lovers-payload-cms.vercel.app/api/about");
+  const about = await data.json();
 
   return (
     <div className="relative">
@@ -15,7 +13,7 @@ export default async function About() {
           <Header />
         </div>
 
-        <AboutPageComp lovers={lovers} />
+        <AboutPageComp about={about} />
 
         <ContactComp mode="dark" />
       </div>

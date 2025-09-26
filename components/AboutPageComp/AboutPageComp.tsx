@@ -2,7 +2,7 @@
 import gsap from "gsap";
 import { useEffect } from "react";
 
-function AboutPageComp({ lovers }) {
+function AboutPageComp({ about }) {
   useEffect(() => {
     window.addEventListener("scroll", () => {
       if (window.scrollY > 600) {
@@ -23,7 +23,11 @@ function AboutPageComp({ lovers }) {
       </h2>
       <div className="uppercase relative text-[32px] leading-[34px] pt-[80px] md:text-[40px] md:leading-[44px]">
         <div className="uppercase text-[32px] leading-[34px] md:text-[40px] md:leading-[44px]  md:px-[170px]">
-          {lovers?.docs[0]?.contact}
+          {about?.docs.map((item) => (
+            <p key={item.id} className="mb-10">
+              {item.name}
+            </p>
+          ))}
         </div>
       </div>
     </div>
