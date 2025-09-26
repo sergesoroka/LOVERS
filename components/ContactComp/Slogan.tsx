@@ -23,7 +23,6 @@ function Slogan({ mode }) {
   return (
     <div
       id="contactTitle"
-      style={{ opacity: opacity }}
       className={`${
         mode == "light" ? "text-[#1400ff]" : "text-[#1f1b1b]"
       } contactsTitle uppercase text-[98px] leading-[84px] md:mt-[60px]  md:text-[160px] md:leading-[140px]  pt-14`}
