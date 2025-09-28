@@ -19,9 +19,12 @@ export default async function ContactComp({ mode }: { mode: string }) {
   const pageDataGeneral = await dataGeneral.json();
 
   return (
-    <div className="relative  ml-6 md:ml-0">
+    <div className="relative md:ml-0">
       <div className="contacts">
-        <div key={page.id} className="md:px-[69px]  text-[22px] leading-[24px]">
+        <div
+          key={page.id}
+          className="md:px-[69px] md:px-[12px]  text-[22px] leading-[24px]"
+        >
           <Slogan mode={mode} />
           <div className="md:flex justify-between items-start">
             <div className="w-[84%] flex flex-col gap-5 mt-8 md:mt-[-60px] mb-[60px]">
@@ -42,7 +45,7 @@ export default async function ContactComp({ mode }: { mode: string }) {
       <div
         className={`${
           mode === "light" ? "text-[#1400ff]" : "text-[#000000]"
-        } flex justify-between items-end uppercase pb-2 text-[12px] mx-8`}
+        } flex justify-between items-end uppercase pb-2 text-[12px] md:mx-8`}
       >
         <p>© lovers production 2024</p>
         <p>design by antuos 2024</p>

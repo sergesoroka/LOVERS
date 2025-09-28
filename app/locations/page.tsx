@@ -54,12 +54,21 @@ export default async function Locions() {
             We have it all! We stay up to date on new locations and are always
             ready to offer fresh ideas for your project.
           </div>
-          <div className="flex items-center justify-start gap-8 text-[#1400ff] md:mt-[12rem] contactsTitle uppercase text-[78px] underline underline-offset-4 decoration-[5px] cursor-pointer md:text-[80px] leading-[84px] md:leading-[140px] z-0">
-            <div>DOWNLOAD OUR PRESENTATION TO SEE LOCATION EXAMPLES</div>
+          <div className="text-[#1400ff] md:mt-[12rem] contactsTitle uppercase text-[48px] underline underline-offset-4 decoration-[5px] cursor-pointer md:text-[80px] leading-[64px] md:leading-[80px] z-0">
+            DOWNLOAD OUR PRESENTATION TO SEE LOCATION
+          </div>
+          <div className="flex items-center justify-start gap-8">
+            <div className="text-[#1400ff] contactsTitle uppercase text-[48px] underline underline-offset-4 decoration-[5px] cursor-pointer md:text-[80px] leading-[64px] md:leading-[80px] z-0">
+              EXAMPLES
+            </div>
             <DownloadIcon mode="large" />
           </div>
+          {/* <div className="flex items-end justify-start gap-8 text-[#1400ff] md:mt-[12rem] contactsTitle uppercase text-[48px] underline underline-offset-4 decoration-[5px] cursor-pointer md:text-[80px] leading-[64px] md:leading-[140px] z-0">
+            <div>DOWNLOAD OUR PRESENTATION TO SEE LOCATION EXAMPLES</div>
+            <DownloadIcon mode="large" />
+          </div> */}
 
-          <div className="text-[#1400ff] mt-[6rem] md:mt-[12rem] contactsTitle uppercase text-[78px] md:text-[160px] leading-[84px] md:leading-[140px] z-0">
+          <div className="text-[#1400ff] mt-[6rem] md:mt-[12rem] contactsTitle uppercase text-[48px] md:text-[160px] leading-[64px] md:leading-[140px] z-0">
             FOR PROPERTY <br />
             OWNERS
           </div>

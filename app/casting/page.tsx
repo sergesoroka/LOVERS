@@ -51,11 +51,11 @@ export default async function Casting() {
             and types. Every day, we discover new faces.
           </div>
 
-          <div className="text-[#1400ff] md:mt-[12rem] contactsTitle uppercase text-[78px] underline underline-offset-4 decoration-[5px] cursor-pointer md:text-[80px] leading-[84px] md:leading-[80px] z-0">
+          <div className="text-[#1400ff] md:mt-[12rem] contactsTitle uppercase text-[48px] underline underline-offset-4 decoration-[5px] cursor-pointer md:text-[80px] leading-[64px] md:leading-[80px] z-0">
             DOWNLOAD OUR PRESENTATION TO LEARN MORE ABOUT
           </div>
           <div className="flex items-center justify-start gap-8">
-            <div className="text-[#1400ff] contactsTitle uppercase text-[78px] underline underline-offset-4 decoration-[5px] cursor-pointer md:text-[80px] leading-[84px] md:leading-[80px] z-0">
+            <div className="text-[#1400ff] contactsTitle uppercase text-[48px] underline underline-offset-4 decoration-[5px] cursor-pointer md:text-[80px] leading-[64px] md:leading-[80px] z-0">
               OUR TALENTS
             </div>
             <DownloadIcon mode="large" />
